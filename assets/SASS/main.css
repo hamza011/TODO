@@ -5818,8 +5818,8 @@ button.close {
       color: #ffffff; }
   .first-bg .clock {
     display: inline-block;
-    width: 20%;
-    margin: -23px 0 0; }
+    width: 22%;
+    margin: -28px 0 0; }
     .first-bg .clock img {
       width: 17%;
       float: left;
@@ -5834,49 +5834,68 @@ button.close {
   .first-bg .navbar-brand {
     padding-top: 15px; }
   .first-bg .navbar-nav {
-    color: white; }
+    color: white;
+    margin-left: 60px; }
+  .first-bg .navbar-nav > li > a {
+    padding: 10px !important; }
+    .first-bg .navbar-nav > li > a:hover {
+      color: #ffffff;
+      border-bottom: 2px solid #ffffff; }
+  .first-bg h1 {
+    font-size: 60px;
+    color: #fff;
+    font-family: Raleway,sans-serif;
+    font-weight: 600;
+    letter-spacing: 5px;
+    text-transform: uppercase; }
   .first-bg .paragraph-one {
     text-align: center;
-    font-family: "Raleway Bold",sans-serif;
-    font-size: 60px;
+    font-family: "Raleway" ,sans-serif;
     margin: 100px 0 0 0;
     color: #fff; }
-
-.navbar-toggle {
-  margin-top: 50px !important; }
-
-.app-bakerz-logo {
-  padding: 0 0 0 10px; }
-
-.navbar-collapse {
-  border: 0;
-  padding: 0 !important; }
+    .first-bg .paragraph-one .btn {
+      color: #4c667a;
+      font-family: 'Raleway Bold', sans-serif;
+      border-radius: 0 !important;
+      padding: 10px 20px;
+      box-shadow: 0px 10px 30px black;
+      display: none; }
+  .first-bg .navbar-toggle {
+    margin-top: 50px !important; }
+  .first-bg .app-bakerz-logo {
+    padding: 0 0 0 50px; }
+  .first-bg .navbar-collapse {
+    border: 0;
+    padding: 0 !important; }
 
 .second-div {
   width: 100%;
   padding: 60px;
-  text-align: center; }
+  text-align: center;
+  font-family: Raleway, sans-serif;
+  color: #555555; }
   .second-div h3 {
-    font-family: "Raleway Thin", sans-serif;
-    font-size: 32px;
+    font-size: 35px;
+    margin: 15px 0 29px 12px;
     padding: 0;
-    margin: 15px 0 30px -2px; }
-  .second-div p .container {
-    margin: 0px 0 25px 5px;
-    padding-right: 40px; }
+    color: #555555; }
+  .second-div .paragraph-two {
+    font-size: 20px; }
   .second-div p {
-    font-size: 20px;
+    color: #1b3a54;
     margin: 0 0 50px; }
   .second-div .div-two-nested p {
     padding: 20px 0;
-    font-size: 14px; }
+    font-size: 14px;
+    font-family: "Raleway Bold", sans-serif;
+    font-weight: 600;
+    color: #1b3a54; }
   .second-div .front-end-development {
-    margin: 0 0 0 100px; }
+    margin: -7px 0 0 100px; }
 
 .inline-block-elem {
   display: inline-block;
-  vertical-align: middle;
-  background-position: center; }
+  vertical-align: middle; }
 
 .third-div {
   height: 200px;
@@ -5891,8 +5910,8 @@ button.close {
   .third-div .course-image, .third-div .learing-image, .third-div .master-image {
     background: url("../images/selected-course-icon.png") no-repeat;
     background-position: center !important;
-    width: 100%;
-    height: 70px; }
+    width: 23%;
+    height: 60px; }
     .third-div .course-image:hover, .third-div .learing-image:hover, .third-div .master-image:hover {
       background: url("../images/course.png") no-repeat;
       background-position: center !important; }
@@ -5907,7 +5926,8 @@ button.close {
   .third-div .text-uppercase, .third-div .initialism {
     display: inline-block;
     color: white;
-    font-size: 16px !important; }
+    font-size: 16px !important;
+    font-family: "Raleway SemiBold",sans-serif; }
 
 .fourth-div {
   text-align: center;
@@ -5915,11 +5935,18 @@ button.close {
   background-size: cover;
   padding: 70px 0; }
   .fourth-div h3 {
+    font-family: "Raleway", sans-serif;
+    font-size: 33px;
+    color: #555555;
     margin: 0 0 50px 0px; }
+  .fourth-div .accordian-courses {
+    display: inline-block;
+    width: 80%; }
   .fourth-div .dropdown-transformation {
     width: 100%;
+    font-family: "Raleway", sans-serif;
     text-align: left;
-    font-size: 16px;
+    font-size: 18px;
     padding: 13px 9px 0 13px;
     margin: 5px 0;
     color: white;
@@ -5941,7 +5968,8 @@ button.close {
     .fourth-div span:before {
       vertical-align: middle;
       position: relative;
-      top: 6px;
+      color: #003f64;
+      top: 3px;
       left: 1px; }
 
 .fifth-div {
@@ -5955,13 +5983,16 @@ button.close {
   .fifth-div .displayes {
     display: table;
     padding: 0 !important; }
-    .fifth-div .displayes .color-orange, .fifth-div .displayes .css-three, .fifth-div .displayes .react-bg {
+    .fifth-div .displayes .color-orange, .fifth-div .displayes .css-three, .fifth-div .displayes .react-bg, .fifth-div .displayes .react-bg .apis-bg, .fifth-div .react-bg .displayes .apis-bg {
       background-color: rgba(255, 115, 0, 0.91);
       height: 335px;
       width: 100%;
       display: table-cell;
       vertical-align: middle; }
-      .fifth-div .displayes .color-orange p, .fifth-div .displayes .css-three p, .fifth-div .displayes .react-bg p {
+      .fifth-div .displayes .color-orange img, .fifth-div .displayes .css-three img, .fifth-div .displayes .react-bg img, .fifth-div .react-bg .displayes .apis-bg img {
+        position: relative;
+        top: -20px; }
+      .fifth-div .displayes .color-orange p, .fifth-div .displayes .css-three p, .fifth-div .displayes .react-bg p, .fifth-div .react-bg .displayes .apis-bg p {
         font-size: 16px;
         display: inline-block;
         width: 293px;
@@ -5970,12 +6001,14 @@ button.close {
     .fifth-div .displayes .css-three {
       background-color: rgba(22, 109, 172, 0.88); }
       .fifth-div .displayes .css-three img {
-        margin: 0 15px; }
+        margin: 0 15px;
+        position: relative;
+        top: -20px; }
   .fifth-div .java-sc {
     background-color: rgba(22, 64, 94, 0.87);
     padding: 87px 0; }
     .fifth-div .java-sc p {
-      width: 80%;
+      width: 66%;
       margin: 0 auto;
       font-family: "Raleway", sans-serif; }
     .fifth-div .java-sc img {
@@ -5984,21 +6017,18 @@ button.close {
     background-color: rgba(165, 29, 25, 0.88);
     padding: 87px 0; }
     .fifth-div .angular-js p {
-      width: 80%;
+      width: 71%;
       margin: 0 auto;
       font-family: "Raleway", sans-serif; }
     .fifth-div .angular-js img {
       margin: 0 0 15px 0; }
   .fifth-div .react-bg {
-    background-color: rgba(22, 178, 181, 0.85) !important;
-    vertical-align: middle;
-    height: 335px;
-    display: table-cell; }
+    background-color: rgba(22, 178, 181, 0.85) !important; }
+    .fifth-div .react-bg img {
+      position: relative;
+      top: -20px; }
     .fifth-div .react-bg .apis-bg {
-      background-color: rgba(30, 78, 152, 0.83) !important;
-      vertical-align: middle;
-      height: 335px;
-      display: table-cell; }
+      background-color: rgba(16, 86, 165, 0.81); }
 
 .map {
   position: relative; }
@@ -6027,27 +6057,37 @@ button.close {
       left: 6px; }
     .form-transformation .form-div .group input {
       height: 40px;
-      padding: 0 9px 0 35px; }
+      padding: 0 9px 0 35px;
+      border-radius: 0; }
     .form-transformation .form-div .textarea-comments {
       margin: 20px 0 0;
-      resize: none; }
+      resize: none;
+      border-radius: 0 !important; }
     .form-transformation .form-div button {
       width: 100%;
       height: 55px;
       margin: 24px 0 0 0;
+      font-family: "Raleway Bold", sans-serif;
+      font-size: 18px;
+      font-weight: 600;
+      border-radius: 0;
       color: #1174ad; }
 
 .details {
   width: 100%;
-  height: 170px;
-  padding: 40px 0;
+  padding: 20px 0;
   margin-top: -7px;
   background: #18ab91;
   display: table;
   font-family: "Raleway", sans-serif; }
+  .details .text-center {
+    padding: 10px 0px; }
+  .details img {
+    padding: 10px 100px 5px 0; }
   .details p {
     color: #ffffff;
-    width: 100%; }
+    width: 100%;
+    margin: 15px 0 0px -52px; }
 
 .last-div {
   font-family: "Raleway", sans-serif;
@@ -6058,43 +6098,66 @@ button.close {
   float: left; }
   .last-div .bg-on-image {
     width: 100%;
+    padding: 30px;
     background-color: rgba(15, 54, 76, 0.71);
     float: left; }
   .last-div h5 {
     color: #ffffff;
-    padding-top: 15px; }
+    letter-spacing: 1px;
+    font-size: 22px;
+    padding-top: 15px;
+    font-weight: 600; }
   .last-div p {
-    color: #ffffff; }
+    color: #ffffff;
+    font-size: 14px; }
   .last-div .appBakerZ {
-    padding: 30px; }
+    padding-top: 40px;
+    width: 80%; }
   .last-div .input-group {
-    display: inline-block;
-    vertical-align: middle; }
+    display: inline-flex; }
     .last-div .input-group input {
-      width: 100%;
-      height: 27px;
-      text-align: center;
-      border-radius: 5px !important;
+      width: 280px;
+      height: 28px;
+      border-radius: 0 !important;
       font-style: "Raleway", sans-serif !important;
-      font-size: 16px !important; }
+      font-size: 13px !important;
+      color: #333;
+      padding-left: 10px; }
   .last-div button {
-    width: 135px;
+    width: 130px;
+    height: 28px;
     color: #ffffff;
     font-style: "Raleway", sans-serif !important;
-    font-size: 16px !important;
+    font-size: 13px !important;
     background-color: #106a9f !important;
-    height: 27px;
-    margin: 10px 0 25px 10px;
+    border-radius: 0 !important;
+    margin: 0 0 25px 25px;
     padding: 0 !important; }
-  .last-div .social-media-icons {
-    padding-top: 110px;
-    cursor: pointer; }
+    .last-div button:hover {
+      color: #ffffff; }
+  .last-div i {
+    width: 45px;
+    margin-top: 90px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 45px; }
+  .last-div .fa-facebook-official:hover {
+    color: #005eb2; }
+  .last-div .fa-google-plus-square:hover {
+    color: #e62b34; }
+  .last-div .fa-twitter-square:hover {
+    color: #43bdf0; }
+  .last-div .fa-youtube-square:hover {
+    color: #dd3125; }
 
 .footer {
   color: #ffffff;
   font-family: "Raleway", sans-serif;
   background-color: #043450;
   font-size: 16px; }
+  .footer p {
+    padding: 0;
+    margin: 0; }
 
 @media (min-width: 992px) and (max-width: 1199px) {
   .first-bg .clock {
@@ -6118,9 +6181,13 @@ button.close {
       position: relative;
       top: 0; }
     .first-bg .paragraph-one {
-      margin: 0 !important; }
-      .first-bg .paragraph-one p {
-        font-size: 21px !important; }
+      margin: 15px !important; }
+      .first-bg .paragraph-one h1 {
+        font-size: 30px !important;
+        margin-bottom: 15px !important; }
+      .first-bg .paragraph-one .btn {
+        font-size: 18px;
+        display: inline-block; }
 
   .second-div {
     padding: 0 !important; }
@@ -6137,7 +6204,7 @@ button.close {
       margin: 0 !important; }
 
   .third-div .text-uppercase, .third-div .initialism {
-    font-size: 10px !important; }
+    font-size: 13px !important; }
 
   .fourth-div {
     padding: 30px 0; }
@@ -6155,13 +6222,19 @@ button.close {
         width: 30px !important;
         height: 30px !important;
         top: -7px !important; }
+        .fourth-div .container span:before {
+          top: 5px;
+          left: 0; }
 
   .fifth-div {
     background-size: cover !important; }
     .fifth-div .displayes .color-orange
-    p, .fifth-div .displayes .css-three
-    p, .fifth-div .displayes .react-bg
-    p {
+    img, .fifth-div .displayes .css-three
+    img, .fifth-div .displayes .react-bg
+    img, .fifth-div .react-bg .displayes .apis-bg
+    img {
+      top: 20px; }
+    .fifth-div .displayes p {
       position: relative;
       top: 0; }
 
@@ -6171,13 +6244,24 @@ button.close {
     .form-transformation .textarea-comments .form-control {
       font-size: 15px !important; }
 
+  .details img {
+    padding: 10px 0 5px 0; }
   .details p {
-    width: 100%; }
+    width: 100%;
+    margin: 15px 0 0 0 !important; }
 
-  .last-div .input-group {
+  .last-div .appBakerZ {
     padding: 0 !important; }
+  .last-div .input-group {
+    display: inline-block;
+    padding: 0 !important; }
+    .last-div .input-group input {
+      width: 100%; }
   .last-div button {
-    margin: 20px 0 0 10px; }
+    margin: 10px 0 0 10px;
+    width: 135px !important; }
+  .last-div i {
+    margin-top: 40px !important; }
   .last-div .social-media-icons {
     margin: 20px 0;
     padding-top: 0 !important;
