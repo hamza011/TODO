@@ -5875,30 +5875,34 @@ button.close {
   font-family: Raleway, sans-serif;
   color: #555555; }
   .second-div h3 {
-    font-size: 35px;
+    font-size: 34px;
     margin: 15px 0 29px 12px;
     padding: 0;
     color: #555555; }
   .second-div .paragraph-two {
-    font-size: 20px; }
+    font-size: 19px; }
   .second-div p {
     color: #1b3a54;
     margin: 0 0 50px; }
+  .second-div .div-two-nested img {
+    height: 70px; }
   .second-div .div-two-nested p {
-    padding: 20px 0;
-    font-size: 14px;
-    font-family: "Raleway Bold", sans-serif;
-    font-weight: 600;
+    padding: 5px 0;
+    font-size: 13px;
+    font-family: 'Raleway Bold', sans-serif;
+    font-weight: 500;
     color: #1b3a54; }
   .second-div .front-end-development {
-    margin: -7px 0 0 100px; }
+    margin: 0 0 0 80px; }
+  .second-div .js-dev {
+    margin: 0 0 0 -15px; }
 
 .inline-block-elem {
   display: inline-block;
   vertical-align: middle; }
 
 .third-div {
-  height: 200px;
+  height: 150px;
   width: 100%;
   text-align: center;
   display: table; }
@@ -5941,7 +5945,10 @@ button.close {
     margin: 0 0 50px 0px; }
   .fourth-div .accordian-courses {
     display: inline-block;
-    width: 80%; }
+    width: 70%; }
+  .fourth-div button {
+    border-style: solid;
+    border-color: #ffffff; }
   .fourth-div .dropdown-transformation {
     width: 100%;
     font-family: "Raleway", sans-serif;
@@ -5976,7 +5983,7 @@ button.close {
   background: url("../images/background5.png") no-repeat;
   width: 100%;
   height: 100%;
-  font-size: 16px;
+  font-size: 15px;
   background-size: cover;
   color: #ffffff;
   font-family: "Raleway", sans-serif; }
@@ -5991,9 +5998,9 @@ button.close {
       vertical-align: middle; }
       .fifth-div .displayes .color-orange img, .fifth-div .displayes .css-three img, .fifth-div .displayes .react-bg img, .fifth-div .react-bg .displayes .apis-bg img {
         position: relative;
-        top: -20px; }
+        top: -10px; }
       .fifth-div .displayes .color-orange p, .fifth-div .displayes .css-three p, .fifth-div .displayes .react-bg p, .fifth-div .react-bg .displayes .apis-bg p {
-        font-size: 16px;
+        font-size: 15px;
         display: inline-block;
         width: 293px;
         position: relative;
@@ -6008,7 +6015,7 @@ button.close {
     background-color: rgba(22, 64, 94, 0.87);
     padding: 87px 0; }
     .fifth-div .java-sc p {
-      width: 66%;
+      width: 63%;
       margin: 0 auto;
       font-family: "Raleway", sans-serif; }
     .fifth-div .java-sc img {
@@ -6023,10 +6030,12 @@ button.close {
     .fifth-div .angular-js img {
       margin: 0 0 15px 0; }
   .fifth-div .react-bg {
-    background-color: rgba(22, 178, 181, 0.85) !important; }
+    background-color: rgba(22, 178, 181, 0.9) !important; }
     .fifth-div .react-bg img {
       position: relative;
-      top: -20px; }
+      top: -15px; }
+    .fifth-div .react-bg p {
+      width: 70px; }
     .fifth-div .react-bg .apis-bg {
       background-color: rgba(16, 86, 165, 0.81); }
 
@@ -6039,11 +6048,11 @@ button.close {
   top: 100px;
   left: 100px;
   font-family: "Raleway", sans-serif; }
-  .form-transformation h3 {
+  .form-transformation h1 {
     color: #ffffff;
-    margin: 0; }
+    font-size: 35px; }
   .form-transformation .form-div {
-    background: rgba(0, 95, 150, 0.94);
+    background: rgba(0, 95, 150, 0.9);
     padding: 15px; }
     .form-transformation .form-div input, .form-transformation .form-div textarea {
       background: transparent;
@@ -6058,6 +6067,7 @@ button.close {
     .form-transformation .form-div .group input {
       height: 40px;
       padding: 0 9px 0 35px;
+      color: #ffffff;
       border-radius: 0; }
     .form-transformation .form-div .textarea-comments {
       margin: 20px 0 0;
@@ -6065,11 +6075,10 @@ button.close {
       border-radius: 0 !important; }
     .form-transformation .form-div button {
       width: 100%;
-      height: 55px;
+      height: 60px;
       margin: 24px 0 0 0;
-      font-family: "Raleway Bold", sans-serif;
       font-size: 18px;
-      font-weight: 600;
+      font-weight: 700;
       border-radius: 0;
       color: #1174ad; }
 
@@ -6155,9 +6164,6 @@ button.close {
   font-family: "Raleway", sans-serif;
   background-color: #043450;
   font-size: 16px; }
-  .footer p {
-    padding: 0;
-    margin: 0; }
 
 @media (min-width: 992px) and (max-width: 1199px) {
   .first-bg .clock {
@@ -6181,7 +6187,7 @@ button.close {
       position: relative;
       top: 0; }
     .first-bg .paragraph-one {
-      margin: 15px !important; }
+      margin: 15px 0 !important; }
       .first-bg .paragraph-one h1 {
         font-size: 30px !important;
         margin-bottom: 15px !important; }
@@ -6212,19 +6218,23 @@ button.close {
       margin: -10px 0 20px 0;
       font-size: 26px !important;
       padding: 15px 0 !important; }
+    .fourth-div .accordian-courses {
+      width: 100%;
+      font-size: 12px; }
     .fourth-div .container {
       padding: 0 !important; }
       .fourth-div .container button {
         font-size: 12px !important; }
-      .fourth-div .container .dropdown-transformation {
-        margin: 5px 0; }
-      .fourth-div .container span {
-        width: 30px !important;
-        height: 30px !important;
-        top: -7px !important; }
-        .fourth-div .container span:before {
-          top: 5px;
-          left: 0; }
+    .fourth-div .dropdown-transformation {
+      font-size: 12px;
+      margin: 5px 0; }
+    .fourth-div span {
+      width: 30px !important;
+      height: 30px !important;
+      top: -7px !important; }
+      .fourth-div span:before {
+        top: 5px;
+        left: 0; }
 
   .fifth-div {
     background-size: cover !important; }

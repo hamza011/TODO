@@ -104,16 +104,13 @@
   font-family: Raleway, sans-serif;
   color: #555555;
    h3{
-    font-size:35px;
+    font-size: 34px;
      margin: 15px 0 29px 12px;
-     padding:0 ;
+     padding: 0 ;
      color: #555555;
   }
   .paragraph-two{
-    font-size:20px;
-    //margin: 0px 0 25px 5px;
-    //margin: 0 0 50px 35px;
-    //padding:10px 40px;
+    font-size:19px;
   }
   p {
 
@@ -122,18 +119,25 @@
   }
   .div-two-nested {
     //padding:10px ;
+    img{
+      height:70px;
+    }
     p {
-      padding: 20px 0;
+      padding: 5px 0;
 
-      font-size: 14px;
-      font-family: "Raleway Bold", sans-serif;
-      font-weight:600;
+      font-size: 13px;
+      font-family: 'Raleway Bold', sans-serif;
+      font-weight:500;
       color: #1b3a54;
 }
 }
     .front-end-development{
-    margin: -7px 0 0 100px;
+    margin: 0 0 0 80px;
     }
+  .js-dev{
+    margin: 0 0 0 -15px;
+
+  }
 }
 
 .inline-block-elem {
@@ -142,7 +146,7 @@ vertical-align: middle;
 //background-position: center;
 }
 .third-div {
-height: 200px;
+height: 150px;
 width:100%;
 text-align: center;
 display: table;
@@ -202,7 +206,11 @@ margin: 0 0 50px 0px;
 }
   .accordian-courses{
     display: inline-block;
-    width:80%;
+    width:70%;
+  }
+  button{
+    border-style:solid;
+    border-color: #ffffff;
   }
 .dropdown-transformation {
 width: 100%;
@@ -244,7 +252,7 @@ left: 1px;
 background: url("../images/background5.png") no-repeat;
 width: 100%;
 height: 100%;
-font-size:16px;
+font-size:15px;
 background-size: cover;
 color: $color-white;
 font-family: $font-style;
@@ -259,10 +267,10 @@ display: table-cell;
 vertical-align: middle;
 img{
 position: relative;
-top: -20px;
+top: -10px;
 }
 p {
-font-size: 16px;
+font-size: 15px;
 display: inline-block;
 width: 293px;
 position: relative;
@@ -272,18 +280,18 @@ top: 32px;
 .css-three {
 background-color: rgba(22, 109, 172, 0.88);
 @extend .color-orange;
-img {
-margin: 0 15px;
-position: relative;
-top: -20px;
-}
-}
+    img {
+    margin: 0 15px;
+    position: relative;
+    top: -20px;
+    }
+  }
 }
 .java-sc {
 background-color: rgba(22, 64, 94, 0.87);
 padding: 87px 0;
 p {
-width: 66%;
+width: 63%;
 margin: 0 auto;
 font-family: $font-style;
 }
@@ -304,12 +312,15 @@ margin: 0 0 15px 0;
 }
 }
 .react-bg {
-background-color: rgba(22, 178, 181, 0.85) !important;
+background-color: rgba(22, 178, 181, 0.9) !important;
 @extend .color-orange;
 img{
 position: relative;
-top: -20px;
+top: -15px;
 }
+  p{
+    width:70px;
+  }
 
 .apis-bg {
 background-color: rgba(16, 86, 165, 0.81);
@@ -329,43 +340,44 @@ position: absolute;
 top: 100px;
 left: 100px;
 font-family: $font-style;
-h3 {
-color: $color-white;
-margin: 0;
+h1 {
+  color: $color-white;
+  font-size:35px;
 }
 .form-div {
-background: rgba(0, 95, 150, 0.94);
-padding: 15px;
-input, textarea {
-@include form-input;
-}
-.group {
-img {
-position: relative;
-top: 32px;
-left: 6px;
-}
-input {
-height: 40px;
-padding: 0 9px 0 35px;
-border-radius:0;
-}
-}
-.textarea-comments {
-margin: 20px 0 0;
-resize: none;
-border-radius:0 !important;
-}
-button {
-width: 100%;
-height: 55px;
-margin: 24px 0 0 0;
-font-family: "Raleway Bold", sans-serif;
-font-size: 18px;
-font-weight: 600;
-border-radius: 0;
-color: #1174ad;
-}
+  background: rgba(0, 95, 150, 0.9);
+  padding: 15px;
+  input, textarea {
+    @include form-input;
+  }
+  .group {
+  img {
+  position: relative;
+  top: 32px;
+  left: 6px;
+  }
+  input {
+  height: 40px;
+  padding: 0 9px 0 35px;
+    color: #ffffff;
+  border-radius:0;
+  }
+  }
+  .textarea-comments {
+  margin: 20px 0 0;
+  resize: none;
+  border-radius:0 !important;
+  }
+  button {
+  width: 100%;
+  height: 60px;
+  margin: 24px 0 0 0;
+  //font-family: "Raleway Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 0;
+  color: #1174ad;
+  }
 }
 
 }
@@ -484,10 +496,9 @@ color: $color-white;
 font-family: $font-style;
 background-color: #043450;
 font-size: 16px;
-p{
-padding:0;
-margin:0;
-}
+//span{
+//padding:20px 0;
+//}
 }
 
 
@@ -536,7 +547,7 @@ position: relative;
 top: 0;
 }
 .paragraph-one {
-margin: 15px !important;
+margin: 15px 0 !important;
 h1 {
 font-size: 30px !important;
 margin-bottom: 15px !important;
@@ -573,13 +584,20 @@ h3 {
 margin: -10px 0 20px 0;
 font-size: 26px !important;
 padding: 15px 0 !important;
-}
+  }
+.accordian-courses{
+    width:100%;
+    font-size: 12px;
+  }
 .container {
 padding: 0 !important;
 button {
 font-size: 12px !important;
 }
+
+  }
 .dropdown-transformation{
+  font-size: 12px;
 margin:5px 0;
 }
 span {
@@ -592,7 +610,7 @@ top: -7px !important;
 }
 }
 }
-}
+
 .fifth-div {
 background-size: cover !important;
 .displayes {
