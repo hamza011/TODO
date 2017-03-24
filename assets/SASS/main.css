@@ -5810,10 +5810,10 @@ button.close {
   .first-bg .navbar-collapse {
     width: 100%;
     padding: 35px 0 0 35px;
-    font-size: 16px;
+    font-size: 14px;
     position: relative;
     top: 20px;
-    left: 15px; }
+    left: 50px; }
     .first-bg .navbar-collapse ul li a {
       color: #ffffff; }
   .first-bg .clock {
@@ -5868,34 +5868,38 @@ button.close {
     border: 0;
     padding: 0 !important; }
 
-.second-div {
-  width: 100%;
-  padding: 60px;
-  text-align: center;
-  font-family: Raleway, sans-serif;
-  color: #555555; }
-  .second-div h3 {
-    font-size: 34px;
-    margin: 15px 0 29px 12px;
-    padding: 0;
+.about-background {
+  background-image: url("../images/about-academy-bg.jpg"); }
+  .about-background .second-div {
+    width: 100%;
+    padding: 60px;
+    text-align: center;
+    font-family: Raleway, sans-serif;
     color: #555555; }
-  .second-div .paragraph-two {
-    font-size: 19px; }
-  .second-div p {
-    color: #1b3a54;
-    margin: 0 0 50px; }
-  .second-div .div-two-nested img {
-    height: 70px; }
-  .second-div .div-two-nested p {
-    padding: 5px 0;
-    font-size: 13px;
-    font-family: 'Raleway Bold', sans-serif;
-    font-weight: 500;
-    color: #1b3a54; }
-  .second-div .front-end-development {
-    margin: 0 0 0 80px; }
-  .second-div .js-dev {
-    margin: 0 0 0 -15px; }
+    .about-background .second-div h3 {
+      font-size: 34px;
+      margin: 15px 0 29px 12px;
+      padding: 0;
+      color: #555555; }
+    .about-background .second-div .paragraph-two {
+      color: #555;
+      font-size: 20px;
+      line-height: 35px;
+      font-family: 'Raleway',sans-serif; }
+    .about-background .second-div p {
+      color: #1b3a54;
+      margin: 0 0 50px; }
+    .about-background .second-div .div-two-nested img {
+      height: 60px; }
+    .about-background .second-div .div-two-nested p {
+      font-size: 13px;
+      font-family: 'Raleway Bold', sans-serif;
+      font-weight: 600;
+      color: #1b3a54; }
+    .about-background .second-div .front-end-development {
+      margin-left: 15%; }
+    .about-background .second-div .js-dev {
+      margin-left: -50px; }
 
 .inline-block-elem {
   display: inline-block;
@@ -5904,17 +5908,20 @@ button.close {
 .third-div {
   height: 150px;
   width: 100%;
+  font-family: "Raleway SemiBold";
+  font-size: 18px;
   text-align: center;
   display: table; }
   .third-div .rowWithBg {
-    background: url("../images/background.png");
-    background-position: 0 -395px;
+    background: url("../images/background.png") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     display: table-cell;
     vertical-align: middle; }
   .third-div .course-image, .third-div .learing-image, .third-div .master-image {
     background: url("../images/selected-course-icon.png") no-repeat;
     background-position: center !important;
-    width: 23%;
+    width: 26%;
     height: 60px; }
     .third-div .course-image:hover, .third-div .learing-image:hover, .third-div .master-image:hover {
       background: url("../images/course.png") no-repeat;
@@ -5930,7 +5937,6 @@ button.close {
   .third-div .text-uppercase, .third-div .initialism {
     display: inline-block;
     color: white;
-    font-size: 16px !important;
     font-family: "Raleway SemiBold",sans-serif; }
 
 .fourth-div {
@@ -5954,7 +5960,7 @@ button.close {
     font-family: "Raleway", sans-serif;
     text-align: left;
     font-size: 18px;
-    padding: 13px 9px 0 13px;
+    padding: 13px 9px 0 15px;
     margin: 5px 0;
     color: white;
     box-shadow: #cacaca; }
@@ -5981,6 +5987,7 @@ button.close {
 
 .fifth-div {
   background: url("../images/background5.png") no-repeat;
+  background-attachment: fixed;
   width: 100%;
   height: 100%;
   font-size: 15px;
@@ -6000,7 +6007,6 @@ button.close {
         position: relative;
         top: -10px; }
       .fifth-div .displayes .color-orange p, .fifth-div .displayes .css-three p, .fifth-div .displayes .react-bg p, .fifth-div .react-bg .displayes .apis-bg p {
-        font-size: 15px;
         display: inline-block;
         width: 293px;
         position: relative;
@@ -6015,7 +6021,7 @@ button.close {
     background-color: rgba(22, 64, 94, 0.87);
     padding: 87px 0; }
     .fifth-div .java-sc p {
-      width: 63%;
+      width: 66%;
       margin: 0 auto;
       font-family: "Raleway", sans-serif; }
     .fifth-div .java-sc img {
@@ -6052,6 +6058,8 @@ button.close {
     color: #ffffff;
     font-size: 35px; }
   .form-transformation .form-div {
+    width: 615px;
+    height: 595px;
     background: rgba(0, 95, 150, 0.9);
     padding: 15px; }
     .form-transformation .form-div input, .form-transformation .form-div textarea {
@@ -6086,23 +6094,26 @@ button.close {
   width: 100%;
   padding: 20px 0;
   margin-top: -7px;
-  background: #18ab91;
+  background-image: url("../images/data-bg-img.jpg");
+  background-attachment: fixed;
   display: table;
-  font-family: "Raleway", sans-serif; }
+  font-family: 'Raleway OpenSans',sans-serif; }
   .details .text-center {
     padding: 10px 0px; }
   .details img {
-    padding: 10px 100px 5px 0; }
+    padding: 10px 0 0 0; }
   .details p {
+    font-size: 20px;
     color: #ffffff;
     width: 100%;
-    margin: 15px 0 0px -52px; }
+    margin: 15px 0 0 0; }
 
 .last-div {
   font-family: "Raleway", sans-serif;
   width: 100%;
   height: auto;
   background: url("../images/last-background.png") no-repeat;
+  background-attachment: fixed;
   background-size: cover;
   float: left; }
   .last-div .bg-on-image {
@@ -6120,8 +6131,7 @@ button.close {
     color: #ffffff;
     font-size: 14px; }
   .last-div .appBakerZ {
-    padding-top: 40px;
-    width: 80%; }
+    padding-top: 40px; }
   .last-div .input-group {
     display: inline-flex; }
     .last-div .input-group input {
@@ -6206,11 +6216,22 @@ button.close {
       margin: 0;
       text-align: center;
       font-size: 12px !important; }
+    .second-div .paragraph-two {
+      line-height: 25px;
+      font-size: 14px; }
     .second-div .front-end-development {
-      margin: 0 !important; }
+      margin-left: 0 !important; }
+    .second-div .js-dev {
+      margin-left: 0 !important; }
 
+  .third-div .container {
+    padding: 10px; }
+  .third-div .col-xs-12 {
+    margin: 10px 0; }
+  .third-div .course-image, .third-div .learing-image, .third-div .master-image {
+    width: 30% !important; }
   .third-div .text-uppercase, .third-div .initialism {
-    font-size: 13px !important; }
+    font-size: 16px !important; }
 
   .fourth-div {
     padding: 30px 0; }
@@ -6238,14 +6259,7 @@ button.close {
 
   .fifth-div {
     background-size: cover !important; }
-    .fifth-div .displayes .color-orange
-    img, .fifth-div .displayes .css-three
-    img, .fifth-div .displayes .react-bg
-    img, .fifth-div .react-bg .displayes .apis-bg
-    img {
-      top: 20px; }
-    .fifth-div .displayes p {
-      position: relative;
+    .fifth-div .displayes .color-orange p, .fifth-div .displayes .css-three p, .fifth-div .displayes .react-bg p, .fifth-div .react-bg .displayes .apis-bg p {
       top: 0; }
 
   .form-transformation {

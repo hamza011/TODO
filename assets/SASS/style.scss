@@ -13,10 +13,10 @@
   .navbar-collapse {
     width: 100%;
     padding: 35px 0 0 35px;
-    font-size:16px;
+    font-size:14px;
     position: relative;
     top: 20px;
-    left:15px;
+    left:50px;
 
     ul li a{
       color: $color-white;
@@ -54,9 +54,9 @@
   .navbar-nav > li > a {
     padding:10px !important;
 
-  &:hover{
-    color: #ffffff;
-    border-bottom: 2px solid #ffffff;
+    &:hover{
+      color: #ffffff;
+      border-bottom: 2px solid #ffffff;
     }
   }
   h1{
@@ -85,125 +85,135 @@
   }
 
   .navbar-toggle{
-  margin-top:50px !important;
-}
+    margin-top:50px !important;
+  }
   .app-bakerz-logo{
-  padding: 0 0 0 50px;
-}
+    padding: 0 0 0 50px;
+  }
   .navbar-collapse{
-  border:0;
-  padding:0 !important;
+    border:0;
+    padding:0 !important;
 
+  }
 }
-}
+.about-background{
+  background-image: url("../images/about-academy-bg.jpg");
+  .second-div {
+    width: 100%;
+    padding: 60px;
+    text-align: center;
+    font-family: Raleway, sans-serif;
+    color: #555555;
+    h3{
+      font-size: 34px;
+      margin: 15px 0 29px 12px;
+      padding: 0 ;
+      color: #555555;
+    }
+    .paragraph-two{
+      color: #555;
+      font-size: 20px;
+      line-height: 35px;
+      font-family: 'Raleway',sans-serif;
 
-.second-div {
-  width: 100%;
-  padding: 60px;
-  text-align: center;
-  font-family: Raleway, sans-serif;
-  color: #555555;
-   h3{
-    font-size: 34px;
-     margin: 15px 0 29px 12px;
-     padding: 0 ;
-     color: #555555;
-  }
-  .paragraph-two{
-    font-size:19px;
-  }
-  p {
-
-    color: #1b3a54;
-    margin: 0 0 50px;
-  }
-  .div-two-nested {
-    //padding:10px ;
-    img{
-      height:70px;
     }
     p {
-      padding: 5px 0;
 
-      font-size: 13px;
-      font-family: 'Raleway Bold', sans-serif;
-      font-weight:500;
       color: #1b3a54;
-}
-}
-    .front-end-development{
-    margin: 0 0 0 80px;
+      margin: 0 0 50px;
     }
-  .js-dev{
-    margin: 0 0 0 -15px;
+    .div-two-nested {
+      //padding:10px ;
+      img{
+        height: 60px;
+      }
+      p {
+        //padding: 5px 0;
+        font-size: 13px;
+        font-family: 'Raleway Bold', sans-serif;
+        font-weight:600;
+        color: #1b3a54;
+      }
+    }
+    .front-end-development{
+      margin-left: 15%;
+    }
+    .js-dev{
+      margin-left: -50px;
 
+    }
   }
 }
 
 .inline-block-elem {
-display: inline-block;
-vertical-align: middle;
-//background-position: center;
+  display: inline-block;
+  vertical-align: middle;
+  //background-position: center;
 }
 .third-div {
-height: 150px;
-width:100%;
-text-align: center;
-display: table;
+  height: 150px;
+  width:100%;
+  font-family: "Raleway SemiBold";
+  font-size:18px;
+  text-align: center;
+  display: table;
 
-.rowWithBg {
-background: url("../images/background.png");
-background-position: 0 -395px;
-display: table-cell;
-vertical-align:middle ;
-}
+  .rowWithBg {
+    background: url("../images/background.png") no-repeat;
+    //background-position:center;
+    background-size: cover;
+    background-attachment: fixed;
+    //min-height:300px;
+    display: table-cell;
+    vertical-align:middle ;
+  }
 
-.course-image {
-background: url("../images/selected-course-icon.png") no-repeat;
-background-position: center !important;
-width: 23%;
-height: 60px;
+  .course-image {
+    background: url("../images/selected-course-icon.png") no-repeat;
+    background-position: center !important;
+    width: 26%;
+    height: 60px;
 
-&:hover {
-background: url("../images/course.png") no-repeat;
-background-position: center !important;
-}
-}
-.learing-image {
-background: url("../images/best-course-icon.png") no-repeat;
-@extend .course-image;
-&:hover {
-background: url("../images/strat-learning.png") no-repeat;
-}
-}
+    &:hover {
+      background: url("../images/course.png") no-repeat;
+      background-position: center !important;
+    }
+  }
+  .learing-image {
+    background: url("../images/best-course-icon.png") no-repeat;
+    @extend .course-image;
+    &:hover {
+      background: url("../images/strat-learning.png") no-repeat;
+    }
+  }
 
-.master-image {
-background: url("../images/best-teacher-icon.png") no-repeat;
-@extend .course-image;
-&:hover {
-background: url("../images/master.png") no-repeat;
-}
-}
-.text-uppercase {
-display: inline-block;
-color: white;
-font-size:16px !important;
-font-family: "Raleway SemiBold",sans-serif;
-}
+  .master-image {
+    background: url("../images/best-teacher-icon.png") no-repeat;
+    @extend .course-image;
+    &:hover {
+      background: url("../images/master.png") no-repeat;
+    }
+  }
+  .text-uppercase {
+    display: inline-block;
+    color: white;
+    //font-size:16px !important;
+    font-family: "Raleway SemiBold",sans-serif;
+  }
 
 }
 
 .fourth-div {
-text-align: center;
-background: url("../images/white-bg.png") no-repeat;
-background-size: cover;
-padding: 70px 0;
-h3 {
-font-family: $font-style;
-font-size: 33px;
-color: #555555;
-margin: 0 0 50px 0px;
-}
+  text-align: center;
+  background: url("../images/white-bg.png") no-repeat;
+  background-size: cover;
+  padding: 70px 0;
+  h3 {
+    font-family: $font-style;
+    font-size: 33px;
+    color: #555555;
+    margin: 0 0 50px 0px;
+  }
   .accordian-courses{
     display: inline-block;
     width:70%;
@@ -212,293 +222,302 @@ margin: 0 0 50px 0px;
     border-style:solid;
     border-color: #ffffff;
   }
-.dropdown-transformation {
-width: 100%;
-font-family: $font-style;
-text-align: left;
-font-size:18px;
-padding: 13px 9px 0 13px;
-margin: 5px 0;
-color: white;
-box-shadow: #cacaca;
-}
-.bg-one {
-background-color: #106a9f !important;
-}
-.bg-two {
-background-color: #003f64 !important;
-}
-span {
-position: relative;
-top: -6px;
-border-radius: 70%;
-background-color: white;
-box-shadow: black;
-width: 34px;
-height: 34px;
-text-align: center;
-color: black !important;
-&:before {
-vertical-align: middle;
-position: relative;
-color: #003f64;
-top: 3px;
-left: 1px;
-}
-}
-}
-
-.fifth-div {
-background: url("../images/background5.png") no-repeat;
-width: 100%;
-height: 100%;
-font-size:15px;
-background-size: cover;
-color: $color-white;
-font-family: $font-style;
-.displayes {
-display: table;
-padding: 0 !important;
-.color-orange {
-background-color: rgba(255, 115, 0, 0.91);
-height: 335px;
-width: 100%;
-display: table-cell;
-vertical-align: middle;
-img{
-position: relative;
-top: -10px;
-}
-p {
-font-size: 15px;
-display: inline-block;
-width: 293px;
-position: relative;
-top: 32px;
-}
-}
-.css-three {
-background-color: rgba(22, 109, 172, 0.88);
-@extend .color-orange;
-    img {
-    margin: 0 15px;
+  .dropdown-transformation {
+    width: 100%;
+    font-family: $font-style;
+    text-align: left;
+    font-size:18px;
+    padding: 13px 9px 0 15px;
+    margin: 5px 0;
+    color: white;
+    box-shadow: #cacaca;
+  }
+  .bg-one {
+    background-color: #106a9f !important;
+  }
+  .bg-two {
+    background-color: #003f64 !important;
+  }
+  span {
     position: relative;
-    top: -20px;
+    top: -6px;
+    border-radius: 70%;
+    background-color: white;
+    box-shadow: black;
+    width: 34px;
+    height: 34px;
+    text-align: center;
+    color: black !important;
+    &:before {
+      vertical-align: middle;
+      position: relative;
+      color: #003f64;
+      top: 3px;
+      left: 1px;
     }
   }
 }
-.java-sc {
-background-color: rgba(22, 64, 94, 0.87);
-padding: 87px 0;
-p {
-width: 63%;
-margin: 0 auto;
-font-family: $font-style;
-}
-img {
-margin: 0 0 20px 0;
-}
-}
-.angular-js {
-background-color: rgba(165, 29, 25, 0.88);
-padding: 87px 0;
-p {
-width: 71%;
-margin: 0 auto;
-font-family: $font-style;
-}
-img {
-margin: 0 0 15px 0;
-}
-}
-.react-bg {
-background-color: rgba(22, 178, 181, 0.9) !important;
-@extend .color-orange;
-img{
-position: relative;
-top: -15px;
-}
-  p{
-    width:70px;
+
+.fifth-div {
+  background: url("../images/background5.png") no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  font-size:15px;
+  background-size: cover;
+  color: $color-white;
+  font-family: $font-style;
+
+  .displayes {
+    display: table;
+    padding: 0 !important;
+
+    .color-orange {
+      background-color: rgba(255, 115, 0, 0.91);
+      height: 335px;
+      width: 100%;
+      display: table-cell;
+      vertical-align: middle;
+      img{
+        position: relative;
+        top: -10px;
+      }
+      p {
+        //font-size: 15px;
+        display: inline-block;
+        width: 293px;
+        position: relative;
+        top: 32px;
+      }
+    }
+    .css-three {
+      background-color: rgba(22, 109, 172, 0.88);
+      @extend .color-orange;
+      img {
+        margin: 0 15px;
+        position: relative;
+        top: -20px;
+      }
+    }
   }
+  .java-sc {
+    background-color: rgba(22, 64, 94, 0.87);
+    padding: 87px 0;
+    p {
+      width: 66%;
+      margin: 0 auto;
+      font-family: $font-style;
+    }
+    img {
+      margin: 0 0 20px 0;
+    }
+  }
+  .angular-js {
+    background-color: rgba(165, 29, 25, 0.88);
+    padding: 87px 0;
+    p {
+      width: 71%;
+      margin: 0 auto;
+      font-family: $font-style;
+    }
+    img {
+      margin: 0 0 15px 0;
+    }
+  }
+  .react-bg {
+    background-color: rgba(22, 178, 181, 0.9) !important;
+    @extend .color-orange;
+    img{
+      position: relative;
+      top: -15px;
+    }
+    p{
+      width:70px;
+    }
 
-.apis-bg {
-background-color: rgba(16, 86, 165, 0.81);
-@extend .color-orange;
+    .apis-bg {
+      background-color: rgba(16, 86, 165, 0.81);
+      @extend .color-orange;
 
-}
-}
+    }
+  }
 }
 
 .map {
-position: relative;
+  position: relative;
 }
 
 .form-transformation {
-padding: 20px;
-position: absolute;
-top: 100px;
-left: 100px;
-font-family: $font-style;
-h1 {
-  color: $color-white;
-  font-size:35px;
-}
-.form-div {
-  background: rgba(0, 95, 150, 0.9);
-  padding: 15px;
-  input, textarea {
-    @include form-input;
+  padding: 20px;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  font-family: $font-style;
+  h1 {
+    color: $color-white;
+    font-size:35px;
   }
-  .group {
-  img {
-  position: relative;
-  top: 32px;
-  left: 6px;
+  .form-div {
+    width: 615px;
+    height: 595px;
+    background: rgba(0, 95, 150, 0.9);
+    padding: 15px;
+    input, textarea {
+      @include form-input;
+    }
+    .group {
+      img {
+        position: relative;
+        top: 32px;
+        left: 6px;
+      }
+      input {
+        height: 40px;
+        padding: 0 9px 0 35px;
+        color: #ffffff;
+        border-radius:0;
+      }
+    }
+    .textarea-comments {
+      margin: 20px 0 0;
+      resize: none;
+      border-radius:0 !important;
+    }
+    button {
+      width: 100%;
+      height: 60px;
+      margin: 24px 0 0 0;
+      //font-family: "Raleway Bold", sans-serif;
+      font-size: 18px;
+      font-weight: 700;
+      border-radius: 0;
+      color: #1174ad;
+    }
   }
-  input {
-  height: 40px;
-  padding: 0 9px 0 35px;
-    color: #ffffff;
-  border-radius:0;
-  }
-  }
-  .textarea-comments {
-  margin: 20px 0 0;
-  resize: none;
-  border-radius:0 !important;
-  }
-  button {
-  width: 100%;
-  height: 60px;
-  margin: 24px 0 0 0;
-  //font-family: "Raleway Bold", sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-  border-radius: 0;
-  color: #1174ad;
-  }
-}
 
 }
 
 .details {
-width:100%;
-//height: 170px;
-padding: 20px 0;
-margin-top: -7px;
-background: #18ab91;
-display: table;
-font-family: $font-style;
-.text-center{
-padding:10px 0px;
-}
-img{
-padding: 10px 100px 5px 0;
-}
-p {
-color: $color-white;
-width: 100%;
-margin: 15px 0 0px -52px;
-}
+  width:100%;
+  //height: 170px;
+  padding: 20px 0;
+  margin-top: -7px;
+  background-image: url("../images/data-bg-img.jpg");
+  background-attachment: fixed;
+  display: table;
+  font-family: 'Raleway OpenSans',sans-serif;
+
+  .text-center{
+    padding:10px 0px;
+  }
+  img{
+    padding: 10px 0 0 0;
+  }
+  p {
+    font-size: 20px;
+    color: $color-white;
+    width: 100%;
+    margin: 15px 0 0 0;
+  }
 }
 
 .last-div {
-font-family: $font-style;
-width: 100%;
-height: auto;
-background: url("../images/last-background.png") no-repeat;
-background-size: cover;
-float: left;
-.bg-on-image {
-width: 100%;
-padding: 30px;
-background-color: rgba(15, 54, 76, 0.71);
-float: left;
-}
-h5 {
-color: $color-white;
-letter-spacing: 1px;
-font-size: 22px;
-padding-top: 15px;
-font-weight: 600;
-}
-p {
-color: $color-white;
-font-size: 14px;
-}
-.appBakerZ {
-padding-top: 40px;
-width:80%;
-}
-.input-group {
-display: inline-flex;
-//vertical-align: middle;
-input {
-width: 280px ;
-height: 28px ;
-//text-align: center;
-border-radius:0 !important ;
-font-style: $font-style !important ;
-font-size: 13px !important ;
-color: #333 ;
-padding-left: 10px ;
-}
-}
+  font-family: $font-style;
+  width: 100%;
+  height: auto;
+  background: url("../images/last-background.png") no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  float: left;
+  .bg-on-image {
+    width: 100%;
+    padding: 30px;
+    background-color: rgba(15, 54, 76, 0.71);
+    float: left;
+  }
+  h5 {
+    color: $color-white;
+    letter-spacing: 1px;
+    font-size: 22px;
+    padding-top: 15px;
+    font-weight: 600;
+  }
+  p {
+    color: $color-white;
+    font-size: 14px;
+  }
+  .appBakerZ {
+    padding-top: 40px;
+    //width:80%;
+  }
+  .input-group {
+    display: inline-flex;
+    //vertical-align: middle;
+    input {
+      width: 280px ;
+      height: 28px ;
+      //text-align: center;
+      border-radius:0 !important ;
+      font-style: $font-style !important ;
+      font-size: 13px !important ;
+      color: #333 ;
+      padding-left: 10px ;
+    }
+  }
 
-button {
-width: 130px;
-height: 28px;
-color: $color-white;
-font-style: $font-style !important;
-font-size: 13px !important;
-background-color: #106a9f !important;
-border-radius:0 !important;
-margin: 0 0 25px 25px;
-padding: 0 !important;
-&:hover{
-color: #ffffff;
-}
+  button {
+    width: 130px;
+    height: 28px;
+    color: $color-white;
+    font-style: $font-style !important;
+    font-size: 13px !important;
+    background-color: #106a9f !important;
+    border-radius:0 !important;
+    margin: 0 0 25px 25px;
+    padding: 0 !important;
+    &:hover{
+      color: #ffffff;
+    }
 
-}
-i {
-width: 45px;
-margin-top: 90px;
-color: #ffffff;
-cursor: pointer;
-font-size: 45px;
-}
-.fa-facebook-official {
-&:hover {
-color: #005eb2;
-}
-}
-.fa-google-plus-square {
-&:hover {
-color: #e62b34;
-}
-}
-.fa-twitter-square {
-&:hover {
-color: #43bdf0;
-}
-}
-.fa-youtube-square {
-&:hover {
-color: #dd3125;
-}
-}
+  }
+  i {
+    width: 45px;
+    margin-top: 90px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 45px;
+  }
+  .fa-facebook-official {
+    &:hover {
+      color: #005eb2;
+    }
+  }
+  .fa-google-plus-square {
+    &:hover {
+      color: #e62b34;
+    }
+  }
+  .fa-twitter-square {
+    &:hover {
+      color: #43bdf0;
+    }
+  }
+  .fa-youtube-square {
+    &:hover {
+      color: #dd3125;
+    }
+  }
 }
 
 
 .footer {
-color: $color-white;
-font-family: $font-style;
-background-color: #043450;
-font-size: 16px;
-//span{
-//padding:20px 0;
-//}
+  color: $color-white;
+  font-family: $font-style;
+  background-color: #043450;
+  font-size: 16px;
+  //span{
+  //padding:20px 0;
+  //}
 }
 
 
@@ -509,11 +528,11 @@ font-size: 16px;
 
 //////////// md
 @media (min-width: 992px) and (max-width: 1199px) {
-.first-bg {
-.clock {
-margin: -23px -55px 0 0 !important;
-}
-}
+  .first-bg {
+    .clock {
+      margin: -23px -55px 0 0 !important;
+    }
+  }
 }
 
 /////////// sm
@@ -523,164 +542,184 @@ margin: -23px -55px 0 0 !important;
 
 ////////// xs
 @media (min-width: 320px) and (max-width: 767px) {
-.first-bg {
-height: auto !important;
-padding-bottom: 40px;
-.navbar-default {
-margin-bottom: 55px !important;
-.app-bakerz-logo{
-padding:0 !important;
-}
-.navbar-nav{
-margin:0 ;
-}
-.clock{
-display: none;
-}
-}
-.navbar-header{
-padding: 0 0 21px;
-background: #000;
-}
-.navbar-collapse {
-position: relative;
-top: 0;
-}
-.paragraph-one {
-margin: 15px 0 !important;
-h1 {
-font-size: 30px !important;
-margin-bottom: 15px !important;
-}
-.btn{
-font-size:18px;
-display: inline-block;
-}
-}
-}
-.second-div {
-padding: 0 !important;
-h3 {
-padding: 0;
-margin: 25px 0;
-font-size: 22px;
-}
-p {
-padding: 0 9px 22px;
-margin: 0;
-text-align: center;
-font-size: 12px !important;
-}
-.front-end-development {
-margin: 0 !important;
-}
-}
-.third-div .text-uppercase {
-font-size: 13px !important;
-}
-.fourth-div {
-padding: 30px 0;
-h3 {
-margin: -10px 0 20px 0;
-font-size: 26px !important;
-padding: 15px 0 !important;
+  .first-bg {
+    height: auto !important;
+    padding-bottom: 40px;
+    .navbar-default {
+      margin-bottom: 55px !important;
+      .app-bakerz-logo{
+        padding:0 !important;
+      }
+      .navbar-nav{
+        margin:0 ;
+      }
+      .clock{
+        display: none;
+      }
+    }
+    .navbar-header{
+      padding: 0 0 21px;
+      background: #000;
+    }
+    .navbar-collapse {
+      position: relative;
+      top: 0;
+    }
+    .paragraph-one {
+      margin: 15px 0 !important;
+      h1 {
+        font-size: 30px !important;
+        margin-bottom: 15px !important;
+      }
+      .btn{
+        font-size:18px;
+        display: inline-block;
+      }
+    }
   }
-.accordian-courses{
-    width:100%;
-    font-size: 12px;
+  .second-div {
+    padding: 0 !important;
+    h3 {
+      padding: 0;
+      margin: 25px 0;
+      font-size: 22px;
+    }
+    p {
+      padding: 0 9px 22px;
+      margin: 0;
+      text-align: center;
+      font-size: 12px !important;
+    }
+    .paragraph-two{
+      line-height: 25px;
+      font-size: 14px;
+    }
+    //.front-end-development {
+    //margin: 0 !important;
+    //}
+    .front-end-development{
+      margin-left: 0 !important;
+    }
+    .js-dev{
+      margin-left: 0 !important;
+
+    }
   }
-.container {
-padding: 0 !important;
-button {
-font-size: 12px !important;
-}
-
+  .third-div {
+    .container{
+      padding:10px;
+      //margin:10px 0;
+    }
+    .col-xs-12{
+      margin:10px 0;
+    }
+    .course-image{
+      width:30% !important;
+    }
+    .text-uppercase {
+      font-size: 16px !important;
+    }
   }
-.dropdown-transformation{
-  font-size: 12px;
-margin:5px 0;
-}
-span {
-width: 30px !important;
-height: 30px !important;
-top: -7px !important;
-&:before{
-  top: 5px;
-  left:0;
-}
-}
-}
+  .fourth-div {
+    padding: 30px 0;
+    h3 {
+      margin: -10px 0 20px 0;
+      font-size: 26px !important;
+      padding: 15px 0 !important;
+    }
+    .accordian-courses{
+      width:100%;
+      font-size: 12px;
+    }
+    .container {
+      padding: 0 !important;
+      button {
+        font-size: 12px !important;
+      }
 
-.fifth-div {
-background-size: cover !important;
-.displayes {
-.color-orange
-img{
-top: 20px;
-}
-p {
-position: relative;
-top: 0;
-}
-}
-//.css-three{
-//  img{
-//  top: -5px;
-//  }
-//  p{
-//    top:15px;
-//  }
-//}
-}
-.form-transformation {
-left: 10px !important;
-font-size: 15px !important;
-.textarea-comments {
-.form-control {
-font-size: 15px !important;
-}
-}
-}
-.details{
+    }
+    .dropdown-transformation{
+      font-size: 12px;
+      margin:5px 0;
+    }
+    span {
+      width: 30px !important;
+      height: 30px !important;
+      top: -7px !important;
+      &:before{
+        top: 5px;
+        left:0;
+      }
+    }
+  }
 
-img{
-padding: 10px 0 5px 0;
-}
-p{
-width: 100%;
-margin: 15px 0 0 0 !important;
+  .fifth-div {
+    background-size: cover !important;
+    .displayes {
+      .color-orange p {
+        //position: relative;
+        top: 0;
+      }
 
-}
-}
-.last-div {
-.appBakerZ{
-padding: 0 !important;
-}
-.input-group {
-display: inline-block;
-padding: 0 !important;
-input{
-width: 100%;
-}
-}
-button{
-margin: 10px 0 0 10px;
-width:135px !important;
-}
-i{
-margin-top: 40px !important;
-}
-.social-media-icons {
-margin: 20px 0;
-padding-top:0 !important;
-cursor: pointer;
-}
-}
-.footer{
-.all-rights-reserved{
-display: inline-block;
-}
-}
+    }
+    //.css-three{
+    //  img{
+    //  top: -5px;
+    //  }
+    //  p{
+    //    top:15px;
+    //  }
+    //}
+  }
+  .form-transformation {
+    left: 10px !important;
+    font-size: 15px !important;
+    .textarea-comments {
+      .form-control {
+        font-size: 15px !important;
+      }
+    }
+  }
+  .details{
+
+    img{
+      padding: 10px 0 5px 0;
+    }
+    p{
+      width: 100%;
+      margin: 15px 0 0 0 !important;
+
+    }
+  }
+  .last-div {
+    .appBakerZ{
+      padding: 0 !important;
+    }
+    .input-group {
+      display: inline-block;
+      padding: 0 !important;
+      input{
+        width: 100%;
+      }
+    }
+    button{
+      margin: 10px 0 0 10px;
+      width:135px !important;
+    }
+    i{
+      margin-top: 40px !important;
+    }
+    .social-media-icons {
+      margin: 20px 0;
+      padding-top:0 !important;
+      cursor: pointer;
+    }
+  }
+  .footer{
+    .all-rights-reserved{
+      display: inline-block;
+    }
+  }
 }
 
 ///////////////MEDIA QUERY END ////////////////////
