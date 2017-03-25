@@ -13,10 +13,12 @@
   .navbar-collapse {
     width: 100%;
     padding: 35px 0 0 35px;
-    font-size:14px;
+    font-size:15px;
+    //margin-top:10px;
+    //margin-left: 10px;
     position: relative;
-    top: 20px;
-    left:50px;
+    top: 30px;
+    left: 15px;
 
     ul li a{
       color: $color-white;
@@ -75,11 +77,12 @@
     margin: 100px 0 0 0;
     color: $input-bg;
     .btn{
+      width: 60%;
       color: #4c667a;
-      font-family:'Raleway Bold', sans-serif;
-      border-radius:0 !important;
+      font-family: 'Raleway Bold', sans-serif;
+      border-radius: 0 !important;
       padding: 10px 20px;
-      box-shadow: 0px 10px 30px black;
+      box-shadow: 0 10px 30px #476b91;
       display: none;
     }
   }
@@ -96,6 +99,7 @@
 
   }
 }
+
 .about-background{
   background-image: url("../images/about-academy-bg.jpg");
   .second-div {
@@ -273,7 +277,7 @@
     padding: 0 !important;
 
     .color-orange {
-      background-color: rgba(255, 115, 0, 0.91);
+      background-color: rgba(255, 114, 0, 0.9);
       height: 335px;
       width: 100%;
       display: table-cell;
@@ -301,7 +305,7 @@
     }
   }
   .java-sc {
-    background-color: rgba(22, 64, 94, 0.87);
+    background-color: rgba(0,63,100,.8);
     padding: 87px 0;
     p {
       width: 66%;
@@ -313,7 +317,7 @@
     }
   }
   .angular-js {
-    background-color: rgba(165, 29, 25, 0.88);
+    background-color: rgba(158,24,24,.9);
     padding: 87px 0;
     p {
       width: 71%;
@@ -325,7 +329,7 @@
     }
   }
   .react-bg {
-    background-color: rgba(22, 178, 181, 0.9) !important;
+    background-color: rgba(0,189,196,.8) !important;
     @extend .color-orange;
     img{
       position: relative;
@@ -336,7 +340,7 @@
     }
 
     .apis-bg {
-      background-color: rgba(16, 86, 165, 0.81);
+      background-color: rgba(8,78,164,.8);
       @extend .color-orange;
 
     }
@@ -511,13 +515,13 @@
 
 
 .footer {
-  color: $color-white;
-  font-family: $font-style;
   background-color: #043450;
-  font-size: 16px;
-  //span{
-  //padding:20px 0;
-  //}
+  //padding: 15px 0;
+  .all-rights-reserved{
+    color: $color-white;
+    font-family: "Open Sans",sans-serif;
+    font-size: 16px;
+  }
 }
 
 
@@ -529,8 +533,31 @@
 //////////// md
 @media (min-width: 992px) and (max-width: 1199px) {
   .first-bg {
+    .app-bakerz-logo{
+      padding: 0 0 0 10px;
+    }
+    .navbar-collapse{
+      left:-35px;
+    }
     .clock {
-      margin: -23px -55px 0 0 !important;
+      //margin: -23px -55px 0 0 !important;
+      display: none;
+    }
+  }
+  .about-background{
+    .second-div{
+      .front-end-development{
+        margin-left: 0 !important;
+      }
+      .js-dev{
+        margin-left: 0;
+      }
+      h3{
+        font-size: 30px;
+      }
+      .paragraph-two{
+        font-size: 16px;
+      }
     }
   }
 }
@@ -547,17 +574,17 @@
     padding-bottom: 40px;
     .navbar-default {
       margin-bottom: 55px !important;
-      .app-bakerz-logo{
-        padding:0 !important;
+      .app-bakerz-logo {
+        padding: 0 !important;
       }
-      .navbar-nav{
-        margin:0 ;
+      .navbar-nav {
+        margin: 0;
       }
-      .clock{
+      .clock {
         display: none;
       }
     }
-    .navbar-header{
+    .navbar-header {
       padding: 0 0 21px;
       background: #000;
     }
@@ -571,38 +598,47 @@
         font-size: 30px !important;
         margin-bottom: 15px !important;
       }
-      .btn{
-        font-size:18px;
+      .btn {
+        font-size: 18px;
         display: inline-block;
       }
     }
   }
-  .second-div {
-    padding: 0 !important;
-    h3 {
-      padding: 0;
-      margin: 25px 0;
-      font-size: 22px;
-    }
-    p {
-      padding: 0 9px 22px;
-      margin: 0;
-      text-align: center;
-      font-size: 12px !important;
-    }
-    .paragraph-two{
-      line-height: 25px;
-      font-size: 14px;
-    }
-    //.front-end-development {
-    //margin: 0 !important;
-    //}
-    .front-end-development{
-      margin-left: 0 !important;
-    }
-    .js-dev{
-      margin-left: 0 !important;
 
+  .about-background {
+    .second-div {
+      padding: 0 !important;
+      h3 {
+        font-size: 20px !important;
+        margin: 40px 0 25px 0 !important;
+      }
+      .div-two-nested {
+        .front-end-development{
+          margin-left: 0;
+        }
+        img {
+          height: 40px !important;
+        }
+      }
+      p {
+        padding: 0 9px 22px;
+        font-size: 14px !important;
+        text-align: center;
+        //line-height: 25px !important;
+        //margin:0 0 20px 0 !important;
+      }
+      .caption {
+        font-size: 11px !important;
+        font-family: 'Raleway Bold', sans-serif;
+        font-weight: 600;
+        color: #1b3a54;
+      }
+      .front-end-development{
+        margin-left: 0;
+      }
+      .js-dev{
+        margin-left: 0;
+      }
     }
   }
   .third-div {
@@ -656,22 +692,45 @@
   .fifth-div {
     background-size: cover !important;
     .displayes {
-      .color-orange p {
-        //position: relative;
-        top: 0;
+      .color-orange {
+        p {
+          top: 0;
+        }
+        img{
+          top: 0;
+        }
       }
+      .css-three{
+        img{
+          top:5px;
+          margin:20px 0 !important;
+        }
+      }
+    }
+    .java-sc{
+      padding: 50px 0 !important;
+      font-size: 14px;
+    }
+    .angular-js{
+      padding: 50px 0 !important;
+      font-size: 14px;
 
     }
-    //.css-three{
-    //  img{
-    //  top: -5px;
-    //  }
-    //  p{
-    //    top:15px;
-    //  }
-    //}
+
   }
   .form-transformation {
+    .form-div{
+      width:100%;
+      height:100%;
+      h1{
+        font-size: 26px !important;
+        margin-top: 0 !important;
+      }
+      button{
+        height: 40px;
+      }
+    }
+
     left: 10px !important;
     font-size: 15px !important;
     .textarea-comments {
@@ -688,18 +747,31 @@
     p{
       width: 100%;
       margin: 15px 0 0 0 !important;
+      font-size:  16px !important;
 
     }
   }
   .last-div {
+    .bg-on-image{
+      padding:30px 0;
+    }
     .appBakerZ{
+      margin: 10px 0;
       padding: 0 !important;
+    }
+    h5{
+      font-size: 14px !important;
+    }
+    p{
+      font-size:10px !important;
     }
     .input-group {
       display: inline-block;
       padding: 0 !important;
       input{
         width: 100%;
+        text-align: center;
+        color: #333;
       }
     }
     button{
@@ -716,7 +788,9 @@
     }
   }
   .footer{
+    margin:0;
     .all-rights-reserved{
+      font-size: 12px;
       display: inline-block;
     }
   }
