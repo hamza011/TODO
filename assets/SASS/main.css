@@ -5799,107 +5799,108 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
-.first-bg {
+.header-bg {
   background: url("../images/backg.png") no-repeat;
   width: 100%;
   height: 460px; }
-  .first-bg .navbar-default {
+  .header-bg .navbar-default {
     margin-bottom: 0;
     background-color: transparent !important;
     border-color: transparent; }
-  .first-bg .navbar-collapse {
+  .header-bg .navbar-collapse {
     width: 100%;
     padding: 35px 0 0 35px;
     font-size: 15px;
     position: relative;
     top: 30px;
     left: 15px; }
-    .first-bg .navbar-collapse ul li a {
+    .header-bg .navbar-collapse ul li a {
       color: #ffffff; }
-  .first-bg .clock {
+  .header-bg .clock {
     display: inline-block;
     width: 22%;
     margin: -28px 0 0; }
-    .first-bg .clock img {
+    .header-bg .clock img {
       width: 17%;
       float: left;
       margin: 0; }
-    .first-bg .clock p {
+    .header-bg .clock p {
       width: 79%;
       margin: 0 !important;
       display: inline-block;
       float: right;
       font-size: 11px;
       color: #fff; }
-  .first-bg .navbar-brand {
+  .header-bg .navbar-brand {
     padding-top: 15px; }
-  .first-bg .navbar-nav {
+  .header-bg .navbar-nav {
     color: white;
     margin-left: 60px; }
-  .first-bg .navbar-nav > li > a {
+  .header-bg .navbar-nav > li > a {
     padding: 10px !important; }
-    .first-bg .navbar-nav > li > a:hover {
+    .header-bg .navbar-nav > li > a:hover {
       color: #ffffff;
       border-bottom: 2px solid #ffffff; }
-  .first-bg h1 {
+  .header-bg h1 {
     font-size: 60px;
     color: #fff;
     font-family: Raleway,sans-serif;
     font-weight: 600;
     letter-spacing: 5px;
     text-transform: uppercase; }
-  .first-bg .paragraph-one {
+  .header-bg .main-heading {
     text-align: center;
     font-family: "Raleway" ,sans-serif;
     margin: 100px 0 0 0;
     color: #fff; }
-    .first-bg .paragraph-one .btn {
+    .header-bg .main-heading .btn {
       width: 60%;
       color: #4c667a;
       font-family: 'Raleway Bold', sans-serif;
       border-radius: 0 !important;
       padding: 10px 20px;
+      margin-top: 60px;
       box-shadow: 0 10px 30px #476b91;
       display: none; }
-  .first-bg .navbar-toggle {
+  .header-bg .navbar-toggle {
     margin-top: 50px !important; }
-  .first-bg .app-bakerz-logo {
+  .header-bg .logo-top {
     padding: 0 0 0 50px; }
-  .first-bg .navbar-collapse {
+  .header-bg .navbar-collapse {
     border: 0;
     padding: 0 !important; }
 
-.about-background {
+.about-background-image {
   background-image: url("../images/about-academy-bg.jpg"); }
-  .about-background .second-div {
+  .about-background-image .second-div {
     width: 100%;
     padding: 60px;
     text-align: center;
     font-family: Raleway, sans-serif;
     color: #555555; }
-    .about-background .second-div h3 {
+    .about-background-image .second-div h3 {
       font-size: 34px;
       margin: 15px 0 29px 12px;
       padding: 0;
       color: #555555; }
-    .about-background .second-div .paragraph-two {
+    .about-background-image .second-div .about-us-paragraph {
       color: #555;
       font-size: 20px;
       line-height: 35px;
       font-family: 'Raleway',sans-serif; }
-    .about-background .second-div p {
+    .about-background-image .second-div p {
       color: #1b3a54;
       margin: 0 0 50px; }
-    .about-background .second-div .div-two-nested img {
+    .about-background-image .second-div .div-two-nested img {
       height: 60px; }
-    .about-background .second-div .div-two-nested p {
+    .about-background-image .second-div .div-two-nested p {
       font-size: 13px;
       font-family: 'Raleway Bold', sans-serif;
       font-weight: 600;
       color: #1b3a54; }
-    .about-background .second-div .front-end-development {
+    .about-background-image .second-div .front-end-development {
       margin-left: 15%; }
-    .about-background .second-div .js-dev {
+    .about-background-image .second-div .js-dev {
       margin-left: -50px; }
 
 .inline-block-elem {
@@ -6172,7 +6173,7 @@ button.close {
 
 .footer {
   background-color: #043450; }
-  .footer .all-rights-reserved {
+  .footer .copy-rights {
     color: #ffffff;
     font-family: "Open Sans",sans-serif;
     font-size: 16px; }
@@ -6194,53 +6195,53 @@ button.close {
   .about-background .second-div .paragraph-two {
     font-size: 16px; } }
 @media (min-width: 320px) and (max-width: 767px) {
-  .first-bg {
+  .header-bg {
     height: auto !important;
     padding-bottom: 40px; }
-    .first-bg .navbar-default {
+    .header-bg .navbar-default {
       margin-bottom: 55px !important; }
-      .first-bg .navbar-default .app-bakerz-logo {
+      .header-bg .navbar-default .logo-top {
         padding: 0 !important; }
-      .first-bg .navbar-default .navbar-nav {
+      .header-bg .navbar-default .navbar-nav {
         margin: 0; }
-      .first-bg .navbar-default .clock {
+      .header-bg .navbar-default .clock {
         display: none; }
-    .first-bg .navbar-header {
+    .header-bg .navbar-header {
       padding: 0 0 21px;
       background: #000; }
-    .first-bg .navbar-collapse {
+    .header-bg .navbar-collapse {
       position: relative;
       top: 0; }
-    .first-bg .paragraph-one {
+    .header-bg .main-heading {
       margin: 15px 0 !important; }
-      .first-bg .paragraph-one h1 {
+      .header-bg .main-heading h1 {
         font-size: 30px !important;
         margin-bottom: 15px !important; }
-      .first-bg .paragraph-one .btn {
+      .header-bg .main-heading .btn {
         font-size: 18px;
         display: inline-block; }
 
-  .about-background .second-div {
+  .about-background-image .second-div {
     padding: 0 !important; }
-    .about-background .second-div h3 {
+    .about-background-image .second-div h3 {
       font-size: 20px !important;
       margin: 40px 0 25px 0 !important; }
-    .about-background .second-div .div-two-nested .front-end-development {
-      margin-left: 0; }
-    .about-background .second-div .div-two-nested img {
-      height: 40px !important; }
-    .about-background .second-div p {
+    .about-background-image .second-div .about-us-paragraph {
       padding: 0 9px 22px;
       font-size: 14px !important;
       text-align: center; }
-    .about-background .second-div .caption {
+    .about-background-image .second-div .div-two-nested .front-end-development {
+      margin-left: 0; }
+    .about-background-image .second-div .div-two-nested img {
+      height: 40px !important; }
+    .about-background-image .second-div .caption {
       font-size: 11px !important;
       font-family: 'Raleway Bold', sans-serif;
       font-weight: 600;
       color: #1b3a54; }
-    .about-background .second-div .front-end-development {
+    .about-background-image .second-div .front-end-development {
       margin-left: 0; }
-    .about-background .second-div .js-dev {
+    .about-background-image .second-div .js-dev {
       margin-left: 0; }
 
   .third-div .container {
@@ -6344,5 +6345,684 @@ button.close {
     .footer .all-rights-reserved {
       font-size: 12px;
       display: inline-block; } }
+.home-header {
+  background: url("../images/backg.png") no-repeat;
+  width: 100%;
+  height: 620px; }
+  .home-header .navbar-default {
+    margin-bottom: 0;
+    background-color: transparent !important;
+    border-color: transparent; }
+  .home-header .navbar-collapse {
+    width: 100%;
+    padding: 35px 0 0 35px;
+    font-size: 15px;
+    position: relative;
+    top: 30px;
+    left: 15px; }
+    .home-header .navbar-collapse ul li a {
+      color: #ffffff; }
+  .home-header .clock {
+    display: inline-block;
+    width: 22%;
+    margin: -28px 0 0; }
+    .home-header .clock img {
+      width: 15%;
+      height: 15%;
+      float: left;
+      margin: 0; }
+    .home-header .clock p {
+      width: 79%;
+      margin: 0 !important;
+      display: inline-block;
+      float: right;
+      font-size: 11px;
+      color: #ffffff; }
+  .home-header .navbar-brand {
+    padding-top: 15px; }
+  .home-header .navbar-nav {
+    color: white;
+    margin-left: 60px; }
+  .home-header .navbar-nav > li > a {
+    padding: 10px !important; }
+    .home-header .navbar-nav > li > a:hover {
+      color: #ffffff;
+      border-bottom: 2px solid #ffffff; }
+  .home-header .main-heading {
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    margin: 80px 0; }
+    .home-header .main-heading h1 {
+      font-size: 60px;
+      color: #ffffff;
+      font-family: "Raleway", sans-serif;
+      font-weight: 600;
+      margin-bottom: 80px;
+      letter-spacing: 5px;
+      text-transform: uppercase; }
+    .home-header .main-heading .special-development-icons {
+      text-align: center; }
+      .home-header .main-heading .special-development-icons img {
+        height: 40px; }
+      .home-header .main-heading .special-development-icons p {
+        font-size: 12px;
+        font-family: 'Raleway Bold', sans-serif;
+        font-weight: 600;
+        margin-top: 15px;
+        color: #ffffff; }
+      .home-header .main-heading .special-development-icons .front-end-development {
+        margin-left: 21%; }
+      .home-header .main-heading .special-development-icons .js-dev {
+        margin-left: -90px; }
+    .home-header .main-heading button {
+      display: none; }
+  .home-header .navbar-toggle {
+    margin-top: 50px !important; }
+  .home-header .logo-top {
+    padding: 0 0 0 50px; }
+  .home-header .navbar-collapse {
+    border: 0;
+    padding: 0 !important; }
+
+.about-us {
+  background-image: url("../images/about-academy-bg.jpg");
+  background-attachment: fixed;
+  background-size: cover; }
+  .about-us .about-text {
+    margin-top: 200px;
+    padding: 0; }
+  .about-us .about-heading {
+    font-family: "Raleway", sans-serif;
+    color: #555555;
+    font-size: 35px;
+    margin-bottom: 50px; }
+  .about-us .about-paragraph {
+    width: 116%;
+    font-family: "Raleway", sans-serif;
+    color: #979797;
+    font-size: 20px; }
+  .about-us img {
+    margin-top: 50px;
+    height: 535px; }
+
+.inline-block-elem {
+  display: inline-block;
+  vertical-align: middle; }
+
+.third-div {
+  height: 150px;
+  width: 100%;
+  font-family: "Raleway SemiBold",sans-serif;
+  font-size: 23px;
+  text-align: center;
+  display: table; }
+  .third-div .row {
+    background: url("../images/background.png") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: table-cell;
+    padding: 40px 0 0 0;
+    vertical-align: middle; }
+  .third-div .teachingStaff, .third-div .ourCourses, .third-div .freeGuide {
+    background: url("../images/best-teacher-icon.png") no-repeat;
+    background-position: center !important;
+    width: 25%;
+    height: 55px; }
+    .third-div .teachingStaff:hover, .third-div .ourCourses:hover, .third-div .freeGuide:hover {
+      background: url("../images/master.png") no-repeat;
+      background-position: center !important; }
+  .third-div .ourCourses {
+    background: url("../images/best-course-icon.png") no-repeat; }
+    .third-div .ourCourses:hover {
+      background: url("../images/strat-learning.png") no-repeat; }
+  .third-div .freeGuide {
+    background: url("../images/free-guide-icon.png") no-repeat; }
+    .third-div .freeGuide:hover {
+      background: url("../images/professionals.png") no-repeat; }
+  .third-div .text-uppercase-bold {
+    display: inline-block;
+    color: white;
+    font-family: "Raleway SemiBold",sans-serif;
+    text-transform: uppercase; }
+  .third-div .tagline {
+    font-size: 15px;
+    margin: -50px 0 0 30px;
+    font-family: "Raleway" , sans-serif; }
+  .third-div .tagline-guide {
+    font-size: 15px;
+    margin: -50px -50px 0 30px;
+    font-family: "Raleway" , sans-serif; }
+
+.courses {
+  background-image: url("../images/courses-background.png");
+  background-size: cover;
+  background-attachment: fixed; }
+  .courses h1 {
+    font-family: "Raleway", sans-serif;
+    font-size: 35px;
+    text-align: center;
+    margin: 70px 0 50px 0;
+    text-transform: uppercase; }
+  .courses .row {
+    text-align: center; }
+    .courses .row h5 {
+      width: 35%;
+      font-size: 12px;
+      font-family: "Raleway", sans-serif;
+      font-weight: 700;
+      background-color: #18ab91;
+      color: #ffffff;
+      position: relative;
+      padding: 5px 0;
+      margin: 0 0 0 -14px;
+      top: 20px; }
+      .courses .row h5:after {
+        content: "";
+        position: absolute;
+        bottom: -15px;
+        left: 0;
+        border-left: 15px solid transparent;
+        border-top: 15px solid #0f7563;
+        width: 0;
+        height: 0; }
+      .courses .row h5 img {
+        margin-top: -5px; }
+    .courses .row .certified-dev-course-section {
+      height: 410px;
+      background-image: url("../images/acds-banner.png");
+      background-size: cover;
+      cursor: pointer; }
+    .courses .row .appBakerzDevelopmentSpecialist {
+      padding: 80px 20px 20px 0; }
+    .courses .row .appBakerzDevelopmentSpecialist-row-two {
+      padding: 0 25px 10px 0; }
+    .courses .row h3 {
+      color: #ffffff;
+      font-size: 22px;
+      font-family: "Raleway", sans-serif;
+      font-weight: 600; }
+    .courses .row p {
+      color: #ffffff;
+      font-size: 16px;
+      padding-bottom: 7px; }
+  .courses .hybrid-course-section {
+    background-image: url("../images/hyb-banner.png");
+    cursor: pointer;
+    background-size: cover; }
+    .courses .hybrid-course-section .apps-icons {
+      padding: 30px 10px 0 0; }
+  .courses .meteor-course-section {
+    background-image: url("../images/meteor-apps-bg.png");
+    cursor: pointer; }
+    .courses .meteor-course-section .apps-icons {
+      padding: 30px 10px 0 0; }
+  .courses .wordpress-course-section {
+    background-image: url("../images/wordpress-develop-bg.png");
+    cursor: pointer;
+    text-align: center; }
+    .courses .wordpress-course-section .apps-icons {
+      padding: 30px 10px 0 0; }
+    .courses .wordpress-course-section h3 {
+      color: #ffffff;
+      font-size: 25px; }
+    .courses .wordpress-course-section p {
+      color: #ffffff;
+      font-size: 16px; }
+  .courses .desktop-course-section {
+    background-image: url("../images/desktop-banner.png");
+    cursor: pointer;
+    background-repeat: no-repeat;
+    text-align: center; }
+    .courses .desktop-course-section .apps-icons {
+      padding: 30px 10px 0 0; }
+    .courses .desktop-course-section h3 {
+      color: #ffffff;
+      font-size: 25px; }
+    .courses .desktop-course-section p {
+      color: #ffffff;
+      font-size: 16px; }
+  .courses .short-courses {
+    text-align: left; }
+    .courses .short-courses h5 {
+      width: 40%;
+      font-family: "Raleway", sans-serif;
+      font-size: 12px;
+      font-weight: 700;
+      background-color: #18ab91;
+      color: #ffffff;
+      position: relative;
+      padding: 5px 0 5px 30px;
+      margin: 0 0 0 -14px;
+      top: 20px; }
+      .courses .short-courses h5:after {
+        content: "";
+        position: absolute;
+        bottom: -15px;
+        left: 0;
+        border-left: 15px solid transparent;
+        border-top: 15px solid #0f7563;
+        width: 0;
+        height: 0; }
+    .courses .short-courses h3 {
+      color: #ffffff;
+      font-size: 19px;
+      font-family: "Raleway", sans-serif;
+      font-weight: 600;
+      padding: 50px 0 0 15px !important;
+      margin-top: 0 !important; }
+    .courses .short-courses p {
+      color: #ffffff;
+      font-size: 13px;
+      padding: 0 0 0 15px; }
+    .courses .short-courses span {
+      color: #ffffff;
+      font-size: 13px;
+      padding: 0 0 0 15px; }
+    .courses .short-courses .machine-lang-short-course-section {
+      background-image: url("../images/machine-laguage-bg.jpg");
+      background-repeat: no-repeat;
+      cursor: pointer; }
+    .courses .short-courses .mean-stack-short-course-section {
+      background-image: url("../images/meanstack-bg.jpg");
+      background-repeat: no-repeat;
+      cursor: pointer; }
+    .courses .short-courses .hybrid-apps-short-course-section {
+      background-image: url("../images/short-hybrid-bg.jpg");
+      background-repeat: no-repeat;
+      cursor: pointer; }
+  .courses h6 {
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin: 30px 0 50px 0;
+    text-transform: uppercase; }
+    .courses h6 a {
+      font-weight: 700;
+      text-decoration: none;
+      color: #000;
+      cursor: pointer; }
+
+.certified-courses {
+  background-image: url("../images/certifiedCoursesBanner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center; }
+  .certified-courses .container {
+    padding: 80px 0; }
+    .certified-courses .container h1 {
+      color: #ffffff;
+      font-size: 40px; }
+    .certified-courses .container button {
+      text-transform: uppercase;
+      border: none;
+      background-color: #ffffff;
+      color: #18ab91;
+      font-size: 18px;
+      width: 180px;
+      height: 35px; }
+
+.create-courses {
+  background: url("../images/create-course-bg.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 70px 0; }
+  .create-courses h1 {
+    margin-bottom: 50px;
+    font-family: "Raleway", sans-serif;
+    font-size: 35px; }
+  .create-courses .chekbox {
+    width: 19%;
+    display: inline-block;
+    background: #ffffff;
+    margin-bottom: 20px;
+    margin-right: 5px; }
+  .create-courses input {
+    display: none; }
+  .create-courses label {
+    position: relative;
+    margin-bottom: 10px;
+    display: inline-block;
+    padding: 10px 30px 0 10px;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: "Raleway", sans-serif;
+    font-weight: normal; }
+  .create-courses input[type="checkbox"]:checked + label,
+  .create-courses input[type="radio"]:checked + label {
+    width: 100%;
+    padding: 10px 25px;
+    color: #ffffff;
+    background: #18ab91;
+    margin: 0; }
+  .create-courses .prerequisites-column {
+    float: left;
+    background: #ffffff;
+    width: 100%;
+    height: 220px;
+    padding: 0 20px; }
+    .create-courses .prerequisites-column .html-css {
+      width: 65%;
+      float: left;
+      font-family: "Raleway", sans-serif;
+      font-size: 14px; }
+      .create-courses .prerequisites-column .html-css h2 {
+        font-family: 'Raleway SemiBold',sans-serif;
+        font-size: 18px;
+        margin-top: 20px;
+        margin-left: 8px; }
+      .create-courses .prerequisites-column .html-css ul {
+        display: inline-flex;
+        list-style: none;
+        padding: 0 !important; }
+        .create-courses .prerequisites-column .html-css ul li {
+          padding: 0 20px 0 0; }
+          .create-courses .prerequisites-column .html-css ul li p {
+            background: #ffffff;
+            width: 100%;
+            padding: 0 60px; }
+    .create-courses .prerequisites-column .courses-duration {
+      text-align: center;
+      float: left;
+      width: 35%;
+      margin: -90px 0 0 0;
+      border-left: 2px solid #acacac;
+      height: 175px; }
+      .create-courses .prerequisites-column .courses-duration h2 {
+        float: none;
+        font-family: "Raleway SemiBold",sans-serif;
+        font-size: 18px;
+        margin: 20px 0; }
+      .create-courses .prerequisites-column .courses-duration p {
+        color: #123049;
+        font-family: "OpenSans Light",sans-serif;
+        font-size: 16px; }
+      .create-courses .prerequisites-column .courses-duration button {
+        width: 65%;
+        height: 55px;
+        font-family: "Raleway SemiBold",sans-serif;
+        font-size: 18px;
+        color: #ffffff;
+        background: #18ab91;
+        border-radius: 0;
+        box-shadow: 0 5px 10px #acacac;
+        margin-top: 10px; }
+  .create-courses ul li {
+    background: #ebebeb;
+    padding: 5px 34px;
+    margin: 20px 0 0 10px; }
+
+.languages {
+  background-image: url("../images/icons-banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 100px 0 40px 0 !important; }
+  .languages .row {
+    margin-bottom: 50px; }
+  .languages .flex-container {
+    list-style: none;
+    display: inline-flex;
+    -webkit-flex-flow: row wrap;
+    justify-content: center; }
+    .languages .flex-container img {
+      padding: 0 30px 0 30px !important; }
+    .languages .flex-container .lang-express {
+      margin-top: 25px; }
+
+.recent-events {
+  background-image: url("../images/event-banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 50px 0; }
+  .recent-events h3 {
+    font-size: 35px;
+    color: #333333;
+    font-family: "Raleway", sans-serif;
+    margin-bottom: 30px; }
+  .recent-events img {
+    width: 100%;
+    height: 250px; }
+  .recent-events .spacing {
+    font-family: "Raleway", sans-serif;
+    background-color: #ffffff;
+    padding: 5px 10px; }
+    .recent-events .spacing h4 {
+      font-size: 20px;
+      font-weight: 600; }
+    .recent-events .spacing p {
+      font-size: 16px;
+      color: #999; }
+    .recent-events .spacing span {
+      font-size: 16px; }
+
+.map {
+  position: relative; }
+
+.form-transformation {
+  padding: 20px;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  font-family: "Raleway", sans-serif; }
+  .form-transformation h1 {
+    color: #ffffff;
+    font-size: 35px; }
+  .form-transformation .form-div {
+    width: 615px;
+    height: 595px;
+    background: rgba(0, 95, 150, 0.9);
+    padding: 15px; }
+    .form-transformation .form-div input, .form-transformation .form-div textarea {
+      background: transparent;
+      border: 1px solid #ffffff;
+      border-radius: 3px;
+      color: #ffffff;
+      width: 100%; }
+    .form-transformation .form-div .group img {
+      position: relative;
+      top: 32px;
+      left: 6px; }
+    .form-transformation .form-div .group input {
+      height: 40px;
+      padding: 0 9px 0 35px;
+      color: #ffffff;
+      border-radius: 0; }
+    .form-transformation .form-div .textarea-comments {
+      margin: 20px 0 0;
+      resize: none;
+      border-radius: 0 !important; }
+    .form-transformation .form-div button {
+      width: 100%;
+      height: 60px;
+      margin: 24px 0 0 0;
+      font-size: 18px;
+      font-weight: 700;
+      border-radius: 0;
+      color: #1174ad; }
+
+.details {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: -7px;
+  background-image: url("../images/data-bg-img.jpg");
+  background-attachment: fixed;
+  display: table;
+  font-family: 'Raleway OpenSans', sans-serif; }
+  .details .text-center {
+    padding: 10px 0px; }
+  .details img {
+    padding: 10px 0 0 0; }
+  .details p {
+    font-size: 20px;
+    color: #ffffff;
+    width: 100%;
+    margin: 15px 0 0 0; }
+
+.last-div {
+  font-family: "Raleway", sans-serif;
+  width: 100%;
+  height: auto;
+  background: url("../images/last-background.png") no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  float: left; }
+  .last-div .bg-on-image {
+    width: 100%;
+    padding: 30px;
+    background-color: rgba(15, 54, 76, 0.71);
+    float: left; }
+  .last-div h5 {
+    color: #ffffff;
+    letter-spacing: 1px;
+    font-size: 22px;
+    padding-top: 15px;
+    font-weight: 600; }
+  .last-div p {
+    color: #ffffff;
+    font-size: 14px; }
+  .last-div .appBakerZ {
+    padding-top: 40px; }
+  .last-div .input-group {
+    display: inline-flex; }
+    .last-div .input-group input {
+      width: 280px;
+      height: 28px;
+      border-radius: 0 !important;
+      font-style: "Raleway", sans-serif !important;
+      font-size: 13px !important;
+      color: #333;
+      padding-left: 10px; }
+  .last-div button {
+    width: 130px;
+    height: 28px;
+    color: #ffffff;
+    font-style: "Raleway", sans-serif !important;
+    font-size: 13px !important;
+    background-color: #106a9f !important;
+    border-radius: 0 !important;
+    margin: 0 0 25px 25px;
+    padding: 0 !important; }
+    .last-div button:hover {
+      color: #ffffff; }
+  .last-div i {
+    width: 45px;
+    margin-top: 90px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 45px; }
+  .last-div .fa-facebook-official:hover {
+    color: #005eb2; }
+  .last-div .fa-google-plus-square:hover {
+    color: #e62b34; }
+  .last-div .fa-twitter-square:hover {
+    color: #43bdf0; }
+  .last-div .fa-youtube-square:hover {
+    color: #dd3125; }
+
+.footer {
+  background-color: #043450; }
+  .footer .copy-rights {
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px; }
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .home-header {
+    height: auto !important;
+    padding-bottom: 40px; }
+    .home-header .navbar-default {
+      margin-bottom: 55px !important; }
+      .home-header .navbar-default .logo-top {
+        padding: 0 !important; }
+      .home-header .navbar-default .navbar-nav {
+        margin: 0; }
+      .home-header .navbar-default .clock {
+        display: none; }
+    .home-header .navbar-header {
+      padding: 0 0 21px;
+      background: #000; }
+    .home-header .navbar-collapse {
+      position: relative;
+      top: 0; }
+    .home-header .main-heading {
+      margin: 15px 0 !important; }
+      .home-header .main-heading h1 {
+        font-size: 30px !important;
+        margin-bottom: 15px !important; }
+      .home-header .main-heading .special-development-icons {
+        display: none; }
+      .home-header .main-heading .btn {
+        width: 55%;
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 20px;
+        display: inline-block;
+        border-radius: 0 !important;
+        box-shadow: 0 4px 25px darkslategrey;
+        color: #4c667a !important;
+        background-color: #ffffff !important; }
+
+  .about-us .about-text {
+    margin-top: 20px;
+    padding: 0; }
+  .about-us .about-heading {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    color: #555555;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 30px; }
+  .about-us .about-paragraph {
+    width: 100%;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    color: #979797;
+    font-size: 13px; }
+  .about-us img {
+    margin-top: 0px;
+    height: 200px; }
+
+  .third-div .text-uppercase-bold {
+    font-weight: 500;
+    font-size: 18px; }
+  .third-div .tagline {
+    font-size: 12px !important;
+    margin: -50px 0 0 20px !important; }
+  .third-div .tagline-guide {
+    font-size: 12px !important;
+    margin: -50px -50px 0 5px !important; }
+
+  .courses .row h5 {
+    width: 60%;
+    font-size: 11px;
+    top: 0;
+    left: -4px; }
+  .courses .row h3 {
+    font-size: 16px;
+    padding-top: 25px; }
+  .courses .row .certified-dev-course-section {
+    height: auto;
+    padding: 5px !important; }
+    .courses .row .certified-dev-course-section .appBakerzDevelopmentSpecialist {
+      display: none; }
+  .courses .row .appBakerzDevelopmentSpecialist-row-two {
+    display: none; }
+  .courses .apps-icons {
+    display: none; }
+  .courses .short-courses {
+    margin-bottom: 10px; }
+    .courses .short-courses h5 {
+      width: 100%;
+      font-size: 9px;
+      top: 5px;
+      left: -1px; }
+    .courses .short-courses h3 {
+      font-size: 14px;
+      padding-top: 40px !important; }
+    .courses .short-courses p {
+      display: none; }
+    .courses .short-courses span {
+      font-size: 9px; } }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,5 +1,5 @@
 ////////////////
-.first-bg {
+.header-bg {
   background: url("../images/backg.png") no-repeat;
   width: 100%;
   height: 460px;
@@ -68,10 +68,10 @@
     font-weight: 600;
     letter-spacing: 5px;
     text-transform: uppercase;
-    //margin: 0;
+    //margin-bottom: 80px;
 
   }
-  .paragraph-one{
+  .main-heading{
     text-align:center;
     font-family:"Raleway" ,sans-serif;
     margin: 100px 0 0 0;
@@ -82,6 +82,7 @@
       font-family: 'Raleway Bold', sans-serif;
       border-radius: 0 !important;
       padding: 10px 20px;
+      margin-top: 60px;
       box-shadow: 0 10px 30px #476b91;
       display: none;
     }
@@ -90,7 +91,7 @@
   .navbar-toggle{
     margin-top:50px !important;
   }
-  .app-bakerz-logo{
+  .logo-top{
     padding: 0 0 0 50px;
   }
   .navbar-collapse{
@@ -100,9 +101,9 @@
   }
 }
 
-.about-background{
+.about-background-image{
   background-image: url("../images/about-academy-bg.jpg");
-  .second-div {
+  .second-div{
     width: 100%;
     padding: 60px;
     text-align: center;
@@ -114,7 +115,7 @@
       padding: 0 ;
       color: #555555;
     }
-    .paragraph-two{
+    .about-us-paragraph{
       color: #555;
       font-size: 20px;
       line-height: 35px;
@@ -517,7 +518,7 @@
 .footer {
   background-color: #043450;
   //padding: 15px 0;
-  .all-rights-reserved{
+  .copy-rights{
     color: $color-white;
     font-family: "Open Sans",sans-serif;
     font-size: 16px;
@@ -569,12 +570,12 @@
 
 ////////// xs
 @media (min-width: 320px) and (max-width: 767px) {
-  .first-bg {
+  .header-bg{
     height: auto !important;
     padding-bottom: 40px;
     .navbar-default {
       margin-bottom: 55px !important;
-      .app-bakerz-logo {
+      .logo-top {
         padding: 0 !important;
       }
       .navbar-nav {
@@ -592,7 +593,7 @@
       position: relative;
       top: 0;
     }
-    .paragraph-one {
+    .main-heading {
       margin: 15px 0 !important;
       h1 {
         font-size: 30px !important;
@@ -605,12 +606,19 @@
     }
   }
 
-  .about-background {
+  .about-background-image {
     .second-div {
       padding: 0 !important;
       h3 {
         font-size: 20px !important;
         margin: 40px 0 25px 0 !important;
+      }
+      .about-us-paragraph {
+        padding: 0 9px 22px;
+        font-size: 14px !important;
+        text-align: center;
+        //line-height: 25px !important;
+        //margin:0 0 20px 0 !important;
       }
       .div-two-nested {
         .front-end-development{
@@ -620,13 +628,7 @@
           height: 40px !important;
         }
       }
-      p {
-        padding: 0 9px 22px;
-        font-size: 14px !important;
-        text-align: center;
-        //line-height: 25px !important;
-        //margin:0 0 20px 0 !important;
-      }
+
       .caption {
         font-size: 11px !important;
         font-family: 'Raleway Bold', sans-serif;
