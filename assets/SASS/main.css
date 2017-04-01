@@ -6503,9 +6503,9 @@ button.close {
     text-align: center;
     margin: 70px 0 50px 0;
     text-transform: uppercase; }
-  .courses .row {
+  .courses .portion-one {
     text-align: center; }
-    .courses .row h5 {
+    .courses .portion-one h5 {
       width: 35%;
       font-size: 12px;
       font-family: "Raleway", sans-serif;
@@ -6516,7 +6516,7 @@ button.close {
       padding: 5px 0;
       margin: 0 0 0 -14px;
       top: 20px; }
-      .courses .row h5:after {
+      .courses .portion-one h5:after {
         content: "";
         position: absolute;
         bottom: -15px;
@@ -6525,23 +6525,23 @@ button.close {
         border-top: 15px solid #0f7563;
         width: 0;
         height: 0; }
-      .courses .row h5 img {
+      .courses .portion-one h5 img {
         margin-top: -5px; }
-    .courses .row .certified-dev-course-section {
+    .courses .portion-one .certified-dev-course-section {
       height: 410px;
       background-image: url("../images/acds-banner.png");
       background-size: cover;
       cursor: pointer; }
-    .courses .row .appBakerzDevelopmentSpecialist {
+    .courses .portion-one .appBakerzDevelopmentSpecialist {
       padding: 80px 20px 20px 0; }
-    .courses .row .appBakerzDevelopmentSpecialist-row-two {
+    .courses .portion-one .appBakerzDevelopmentSpecialist-row-two {
       padding: 0 25px 10px 0; }
-    .courses .row h3 {
+    .courses .portion-one h3 {
       color: #ffffff;
       font-size: 22px;
       font-family: "Raleway", sans-serif;
       font-weight: 600; }
-    .courses .row p {
+    .courses .portion-one p {
       color: #ffffff;
       font-size: 16px;
       padding-bottom: 7px; }
@@ -6567,7 +6567,8 @@ button.close {
       font-size: 25px; }
     .courses .wordpress-course-section p {
       color: #ffffff;
-      font-size: 16px; }
+      font-size: 16px;
+      padding-bottom: 7px; }
   .courses .desktop-course-section {
     background-image: url("../images/desktop-banner.png");
     cursor: pointer;
@@ -6580,7 +6581,8 @@ button.close {
       font-size: 25px; }
     .courses .desktop-course-section p {
       color: #ffffff;
-      font-size: 16px; }
+      font-size: 16px;
+      padding-bottom: 7px; }
   .courses .short-courses {
     text-align: left; }
     .courses .short-courses h5 {
@@ -6630,11 +6632,27 @@ button.close {
       background-image: url("../images/short-hybrid-bg.jpg");
       background-repeat: no-repeat;
       cursor: pointer; }
+    .courses .short-courses .reactjs-short-course-section-hidden {
+      background-image: url("../images/short-react-js-bg.png");
+      background-repeat: no-repeat;
+      cursor: pointer;
+      display: none; }
+    .courses .short-courses .api-short-course-section-hidden {
+      background-image: url("../images/short-api-bg.png");
+      background-repeat: no-repeat;
+      cursor: pointer;
+      display: none; }
+    .courses .short-courses .info-tech-short-course-section-hidden {
+      background-image: url("../images/short-IT-bg.png");
+      background-repeat: no-repeat;
+      cursor: pointer;
+      display: none; }
   .courses h6 {
     font-family: "Raleway", sans-serif;
     font-size: 20px;
     text-align: center;
-    margin: 30px 0 50px 0;
+    padding: 40px 0 60px 0;
+    margin: 0 !important;
     text-transform: uppercase; }
     .courses h6 a {
       font-weight: 700;
@@ -6645,21 +6663,24 @@ button.close {
 .certified-courses {
   background-image: url("../images/certifiedCoursesBanner.png");
   background-repeat: no-repeat;
-  background-size: cover;
   text-align: center; }
   .certified-courses .container {
     padding: 80px 0; }
-    .certified-courses .container h1 {
+    .certified-courses .container p {
       color: #ffffff;
-      font-size: 40px; }
+      font-size: 40px;
+      font-family: "Raleway", sans-serif;
+      padding: 10px 0; }
     .certified-courses .container button {
       text-transform: uppercase;
       border: none;
       background-color: #ffffff;
+      font-family: "Raleway", sans-serif;
       color: #18ab91;
       font-size: 18px;
       width: 180px;
-      height: 35px; }
+      height: 35px;
+      font-weight: 600; }
 
 .create-courses {
   background: url("../images/create-course-bg.jpg") no-repeat;
@@ -6756,14 +6777,13 @@ button.close {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  padding: 100px 0 40px 0 !important; }
-  .languages .row {
-    margin-bottom: 50px; }
+  padding: 40px 0 !important; }
   .languages .flex-container {
     list-style: none;
     display: inline-flex;
     -webkit-flex-flow: row wrap;
-    justify-content: center; }
+    justify-content: center;
+    margin-bottom: 50px; }
     .languages .flex-container img {
       padding: 0 30px 0 30px !important; }
     .languages .flex-container .lang-express {
@@ -6792,9 +6812,11 @@ button.close {
       font-weight: 600; }
     .recent-events .spacing p {
       font-size: 16px;
-      color: #999; }
+      color: #999;
+      margin-bottom: 0 !important; }
     .recent-events .spacing span {
-      font-size: 16px; }
+      font-size: 14px;
+      padding: 0 9px 0 0; }
 
 .map {
   position: relative; }
@@ -6993,36 +7015,129 @@ button.close {
     font-size: 12px !important;
     margin: -50px -50px 0 5px !important; }
 
-  .courses .row h5 {
+  .courses h1 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 30px 0 30px 0; }
+  .courses .portion-one h5 {
     width: 60%;
     font-size: 11px;
     top: 0;
     left: -4px; }
-  .courses .row h3 {
+  .courses .portion-one h3 {
     font-size: 16px;
-    padding-top: 25px; }
-  .courses .row .certified-dev-course-section {
+    padding-top: 25px;
+    margin: 10px; }
+  .courses .portion-one p {
+    font-size: 13px;
+    margin-bottom: 0 !important; }
+  .courses .portion-one .certified-dev-course-section {
     height: auto;
     padding: 5px !important; }
-    .courses .row .certified-dev-course-section .appBakerzDevelopmentSpecialist {
+    .courses .portion-one .certified-dev-course-section .appBakerzDevelopmentSpecialist {
       display: none; }
-  .courses .row .appBakerzDevelopmentSpecialist-row-two {
+  .courses .portion-one .appBakerzDevelopmentSpecialist-row-two {
     display: none; }
-  .courses .apps-icons {
+  .courses .portion-one .apps-icons {
     display: none; }
-  .courses .short-courses {
-    margin-bottom: 10px; }
-    .courses .short-courses h5 {
+  .courses .portion-two h3 {
+    font-size: 16px;
+    padding-top: 25px;
+    margin: 10px; }
+  .courses .portion-two p {
+    font-size: 13px;
+    margin-bottom: 0 !important; }
+  .courses .portion-two .apps-icons {
+    display: none; }
+  .courses .short-courses .col-xs-6 {
+    padding: 10px !important; }
+  .courses .short-courses h5 {
+    width: 85%;
+    font-size: 9px;
+    top: 5px;
+    left: 0 !important;
+    padding: 2px 0 2px 17px !important; }
+  .courses .short-courses h3 {
+    font-size: 14px;
+    padding: 10px 0 0 5px !important; }
+  .courses .short-courses p {
+    display: none; }
+  .courses .short-courses span {
+    font-size: 9px;
+    padding: 0 0 0 5px !important; }
+  .courses .short-courses .reactjs-short-course-section-hidden {
+    background-size: cover;
+    display: inline-block; }
+  .courses .short-courses .api-short-course-section-hidden {
+    display: inline-block; }
+  .courses .short-courses .info-tech-short-course-section-hidden {
+    display: inline-block; }
+  .courses h6 {
+    font-size: 17px;
+    padding: 20px 82px 50px 80px; }
+    .courses h6 a:hover {
+      color: darkcyan; }
+
+  .certified-courses .container {
+    padding: 20px !important; }
+    .certified-courses .container img {
+      width: 70px;
+      height: 70px; }
+    .certified-courses .container p {
+      font-size: 25px !important;
+      line-height: 1; }
+
+  .form-transformation {
+    left: 10px !important;
+    font-size: 15px !important; }
+    .form-transformation .form-div {
       width: 100%;
-      font-size: 9px;
-      top: 5px;
-      left: -1px; }
-    .courses .short-courses h3 {
-      font-size: 14px;
-      padding-top: 40px !important; }
-    .courses .short-courses p {
-      display: none; }
-    .courses .short-courses span {
-      font-size: 9px; } }
+      height: 100%; }
+      .form-transformation .form-div h1 {
+        font-size: 26px !important;
+        margin-top: 0 !important; }
+      .form-transformation .form-div button {
+        height: 40px; }
+    .form-transformation .textarea-comments .form-control {
+      font-size: 15px !important; }
+
+  .details img {
+    padding: 10px 0 5px 0; }
+  .details p {
+    width: 100%;
+    margin: 15px 0 0 0 !important;
+    font-size: 16px !important; }
+
+  .last-div .bg-on-image {
+    padding: 30px 0; }
+  .last-div .appBakerZ {
+    margin: 10px 0;
+    padding: 0 !important; }
+  .last-div h5 {
+    font-size: 14px !important; }
+  .last-div p {
+    font-size: 10px !important; }
+  .last-div .input-group {
+    display: inline-block;
+    padding: 0 !important; }
+    .last-div .input-group input {
+      width: 100%;
+      text-align: center;
+      color: #333; }
+  .last-div button {
+    margin: 10px 0 0 10px;
+    width: 135px !important; }
+  .last-div i {
+    margin-top: 40px !important; }
+  .last-div .social-media-icons {
+    margin: 20px 0;
+    padding-top: 0 !important;
+    cursor: pointer; }
+
+  .footer {
+    margin: 0; }
+    .footer .all-rights-reserved {
+      font-size: 12px;
+      display: inline-block; } }
 
 /*# sourceMappingURL=main.css.map */
