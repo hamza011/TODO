@@ -480,18 +480,27 @@
     font-family: $font-style;
     font-size: 35px;
   }
-  .chekbox{
+  .checkbox{
     width: 19%;
     display: inline-block;
     background: $color-white;
     margin-bottom: 20px;
     margin-right: 5px;
   }
-
+  .checkbox-hidden{
+    width: 19%;
+    display: inline-block;
+    background: $color-white;
+    margin-bottom: 20px;
+    margin-right: 5px;
+  }
+  .checkbox-extra{
+    display: none;
+  }
   input{
     display: none;
   }
-  label {
+  label{
     position: relative;
     margin-bottom: 10px;
     display: inline-block;
@@ -510,6 +519,7 @@
     background: #18ab91;
     margin: 0;
   }
+
   .prerequisites-column{
     float: left;
     background: $color-white;
@@ -530,19 +540,19 @@
         margin-left: 8px;
       }
       ul {
-          display: inline-flex;
-          list-style: none;
-          padding: 0 !important;
-          li {
-            padding: 0 20px 0 0;
+        display: inline-flex;
+        list-style: none;
+        padding: 0 !important;
+        li {
+          padding: 2px 20px;
 
-            p {
-              background: $color-white;
-              width: 100%;
-              padding: 0 60px;
-            }
+          p {
+            background: $color-white;
+            width: 100%;
+            padding: 0 60px;
           }
         }
+      }
 
     }
     .courses-duration{
@@ -577,21 +587,21 @@
     }
   }
 
-    ul{
-      li{
-        background: #ebebeb;
-        padding: 5px 34px;
-        margin: 20px 0 0 10px;
-      }
+  ul{
+    li{
+      background: #ebebeb;
+      padding: 5px 34px;
+      margin: 20px 0 0 10px;
     }
   }
+}
 
 .languages {
   background-image: url("../images/icons-banner.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  padding: 40px 0 !important;
+  padding: 40px 0 0 0 !important;
   //.container {
   //}
   .flex-container {
@@ -605,7 +615,7 @@
       padding: 0 30px 0 30px !important;
     }
     .lang-express {
-      margin-top: 25px;
+      margin: 25px 0 0 -50px;
     }
 
   }
@@ -973,8 +983,8 @@
         //margin-top: 0 !important;
       }
       .apps-icons{
-      display: none;
-    }
+        display: none;
+      }
     }
 
     .short-courses{
@@ -1023,8 +1033,8 @@
     }
   }
   .certified-courses{
-      .container{
-        padding: 20px !important;
+    .container{
+      padding: 20px !important;
       img{
         width: 70px;
         height: 70px;
@@ -1036,80 +1046,196 @@
     }
   }
 
-  .form-transformation {
-    .form-div{
-      width:100%;
-      height:100%;
-      h1{
-        font-size: 26px !important;
-        margin-top: 0 !important;
-      }
-      button{
-        height: 40px;
-      }
+  .create-courses{
+    padding: 0 !important;
+    h1{
+      //margin-bottom: 0 !important;
+      line-height: 20px;
+      margin: 20px 49px 20px 60px;
+      font-size: 18px;
+      font-weight: 600;
     }
-
-    left: 10px !important;
-    font-size: 15px !important;
-    .textarea-comments {
-      .form-control {
-        font-size: 15px !important;
-      }
-    }
-  }
-  .details{
-
-    img{
-      padding: 10px 0 5px 0;
-    }
-    p{
+    .checkbox{
       width: 100%;
-      margin: 15px 0 0 0 !important;
-      font-size:  16px !important;
+      display: inline-block;
+      background: $color-white;
+      margin-bottom: 20px;
+      margin-right: 5px;
+    }
+    .checkbox-hidden{
+      width: 100%;
+      display: none;
+    }
+    .checkbox-extra{
+      display: inline-block;
+    }
+    label{
+      font-size: 10px;
+    }
+    .prerequisites-column {
+      float: left;
+      background: $color-white;
+      width: 100%;
+      height: 250px;
+      padding: 0 20px;
+
+      .html-css {
+        width: 100%;
+        font-size: 10px;
+
+        h2 {
+          font-family: 'Raleway SemiBold', sans-serif;
+          font-size: 16px;
+          text-align: center;
+        }
+        ul{
+
+
+          li {
+            padding: 5px 5px 5px 5px;
+            margin: 0 10px 0 -2px;
+            p {
+              background: $color-white;
+              width: 100%;
+              padding: 0 60px;
+            }
+        }
+        }
+      }
+
+      .courses-duration{
+        width: 100%;
+        margin: 0 !important;
+        border-left: 0 solid #acacac;
+        height: 130px;
+        h2{
+          font-size: 16px;
+          margin: 0 0 10px 0 !important;
+        }
+        p{
+          font-size: 13px;
+          font-family: Raleway, sans-serif;
+        }
+        button{
+          width: 80%;
+          height: auto;
+          font-family: "Raleway SemiBold",sans-serif;
+          font-size: 16px;
+          color: $color-white;
+          background: #18ab91;
+          border-radius: 0;
+          box-shadow: 0 5px 10px #acacac;
+          margin-top: 0 !important;
+        }
+      }
+    //ul{
+    //  li{
+    //    background: #ebebeb;
+    //    padding: 5px 34px;
+    //    margin: 20px 0 0 10px;
+    //  }
+    //}
+  }
+}
+
+  .languages {
+    background-image: url("../images/icons-banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 20px 0 0 0 !important;
+    .flex-container {
+      margin-bottom: 25px;
+      padding: 0;
+      .lang-express {
+        margin: 0 !important;
+      }
+      .image-transform{
+        padding: 0 !important;
+        width: 100%;
+        height:auto;
+      }
 
     }
+
+
+
   }
-  .last-div {
-    .bg-on-image{
-      padding:30px 0;
-    }
-    .appBakerZ{
-      margin: 10px 0;
-      padding: 0 !important;
-    }
-    h5{
-      font-size: 14px !important;
-    }
-    p{
-      font-size:10px !important;
-    }
-    .input-group {
-      display: inline-block;
-      padding: 0 !important;
-      input{
-        width: 100%;
-        text-align: center;
-        color: #333;
-      }
+
+.form-transformation {
+  .form-div{
+    width:100%;
+    height:100%;
+    h1{
+      font-size: 26px !important;
+      margin-top: 0 !important;
     }
     button{
-      margin: 10px 0 0 10px;
-      width:135px !important;
-    }
-    i{
-      margin-top: 40px !important;
-    }
-    .social-media-icons {
-      margin: 20px 0;
-      padding-top:0 !important;
-      cursor: pointer;
+      height: 40px;
     }
   }
-  .footer{
-    margin:0;
-    .all-rights-reserved{
-      font-size: 12px;
-      display: inline-block;
+
+  left: 10px !important;
+  font-size: 15px !important;
+  .textarea-comments {
+    .form-control {
+      font-size: 15px !important;
     }
   }
+}
+.details{
+
+  img{
+    padding: 10px 0 5px 0;
+  }
+  p{
+    width: 100%;
+    margin: 15px 0 0 0 !important;
+    font-size:  16px !important;
+
+  }
+}
+.last-div {
+  .bg-on-image{
+    padding:30px 0;
+  }
+  .appBakerZ{
+    margin: 10px 0;
+    padding: 0 !important;
+  }
+  h5{
+    font-size: 14px !important;
+  }
+  p{
+    font-size:10px !important;
+  }
+  .input-group {
+    display: inline-block;
+    padding: 0 !important;
+    input{
+      width: 100%;
+      text-align: center;
+      color: #333;
+    }
+  }
+  button{
+    margin: 10px 0 0 10px;
+    width:135px !important;
+  }
+  i{
+    margin-top: 40px !important;
+  }
+  .social-media-icons {
+    margin: 20px 0;
+    padding-top:0 !important;
+    cursor: pointer;
+  }
+}
+.footer{
+  margin:0;
+  .all-rights-reserved{
+    font-size: 12px;
+    display: inline-block;
+  }
+}
 }

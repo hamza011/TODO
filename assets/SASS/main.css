@@ -6691,12 +6691,20 @@ button.close {
     margin-bottom: 50px;
     font-family: "Raleway", sans-serif;
     font-size: 35px; }
-  .create-courses .chekbox {
+  .create-courses .checkbox {
     width: 19%;
     display: inline-block;
     background: #ffffff;
     margin-bottom: 20px;
     margin-right: 5px; }
+  .create-courses .checkbox-hidden {
+    width: 19%;
+    display: inline-block;
+    background: #ffffff;
+    margin-bottom: 20px;
+    margin-right: 5px; }
+  .create-courses .checkbox-extra {
+    display: none; }
   .create-courses input {
     display: none; }
   .create-courses label {
@@ -6736,7 +6744,7 @@ button.close {
         list-style: none;
         padding: 0 !important; }
         .create-courses .prerequisites-column .html-css ul li {
-          padding: 0 20px 0 0; }
+          padding: 2px 20px; }
           .create-courses .prerequisites-column .html-css ul li p {
             background: #ffffff;
             width: 100%;
@@ -6777,7 +6785,7 @@ button.close {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  padding: 40px 0 !important; }
+  padding: 40px 0 0 0 !important; }
   .languages .flex-container {
     list-style: none;
     display: inline-flex;
@@ -6787,7 +6795,7 @@ button.close {
     .languages .flex-container img {
       padding: 0 30px 0 30px !important; }
     .languages .flex-container .lang-express {
-      margin-top: 25px; }
+      margin: 25px 0 0 -50px; }
 
 .recent-events {
   background-image: url("../images/event-banner.png");
@@ -7086,6 +7094,84 @@ button.close {
     .certified-courses .container p {
       font-size: 25px !important;
       line-height: 1; }
+
+  .create-courses {
+    padding: 0 !important; }
+    .create-courses h1 {
+      line-height: 20px;
+      margin: 20px 49px 20px 60px;
+      font-size: 18px;
+      font-weight: 600; }
+    .create-courses .checkbox {
+      width: 100%;
+      display: inline-block;
+      background: #ffffff;
+      margin-bottom: 20px;
+      margin-right: 5px; }
+    .create-courses .checkbox-hidden {
+      width: 100%;
+      display: none; }
+    .create-courses .checkbox-extra {
+      display: inline-block; }
+    .create-courses label {
+      font-size: 10px; }
+    .create-courses .prerequisites-column {
+      float: left;
+      background: #ffffff;
+      width: 100%;
+      height: 250px;
+      padding: 0 20px; }
+      .create-courses .prerequisites-column .html-css {
+        width: 100%;
+        font-size: 10px; }
+        .create-courses .prerequisites-column .html-css h2 {
+          font-family: 'Raleway SemiBold', sans-serif;
+          font-size: 16px;
+          text-align: center; }
+        .create-courses .prerequisites-column .html-css ul li {
+          padding: 5px 5px 5px 5px;
+          margin: 0 10px 0 -2px; }
+          .create-courses .prerequisites-column .html-css ul li p {
+            background: #ffffff;
+            width: 100%;
+            padding: 0 60px; }
+      .create-courses .prerequisites-column .courses-duration {
+        width: 100%;
+        margin: 0 !important;
+        border-left: 0 solid #acacac;
+        height: 130px; }
+        .create-courses .prerequisites-column .courses-duration h2 {
+          font-size: 16px;
+          margin: 0 0 10px 0 !important; }
+        .create-courses .prerequisites-column .courses-duration p {
+          font-size: 13px;
+          font-family: Raleway, sans-serif; }
+        .create-courses .prerequisites-column .courses-duration button {
+          width: 80%;
+          height: auto;
+          font-family: "Raleway SemiBold",sans-serif;
+          font-size: 16px;
+          color: #ffffff;
+          background: #18ab91;
+          border-radius: 0;
+          box-shadow: 0 5px 10px #acacac;
+          margin-top: 0 !important; }
+
+  .languages {
+    background-image: url("../images/icons-banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 20px 0 0 0 !important; }
+    .languages .flex-container {
+      margin-bottom: 25px;
+      padding: 0; }
+      .languages .flex-container .lang-express {
+        margin: 0 !important; }
+      .languages .flex-container .image-transform {
+        padding: 0 !important;
+        width: 100%;
+        height: auto; }
 
   .form-transformation {
     left: 10px !important;
