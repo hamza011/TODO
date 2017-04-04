@@ -55,7 +55,6 @@
   }
   .navbar-nav > li > a {
     padding:10px !important;
-
     &:hover{
       color: #ffffff;
       border-bottom: 2px solid #ffffff;
@@ -784,10 +783,41 @@
     i{
       margin-top: 40px !important;
     }
-    .social-media-icons {
-      margin: 20px 0;
-      padding-top:0 !important;
-      cursor: pointer;
+    .fa-facebook {
+      background-color: #ffffff;
+      font-size: 30px;
+      padding: 5px 0;
+      color: #000;
+      &:hover {
+        background-color: #005eb2;
+      }
+    }
+    .fa-google-plus{
+      background-color: #ffffff;
+      font-size: 30px;
+      padding: 5px 0;
+      color: #000;
+      &:hover {
+        background-color: #e62b34;
+      }
+    }
+    .fa-twitter{
+      background-color: #ffffff;
+      font-size: 30px;
+      padding: 5px 0;
+      color: #000;
+      &:hover {
+        background-color: #43bdf0;
+      }
+    }
+    .fa-youtube-play {
+      background-color: #ffffff;
+      font-size: 30px;
+      padding: 5px 0;
+      color: #000;
+      &:hover {
+        background-color: #dd3125;
+      }
     }
   }
   .footer{

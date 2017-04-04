@@ -6335,10 +6335,34 @@ button.close {
     width: 135px !important; }
   .last-div i {
     margin-top: 40px !important; }
-  .last-div .social-media-icons {
-    margin: 20px 0;
-    padding-top: 0 !important;
-    cursor: pointer; }
+  .last-div .fa-facebook {
+    background-color: #ffffff;
+    font-size: 30px;
+    padding: 5px 0;
+    color: #000; }
+    .last-div .fa-facebook:hover {
+      background-color: #005eb2; }
+  .last-div .fa-google-plus {
+    background-color: #ffffff;
+    font-size: 30px;
+    padding: 5px 0;
+    color: #000; }
+    .last-div .fa-google-plus:hover {
+      background-color: #e62b34; }
+  .last-div .fa-twitter {
+    background-color: #ffffff;
+    font-size: 30px;
+    padding: 5px 0;
+    color: #000; }
+    .last-div .fa-twitter:hover {
+      background-color: #43bdf0; }
+  .last-div .fa-youtube-play {
+    background-color: #ffffff;
+    font-size: 30px;
+    padding: 5px 0;
+    color: #000; }
+    .last-div .fa-youtube-play:hover {
+      background-color: #dd3125; }
 
   .footer {
     margin: 0; }
@@ -6692,13 +6716,7 @@ button.close {
     font-family: "Raleway", sans-serif;
     font-size: 35px; }
   .create-courses .checkbox {
-    width: 19%;
-    display: inline-block;
-    background: #ffffff;
-    margin-bottom: 20px;
-    margin-right: 5px; }
-  .create-courses .checkbox-hidden {
-    width: 19%;
+    width: 100%;
     display: inline-block;
     background: #ffffff;
     margin-bottom: 20px;
@@ -6713,7 +6731,7 @@ button.close {
     display: inline-block;
     padding: 10px 30px 0 10px;
     cursor: pointer;
-    font-size: 14px;
+    font-size: 10px;
     font-family: "Raleway", sans-serif;
     font-weight: normal; }
   .create-courses input[type="checkbox"]:checked + label,
@@ -6776,7 +6794,8 @@ button.close {
         box-shadow: 0 5px 10px #acacac;
         margin-top: 10px; }
   .create-courses ul li {
-    background: #ebebeb;
+    font-size: 10px;
+    background-color: #ebebeb;
     padding: 5px 34px;
     margin: 20px 0 0 10px; }
 
@@ -6941,14 +6960,34 @@ button.close {
     color: #ffffff;
     cursor: pointer;
     font-size: 45px; }
-  .last-div .fa-facebook-official:hover {
-    color: #005eb2; }
-  .last-div .fa-google-plus-square:hover {
-    color: #e62b34; }
-  .last-div .fa-twitter-square:hover {
-    color: #43bdf0; }
-  .last-div .fa-youtube-square:hover {
-    color: #dd3125; }
+  .last-div .fa-facebook {
+    background-color: #ffffff;
+    font-size: 30px;
+    padding: 5px 0;
+    color: #000; }
+    .last-div .fa-facebook:hover {
+      background-color: #005eb2; }
+  .last-div .fa-google-plus {
+    background-color: #ffffff;
+    font-size: 30px;
+    padding: 5px 0;
+    color: #000; }
+    .last-div .fa-google-plus:hover {
+      background-color: #e62b34; }
+  .last-div .fa-twitter {
+    background-color: #ffffff;
+    font-size: 30px;
+    padding: 5px 0;
+    color: #000; }
+    .last-div .fa-twitter:hover {
+      background-color: #43bdf0; }
+  .last-div .fa-youtube-play {
+    background-color: #ffffff;
+    font-size: 30px;
+    padding: 5px 0;
+    color: #000; }
+    .last-div .fa-youtube-play:hover {
+      background-color: #dd3125; }
 
 .footer {
   background-color: #043450; }
@@ -7158,10 +7197,6 @@ button.close {
           margin-top: 0 !important; }
 
   .languages {
-    background-image: url("../images/icons-banner.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
     padding: 20px 0 0 0 !important; }
     .languages .flex-container {
       margin-bottom: 25px;
@@ -7172,6 +7207,30 @@ button.close {
         padding: 0 !important;
         width: 100%;
         height: auto; }
+
+  .recent-events {
+    padding: 0 15px 30px 15px !important; }
+    .recent-events h3 {
+      font-size: 20px !important;
+      font-weight: bold;
+      margin-bottom: 15px !important; }
+    .recent-events img {
+      width: 100%;
+      height: auto; }
+    .recent-events .spacing {
+      font-family: "Raleway", sans-serif;
+      background-color: #ffffff;
+      padding: 5px 10px; }
+      .recent-events .spacing h4 {
+        font-size: 13px !important;
+        font-weight: 600; }
+      .recent-events .spacing p {
+        font-size: 10px;
+        color: #999;
+        margin-bottom: 0 !important; }
+      .recent-events .spacing span {
+        font-size: 10px;
+        padding: 0 9px 0 0; }
 
   .form-transformation {
     left: 10px !important;
@@ -7215,10 +7274,6 @@ button.close {
     width: 135px !important; }
   .last-div i {
     margin-top: 40px !important; }
-  .last-div .social-media-icons {
-    margin: 20px 0;
-    padding-top: 0 !important;
-    cursor: pointer; }
 
   .footer {
     margin: 0; }
