@@ -6388,11 +6388,10 @@ button.close {
       color: #ffffff; }
   .home-header .clock {
     display: inline-block;
-    width: 22%;
+    width: 21%;
     margin: -28px 0 0; }
     .home-header .clock img {
       width: 15%;
-      height: 15%;
       float: left;
       margin: 0; }
     .home-header .clock p {
@@ -6402,16 +6401,12 @@ button.close {
       float: right;
       font-size: 11px;
       color: #ffffff; }
-  .home-header .navbar-brand {
-    padding-top: 15px; }
   .home-header .navbar-nav {
     color: white;
-    margin-left: 60px; }
-  .home-header .navbar-nav > li > a {
-    padding: 10px !important; }
-    .home-header .navbar-nav > li > a:hover {
-      color: #ffffff;
-      border-bottom: 2px solid #ffffff; }
+    margin-left: 35px; }
+  .home-header .navbar-nav > li > a:hover {
+    color: #ffffff;
+    border-bottom: 2px solid #ffffff; }
   .home-header .main-heading {
     text-align: center;
     font-family: "Raleway", sans-serif;
@@ -6435,11 +6430,19 @@ button.close {
         margin-top: 15px;
         color: #ffffff; }
       .home-header .main-heading .special-development-icons .front-end-development {
-        margin-left: 21%; }
+        margin-left: 20%; }
       .home-header .main-heading .special-development-icons .js-dev {
-        margin-left: -90px; }
-    .home-header .main-heading button {
-      display: none; }
+        margin-left: -80px; }
+    .home-header .main-heading .btn {
+      width: 13%;
+      color: #4c667a;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 600;
+      border-radius: 0 !important;
+      margin-top: 40px;
+      box-shadow: 0 10px 30px #476b91;
+      display: inline-block;
+      padding: 5px; }
   .home-header .navbar-toggle {
     margin-top: 50px !important; }
   .home-header .logo-top {
@@ -6456,22 +6459,25 @@ button.close {
     margin-top: 200px;
     padding: 0; }
   .about-us .about-heading {
+    width: auto;
     font-family: "Raleway", sans-serif;
     color: #555555;
     font-size: 35px;
-    margin-bottom: 50px; }
+    margin-bottom: 35px; }
   .about-us .about-paragraph {
-    width: 116%;
+    width: auto;
     font-family: "Raleway", sans-serif;
     color: #979797;
-    font-size: 20px; }
+    font-size: 17px;
+    margin: 0; }
   .about-us img {
     margin-top: 50px;
     height: 535px; }
 
 .inline-block-elem {
   display: inline-block;
-  vertical-align: middle; }
+  vertical-align: middle;
+  background-position: center; }
 
 .third-div {
   height: 150px;
@@ -6485,7 +6491,7 @@ button.close {
     background-size: cover;
     background-attachment: fixed;
     display: table-cell;
-    padding: 40px 0 0 0;
+    padding: 20px 0 0 0;
     vertical-align: middle; }
   .third-div .teachingStaff, .third-div .ourCourses, .third-div .freeGuide {
     background: url("../images/best-teacher-icon.png") no-repeat;
@@ -6539,7 +6545,7 @@ button.close {
       position: relative;
       padding: 5px 0;
       margin: 0 0 0 -14px;
-      top: 20px; }
+      top: 15px; }
       .courses .portion-one h5:after {
         content: "";
         position: absolute;
@@ -6557,9 +6563,9 @@ button.close {
       background-size: cover;
       cursor: pointer; }
     .courses .portion-one .appBakerzDevelopmentSpecialist {
-      padding: 80px 20px 20px 0; }
+      padding: 60px 10px 20px 10px; }
     .courses .portion-one .appBakerzDevelopmentSpecialist-row-two {
-      padding: 0 25px 10px 0; }
+      padding: 0 10px 20px 10px; }
     .courses .portion-one h3 {
       color: #ffffff;
       font-size: 22px;
@@ -6657,17 +6663,20 @@ button.close {
       background-repeat: no-repeat;
       cursor: pointer; }
     .courses .short-courses .reactjs-short-course-section-hidden {
-      background-image: url("../images/short-react-js-bg.png");
+      width: 100%;
+      background-image: url("../images/ract-bd-short-course.png");
       background-repeat: no-repeat;
       cursor: pointer;
       display: none; }
     .courses .short-courses .api-short-course-section-hidden {
-      background-image: url("../images/short-api-bg.png");
+      width: 100%;
+      background-image: url("../images/api-bg-short-course.png");
       background-repeat: no-repeat;
       cursor: pointer;
       display: none; }
     .courses .short-courses .info-tech-short-course-section-hidden {
-      background-image: url("../images/short-IT-bg.png");
+      width: 100%;
+      background-image: url("../images/information-tech-bg-short-course.png");
       background-repeat: no-repeat;
       cursor: pointer;
       display: none; }
@@ -6804,7 +6813,7 @@ button.close {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  padding: 40px 0 0 0 !important; }
+  padding: 100px 0 0 0 !important; }
   .languages .flex-container {
     list-style: none;
     display: inline-flex;
@@ -6996,6 +7005,201 @@ button.close {
     font-family: "Open Sans", sans-serif;
     font-size: 16px; }
 
+@media (min-width: 768px) and (max-width: 991px) {
+  .home-header {
+    height: auto !important;
+    padding-bottom: 40px; }
+    .home-header .navbar-default {
+      margin-bottom: 0; }
+      .home-header .navbar-default .logo-top {
+        padding: 0 !important; }
+      .home-header .navbar-default .navbar-nav {
+        margin: 25px 25px 0 25px !important; }
+      .home-header .navbar-default .clock {
+        display: none; }
+    .home-header .container-fluid {
+      background-color: black; }
+    .home-header .navbar-header {
+      padding: 0 0 21px; }
+    .home-header .navbar-collapse {
+      position: relative;
+      top: 0; }
+    .home-header .main-heading h1 {
+      font-size: 40px !important;
+      margin: 50px 0; }
+    .home-header .main-heading .special-development-icons {
+      display: none; }
+    .home-header .main-heading .btn {
+      width: 25%; }
+
+  .about-us .about-text {
+    margin-top: 20px;
+    padding: 0; }
+  .about-us .about-heading {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    color: #555555;
+    font-size: 22px;
+    margin-bottom: 20px; }
+  .about-us .about-paragraph {
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    color: #979797;
+    font-size: 13px; }
+  .about-us img {
+    margin-top: 20px;
+    height: 200px; }
+
+  .third-div {
+    background-size: cover; }
+    .third-div .teachingStaff, .third-div .ourCourses, .third-div .freeGuide {
+      width: 50%; }
+    .third-div .text-uppercase-bold {
+      font-weight: 500;
+      font-size: 18px; }
+    .third-div .tagline {
+      font-size: 12px !important;
+      margin: -15px 0 0 10px !important; }
+    .third-div .tagline-guide {
+      font-size: 12px !important;
+      margin: -15px 0 0 10px !important; }
+
+  .courses h1 {
+    font-size: 30px;
+    margin: 30px 0 10px 0; }
+  .courses .portion-one {
+    text-align: center; }
+    .courses .portion-one h5 {
+      width: 45%;
+      font-size: 10px; }
+    .courses .portion-one .certified-dev-course-section {
+      height: 398px; }
+    .courses .portion-one .appBakerzDevelopmentSpecialist {
+      padding: 60px 0 20px 10px; }
+    .courses .portion-one .appBakerzDevelopmentSpecialist-row-two {
+      padding: 0 0 10px 10px; }
+    .courses .portion-one h3 {
+      font-size: 20px; }
+    .courses .portion-one p {
+      font-size: 14px; }
+  .courses .wordpress-course-section h3 {
+    color: #ffffff;
+    font-size: 20px; }
+  .courses .wordpress-course-section p {
+    color: #ffffff;
+    font-size: 14px;
+    padding-bottom: 7px; }
+  .courses .desktop-course-section h3 {
+    color: #ffffff;
+    font-size: 20px; }
+  .courses .desktop-course-section p {
+    color: #ffffff;
+    font-size: 14px;
+    padding-bottom: 7px; }
+  .courses .short-courses {
+    text-align: left; }
+    .courses .short-courses .col-sm-6 {
+      padding: 10px !important; }
+    .courses .short-courses h5 {
+      width: 30%;
+      font-size: 10px;
+      padding: 3px 0 3px 20px !important; }
+    .courses .short-courses h3 {
+      font-size: 20px; }
+    .courses .short-courses p {
+      font-size: 13px; }
+    .courses .short-courses span {
+      font-size: 14px; }
+    .courses .short-courses .reactjs-short-course-section-hidden {
+      display: inline-block; }
+    .courses .short-courses .api-short-course-section-hidden {
+      display: inline-block; }
+    .courses .short-courses .info-tech-short-course-section-hidden {
+      display: inline-block; }
+  .courses h6 {
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 40px 0 60px 0;
+    margin: 0 !important;
+    text-transform: uppercase; }
+    .courses h6 a {
+      font-weight: 700;
+      text-decoration: none;
+      color: #000;
+      cursor: pointer; }
+
+  .certified-courses .container {
+    padding: 30px 0; }
+    .certified-courses .container img {
+      width: 50px;
+      height: 50px; }
+    .certified-courses .container p {
+      font-size: 24px; }
+
+  .create-courses {
+    padding: 20px 0; }
+    .create-courses h1 {
+      margin-bottom: 10px !important;
+      font-size: 24px !important; }
+    .create-courses .col-sm-6 {
+      text-align: center; }
+    .create-courses .checkbox {
+      width: 100%;
+      display: inline-block;
+      background: #ffffff;
+      margin-bottom: 20px;
+      margin-right: 5px; }
+    .create-courses .checkbox-hidden {
+      width: 100%;
+      display: none; }
+    .create-courses .checkbox-extra {
+      display: inline-block; }
+    .create-courses label {
+      font-size: 13px; }
+    .create-courses .prerequisites-column .html-css {
+      width: 65%;
+      font-size: 13px; }
+      .create-courses .prerequisites-column .html-css h2 {
+        font-size: 18px; }
+    .create-courses .prerequisites-column .courses-duration button {
+      width: 75%;
+      height: 55px;
+      font-size: 16px; }
+    .create-courses .prerequisites-column ul li {
+      font-size: 13px; }
+
+  .languages {
+    padding: 20px 0 0 0 !important; }
+    .languages .flex-container {
+      margin-bottom: 25px; }
+      .languages .flex-container .lang-express {
+        margin: 0 !important; }
+      .languages .flex-container .image-transform {
+        padding: 7px !important;
+        width: 45%;
+        height: 60px; }
+
+  .recent-events h3 {
+    font-size: 24px;
+    margin-bottom: 30px; }
+  .recent-events img {
+    width: 100%;
+    height: auto; }
+  .recent-events .spacing h4 {
+    font-size: 18px; }
+  .recent-events .spacing p {
+    font-size: 14px; }
+  .recent-events .spacing span {
+    font-size: 12px; }
+
+  .form-transformation {
+    left: 50px !important; }
+
+  .last-div .appBakerZ {
+    padding-top: 0 !important; }
+  .last-div i {
+    margin-top: 10px !important; } }
 @media (min-width: 320px) and (max-width: 767px) {
   .home-header {
     height: auto !important;
@@ -7043,13 +7247,12 @@ button.close {
     font-size: 20px;
     margin-bottom: 30px; }
   .about-us .about-paragraph {
-    width: 100%;
     font-family: "Raleway", sans-serif;
     text-align: center;
     color: #979797;
     font-size: 13px; }
   .about-us img {
-    margin-top: 0px;
+    margin-top: 20px;
     height: 200px; }
 
   .third-div .text-uppercase-bold {
@@ -7106,14 +7309,14 @@ button.close {
     padding: 2px 0 2px 17px !important; }
   .courses .short-courses h3 {
     font-size: 14px;
-    padding: 10px 0 0 5px !important; }
+    padding: 30px 0 0 6px !important;
+    margin-bottom: 0; }
   .courses .short-courses p {
     display: none; }
   .courses .short-courses span {
-    font-size: 9px;
+    font-size: 10px;
     padding: 0 0 0 5px !important; }
   .courses .short-courses .reactjs-short-course-section-hidden {
-    background-size: cover;
     display: inline-block; }
   .courses .short-courses .api-short-course-section-hidden {
     display: inline-block; }
@@ -7141,6 +7344,8 @@ button.close {
       margin: 20px 49px 20px 60px;
       font-size: 18px;
       font-weight: 600; }
+    .create-courses .col-xs-6 {
+      text-align: center; }
     .create-courses .checkbox {
       width: 100%;
       display: inline-block;

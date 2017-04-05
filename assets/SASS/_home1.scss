@@ -7,7 +7,6 @@
     background-color: transparent !important;
     border-color: transparent;
   }
-
   .navbar-collapse {
     width: 100%;
     padding: 35px 0 0 35px;
@@ -15,23 +14,19 @@
     position: relative;
     top: 30px;
     left: 15px;
-
     ul li a{
       color: $color-white;
     }
   }
-
   .clock {
     display: inline-block;
-    width: 22%;
+    width: 21%;
     margin: -28px 0 0;
     img{
       width: 15%;
-      height: 15%;
       float: left;
       margin: 0;
     }
-
     p{
       width: 79%;
       margin: 0 !important;
@@ -41,29 +36,20 @@
       color: $color-white;
     }
   }
-
-  .navbar-brand {
-    padding-top: 15px;
-  }
-
   .navbar-nav{
     color:white;
-    margin-left:60px;
+    margin-left:35px;
   }
   .navbar-nav > li > a {
-    padding:10px !important;
-
     &:hover{
       color: $color-white;
       border-bottom: 2px solid $color-white;
     }
   }
-
   .main-heading{
     text-align:center;
     font-family:$font-style;
     margin: 80px 0;
-    //color: $input-bg;
     h1{
       font-size: 60px;
       color: $color-white;
@@ -72,8 +58,6 @@
       margin-bottom:80px;
       letter-spacing: 5px;
       text-transform: uppercase;
-      //margin: 0;
-
     }
     .special-development-icons{
       text-align: center;
@@ -81,37 +65,30 @@
         height: 40px;
       }
       p {
-        //padding: 5px 0;
         font-size: 12px;
         font-family: 'Raleway Bold', sans-serif;
         font-weight:600;
         margin-top: 15px;
         color: $color-white;
       }
-
       .front-end-development{
-        margin-left: 21%;
+        margin-left: 20%;
       }
       .js-dev{
-        margin-left: -90px;
-
+        margin-left: -80px;
       }
     }
-    button{
-      display: none;
+    .btn{
+      width: 13%;
+      color: #4c667a;
+      font-family: 'Raleway', sans-serif;
+      font-weight:600;
+      border-radius: 0 !important;
+      margin-top: 40px;
+      box-shadow: 0 10px 30px #476b91;
+      display: inline-block;
+      padding: 5px;
     }
-
-    //.btn{
-    //  //width: 24%;
-    //  color: #4c667a;
-    //  font-family: 'Raleway Bold', sans-serif;
-    //  font-weight:600;
-    //  border-radius: 0 !important;
-    //  //padding: 10px 20px;
-    //  margin-top: 60px;
-    //  box-shadow: 0 10px 30px #476b91;
-    //  display: inline-block;
-    //}
   }
 
   .navbar-toggle{
@@ -123,9 +100,7 @@
   .navbar-collapse{
     border:0;
     padding:0 !important;
-
   }
-
 }
 
 .about-us{
@@ -137,17 +112,19 @@
     padding: 0;
   }
   .about-heading{
+    width: auto;
     font-family: $font-style;
     color: #555555;
     font-size: 35px;
-    margin-bottom: 50px;
+    margin-bottom: 35px;
 
   }
   .about-paragraph{
-    width:116%;
+    width: auto;
     font-family: $font-style;
     color: #979797;
-    font-size: 20px;
+    font-size: 17px;
+    margin: 0;
   }
   img{
     margin-top: 50px;
@@ -158,7 +135,7 @@
 .inline-block-elem {
   display: inline-block;
   vertical-align: middle;
-  //background-position: center;
+  background-position: center;
 }
 .third-div {
   height: 150px;
@@ -167,16 +144,14 @@
   font-size:23px;
   text-align: center;
   display: table;
-
   .row{
     background: url("../images/background.png") no-repeat;
     background-size: cover;
     background-attachment: fixed;
     display: table-cell;
-    padding: 40px 0 0 0;
-    vertical-align:middle ;
+    padding: 20px 0 0 0;
+    vertical-align:middle;
   }
-
   .teachingStaff {
     background: url("../images/best-teacher-icon.png") no-repeat;
     background-position: center !important;
@@ -247,7 +222,7 @@
       position: relative;
       padding: 5px 0;
       margin: 0 0 0 -14px;
-      top: 20px;
+      top: 15px;
       &:after {
         content: "";
         position: absolute;
@@ -268,12 +243,11 @@
       background-size: cover;
       cursor: pointer;
     }
-
     .appBakerzDevelopmentSpecialist {
-      padding: 80px 20px 20px 0;
+      padding: 60px 10px 20px 10px;
     }
     .appBakerzDevelopmentSpecialist-row-two {
-      padding: 0 25px 10px 0;
+      padding: 0 10px 20px 10px;
     }
     h3 {
       color: $color-white;
@@ -336,13 +310,10 @@
       color: $color-white;
       font-size: 16px;
       padding-bottom: 7px;
-
     }
   }
-
   .short-courses {
     text-align: left;
-
     h5 {
       width: 40%;
       font-family: $font-style;
@@ -365,7 +336,6 @@
         height: 0;
       }
     }
-
     h3 {
       color: $color-white;
       font-size: 19px;
@@ -401,26 +371,27 @@
       background-repeat: no-repeat;
       cursor: pointer;
     }
-
     .reactjs-short-course-section-hidden {
-      background-image: url("../images/short-react-js-bg.png");
+      width:100%;
+      background-image: url("../images/ract-bd-short-course.png");
       background-repeat: no-repeat;
       cursor: pointer;
       display: none;
     }
     .api-short-course-section-hidden {
-      background-image: url("../images/short-api-bg.png");
+      width:100%;
+      background-image: url("../images/api-bg-short-course.png");
       background-repeat: no-repeat;
       cursor: pointer;
       display: none;
     }
     .info-tech-short-course-section-hidden {
-      background-image: url("../images/short-IT-bg.png");
+      width:100%;
+      background-image: url("../images/information-tech-bg-short-course.png");
       background-repeat: no-repeat;
       cursor: pointer;
       display: none;
     }
-
   }
   h6{
     font-family: $font-style;
@@ -436,26 +407,20 @@
       cursor: pointer;
     }
   }
-
 }
 
 .certified-courses{
   background-image: url("../images/certifiedCoursesBanner.png");
   background-repeat: no-repeat;
-  //background-size: contain;
-  //background-attachment: fixed;
   text-align: center;
-
   .container{
     padding: 80px 0;
-
     p {
       color: $color-white;
       font-size:40px;
       font-family: "Raleway", sans-serif;
       padding: 10px 0;
     }
-
     button{
       text-transform: uppercase;
       border: none;
@@ -602,9 +567,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  padding: 40px 0 0 0 !important;
-  //.container {
-  //}
+  padding: 100px 0 0 0 !important;
   .flex-container {
     list-style: none;
     display: inline-flex;
@@ -859,7 +822,294 @@
 @media(min-width: 992px) and (max-width: 1199px){}
 
 ////// sm
-@media(min-width: 768px)and(max-width: 991px){}
+@media(min-width: 768px)and(max-width: 991px) {
+  .home-header {
+    height: auto !important;
+    padding-bottom: 40px;
+    .navbar-default {
+      margin-bottom: 0;
+      .logo-top {
+        padding: 0 !important;
+      }
+      .navbar-nav {
+        margin: 25px 25px 0 25px !important;
+      }
+      .clock {
+        display: none;
+      }
+    }
+    .container-fluid {
+      background-color: black;
+    }
+    .navbar-header {
+      padding: 0 0 21px;
+    }
+    .navbar-collapse {
+      position: relative;
+      top: 0;
+    }
+    .main-heading {
+      h1 {
+        font-size: 40px !important;
+        margin: 50px 0;
+      }
+      .special-development-icons {
+        display: none;
+      }
+      .btn {
+        width: 25%;
+      }
+    }
+  }
+  .about-us {
+    .about-text {
+      margin-top: 20px;
+      padding: 0;
+    }
+    .about-heading {
+      font-family: $font-style;
+      font-weight: 700;
+      color: #555555;
+      font-size: 22px;
+      margin-bottom: 20px;
+    }
+    .about-paragraph {
+      font-family: $font-style;
+      text-align: center;
+      color: #979797;
+      font-size: 13px;
+    }
+    img {
+      margin-top: 20px;
+      height: 200px;
+    }
+  }
+  .third-div {
+    background-size: cover;
+    .teachingStaff {
+      width: 50%;
+    }
+    .text-uppercase-bold {
+      font-weight: 500;
+      font-size: 18px;
+    }
+    .tagline {
+      font-size: 12px !important;
+      margin: -15px 0 0 10px !important;
+    }
+    .tagline-guide {
+      font-size: 12px !important;
+      margin: -15px 0 0 10px !important;
+    }
+  }
+  .courses {
+    h1 {
+      font-size: 30px;
+      margin: 30px 0 10px 0;
+    }
+    .portion-one {
+      text-align: center;
+      h5 {
+        width: 45%;
+        font-size: 10px;
+      }
+      .certified-dev-course-section {
+        height: 398px;
+      }
+      .appBakerzDevelopmentSpecialist {
+        padding: 60px 0 20px 10px;
+      }
+      .appBakerzDevelopmentSpecialist-row-two {
+        padding: 0 0 10px 10px;
+      }
+      h3 {
+        font-size: 20px;
+      }
+      p {
+        font-size: 14px;
+      }
+    }
+
+    .wordpress-course-section {
+      h3 {
+        color: $color-white;
+        font-size: 20px;
+      }
+      p {
+        color: $color-white;
+        font-size: 14px;
+        padding-bottom: 7px;
+
+      }
+    }
+    .desktop-course-section {
+      h3 {
+        color: $color-white;
+        font-size: 20px;
+      }
+      p {
+        color: $color-white;
+        font-size: 14px;
+        padding-bottom: 7px;
+      }
+    }
+    .short-courses {
+      text-align: left;
+      .col-sm-6 {
+        padding: 10px !important;
+      }
+      h5 {
+        width: 30%;
+        font-size: 10px;
+        padding: 3px 0 3px 20px !important;
+      }
+      h3 {
+        font-size: 20px;
+      }
+      p {
+        font-size: 13px;
+      }
+      span {
+        font-size: 14px;
+      }
+      .reactjs-short-course-section-hidden {
+        display: inline-block;
+      }
+      .api-short-course-section-hidden {
+        display: inline-block;
+      }
+      .info-tech-short-course-section-hidden {
+        display: inline-block;
+      }
+    }
+    h6 {
+      font-family: $font-style;
+      font-size: 20px;
+      text-align: center;
+      padding: 40px 0 60px 0;
+      margin: 0 !important;
+      text-transform: uppercase;
+      a {
+        font-weight: 700;
+        text-decoration: none;
+        color: #000;
+        cursor: pointer;
+      }
+    }
+  }
+  .certified-courses {
+    .container {
+      padding: 30px 0;
+      img {
+        width: 50px;
+        height: 50px;
+      }
+      p {
+        font-size: 24px;
+      }
+
+    }
+  }
+  .create-courses {
+    padding: 20px 0;
+    h1 {
+      margin-bottom: 10px !important;
+      font-size: 24px !important;
+    }
+    .col-sm-6 {
+      text-align: center;
+    }
+    .checkbox {
+      width: 100%;
+      display: inline-block;
+      background: $color-white;
+      margin-bottom: 20px;
+      margin-right: 5px;
+    }
+    .checkbox-hidden {
+      width: 100%;
+      display: none;
+    }
+    .checkbox-extra {
+      display: inline-block;
+    }
+    label {
+      font-size: 13px;
+    }
+    .prerequisites-column {
+      .html-css {
+        width: 65%;
+        font-size: 13px;
+        h2 {
+          font-size: 18px;
+        }
+      }
+
+      .courses-duration {
+        button {
+          width: 75%;
+          height: 55px;
+          font-size: 16px;
+        }
+      }
+      ul {
+        li {
+          font-size: 13px;
+        }
+      }
+    }
+  }
+  .languages {
+    padding: 20px 0 0 0 !important;
+    .flex-container {
+      margin-bottom: 25px;
+      .lang-express {
+        margin: 0 !important;
+      }
+      .image-transform{
+        padding: 7px !important;
+        width: 45%;
+        height: 60px;
+      }
+
+    }
+
+
+
+  }
+  .recent-events {
+    h3 {
+      font-size: 24px;
+      margin-bottom: 30px;
+    }
+    img {
+      width: 100%;
+      height: auto;
+    }
+    .spacing {
+      h4 {
+        font-size: 18px;
+      }
+      p {
+        font-size: 14px;
+      }
+      span {
+        font-size: 12px;
+      }
+    }
+  }
+  .form-transformation{
+    left: 50px !important;
+  }
+  .last-div{
+    .appBakerZ{
+      padding-top: 0 !important;
+    }
+    i{
+      margin-top: 10px !important;
+    }
+  }
+}
 
 ////////xs
 @media(min-width: 320px) and (max-width: 767px) {
@@ -922,17 +1172,15 @@
       text-align: center;
       font-size: 20px;
       margin-bottom: 30px;
-
     }
     .about-paragraph{
-      width:100%;
       font-family: $font-style;
       text-align: center;
       color: #979797;
       font-size: 13px;
     }
     img{
-      margin-top: 0px;
+      margin-top: 20px;
       height: 200px;
     }
   }
@@ -1022,20 +1270,17 @@
       }
       h3{
         font-size:14px;
-        padding: 10px 0 0 5px !important;
+        padding: 30px 0 0 6px !important;
+        margin-bottom: 0;
       }
       p{
         display: none;
       }
       span{
-        font-size: 9px;
+        font-size: 10px;
         padding: 0 0 0 5px !important;
-
-        //margin-top:0 !important;
       }
       .reactjs-short-course-section-hidden {
-        //background-image: url("../images/short-front-end-bg.png") !important;
-        background-size:cover;
         display: inline-block;
       }
       .api-short-course-section-hidden {
@@ -1066,7 +1311,6 @@
       }
     }
   }
-
   .create-courses{
     padding: 0 !important;
     h1{
@@ -1075,7 +1319,9 @@
       margin: 20px 49px 20px 60px;
       font-size: 18px;
       font-weight: 600;
-    }
+    }.col-xs-6{
+       text-align: center;
+     }
     .checkbox{
       width: 100%;
       display: inline-block;
@@ -1149,16 +1395,9 @@
           margin-top: 0 !important;
         }
       }
-    //ul{
-    //  li{
-    //    background: #ebebeb;
-    //    padding: 5px 34px;
-    //    margin: 20px 0 0 10px;
-    //  }
-    //}
+
   }
 }
-
   .languages {
     padding: 20px 0 0 0 !important;
     .flex-container {
@@ -1178,7 +1417,6 @@
 
 
   }
-
   .recent-events {
     padding: 0 15px 30px 15px !important;
     //float: left;
@@ -1210,77 +1448,76 @@
       }
     }
   }
+  .form-transformation {
+    .form-div{
+      width:100%;
+      height:100%;
+      h1{
+        font-size: 26px !important;
+        margin-top: 0 !important;
+      }
+      button{
+        height: 40px;
+      }
+    }
 
-.form-transformation {
-  .form-div{
-    width:100%;
-    height:100%;
-    h1{
-      font-size: 26px !important;
-      margin-top: 0 !important;
+    left: 10px !important;
+    font-size: 15px !important;
+    .textarea-comments {
+      .form-control {
+        font-size: 15px !important;
+      }
+    }
+  }
+  .details{
+
+    img{
+      padding: 10px 0 5px 0;
+    }
+    p{
+      width: 100%;
+      margin: 15px 0 0 0 !important;
+      font-size:  16px !important;
+
+    }
+  }
+  .last-div {
+    .bg-on-image{
+      padding:30px 0;
+    }
+    .appBakerZ{
+      margin: 10px 0;
+      padding: 0 !important;
+    }
+    h5{
+      font-size: 14px !important;
+    }
+    p{
+      font-size:10px !important;
+    }
+    .input-group {
+      display: inline-block;
+      padding: 0 !important;
+      input{
+        width: 100%;
+        text-align: center;
+        color: #333;
+      }
     }
     button{
-      height: 40px;
+      margin: 10px 0 0 10px;
+      width:135px !important;
     }
-  }
-
-  left: 10px !important;
-  font-size: 15px !important;
-  .textarea-comments {
-    .form-control {
-      font-size: 15px !important;
+    i{
+      margin-top: 40px !important;
     }
+    //.social-media-icons {
+    //  margin: 20px 0;
+    //  padding-top:0 !important;
+    //  cursor: pointer;
+    //}
   }
-}
-.details{
-
-  img{
-    padding: 10px 0 5px 0;
-  }
-  p{
-    width: 100%;
-    margin: 15px 0 0 0 !important;
-    font-size:  16px !important;
-
-  }
-}
-.last-div {
-  .bg-on-image{
-    padding:30px 0;
-  }
-  .appBakerZ{
-    margin: 10px 0;
-    padding: 0 !important;
-  }
-  h5{
-    font-size: 14px !important;
-  }
-  p{
-    font-size:10px !important;
-  }
-  .input-group {
-    display: inline-block;
-    padding: 0 !important;
-    input{
-      width: 100%;
-      text-align: center;
-      color: #333;
-    }
-  }
-  button{
-    margin: 10px 0 0 10px;
-    width:135px !important;
-  }
-  i{
-    margin-top: 40px !important;
-  }
-  //.social-media-icons {
-  //  margin: 20px 0;
-  //  padding-top:0 !important;
-  //  cursor: pointer;
-  //}
-}
-.footer{
+  .footer{
   margin:0;
   .all-rights-reserved{
     font-size: 12px;
