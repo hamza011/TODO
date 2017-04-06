@@ -7005,6 +7005,182 @@ button.close {
     font-family: "Open Sans", sans-serif;
     font-size: 16px; }
 
+@media (min-width: 992px) and (max-width: 1199px) {
+  .home-header {
+    height: auto !important;
+    padding-bottom: 40px; }
+    .home-header .navbar-default {
+      margin-bottom: 0; }
+      .home-header .navbar-default .logo-top {
+        padding: 0 !important; }
+      .home-header .navbar-default .navbar-nav {
+        margin: 25px 25px 0 25px !important; }
+      .home-header .navbar-default .clock {
+        display: none; }
+    .home-header .container-fluid {
+      background-color: black; }
+    .home-header .navbar-brand {
+      margin-left: 0 !important; }
+    .home-header .navbar-header {
+      padding: 0 0 21px; }
+    .home-header .navbar-collapse {
+      position: relative;
+      top: 0;
+      padding: 15px !important; }
+    .home-header .main-heading h1 {
+      font-size: 45px !important;
+      margin: 0 0 40px 0 !important; }
+    .home-header .main-heading .special-development-icons .front-end-development {
+      margin-left: 20% !important; }
+    .home-header .main-heading .special-development-icons .js-dev {
+      margin-left: -40px !important; }
+    .home-header .main-heading .btn {
+      width: 16%; }
+
+  .about-us .about-text {
+    margin-top: 100px;
+    padding: 0; }
+  .about-us .about-heading {
+    font-weight: bold;
+    font-size: 26px;
+    margin: 0 0 10px 10px !important; }
+  .about-us .about-paragraph {
+    text-align: center;
+    font-size: 14px; }
+  .about-us img {
+    margin-top: 20px;
+    height: 300px; }
+
+  .third-div {
+    background-size: cover; }
+    .third-div .tagline {
+      margin: -50px 0 0 10px !important; }
+    .third-div .tagline-guide {
+      margin: -50px 0 0 55px !important; }
+
+  .courses h1 {
+    margin: 30px 0 10px 0; }
+  .courses .portion-one {
+    text-align: center; }
+    .courses .portion-one h5 {
+      width: 35%;
+      font-size: 10px; }
+    .courses .portion-one .certified-dev-course-section {
+      height: 398px; }
+    .courses .portion-one .appBakerzDevelopmentSpecialist {
+      padding: 60px 0 20px 10px; }
+    .courses .portion-one .appBakerzDevelopmentSpecialist-row-two {
+      padding: 0 0 10px 10px; }
+    .courses .portion-one h3 {
+      font-size: 20px; }
+    .courses .portion-one p {
+      font-size: 14px; }
+  .courses .wordpress-course-section h3 {
+    color: #ffffff;
+    font-size: 20px; }
+  .courses .wordpress-course-section p {
+    color: #ffffff;
+    font-size: 14px;
+    padding-bottom: 7px; }
+  .courses .desktop-course-section h3 {
+    color: #ffffff;
+    font-size: 20px; }
+  .courses .desktop-course-section p {
+    color: #ffffff;
+    font-size: 14px;
+    padding-bottom: 7px; }
+  .courses .short-courses {
+    text-align: left; }
+    .courses .short-courses .col-md-4 {
+      padding: 8px !important; }
+    .courses .short-courses h5 {
+      width: 33%;
+      font-size: 10px;
+      padding: 3px 0 3px 20px !important; }
+    .courses .short-courses h3 {
+      font-size: 18px;
+      padding: 40px 0 0 10px !important; }
+    .courses .short-courses p {
+      font-size: 13px;
+      padding: 0 0 0 10px !important;
+      margin: 0 0 10px 0; }
+    .courses .short-courses span {
+      font-size: 13px;
+      padding: 0 0 0 10px !important; }
+    .courses .short-courses .reactjs-short-course-section-hidden {
+      display: inline-block; }
+    .courses .short-courses .api-short-course-section-hidden {
+      display: inline-block; }
+    .courses .short-courses .info-tech-short-course-section-hidden {
+      display: inline-block; }
+  .courses h6 {
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 40px 0 60px 0;
+    margin: 0 !important;
+    text-transform: uppercase; }
+    .courses h6 a {
+      font-weight: 700;
+      text-decoration: none;
+      color: #000;
+      cursor: pointer; }
+
+  .certified-courses .container {
+    padding: 30px 0; }
+    .certified-courses .container img {
+      width: 80px;
+      height: 80px; }
+    .certified-courses .container p {
+      font-size: 24px; }
+
+  .create-courses {
+    padding: 20px 0; }
+    .create-courses h1 {
+      margin-bottom: 10px !important;
+      font-size: 24px !important; }
+    .create-courses .col-sm-6 {
+      text-align: center; }
+    .create-courses .checkbox {
+      width: 100%;
+      display: inline-block;
+      background: #ffffff;
+      margin-bottom: 20px;
+      margin-right: 5px; }
+    .create-courses .checkbox-hidden {
+      width: 100%;
+      display: none; }
+    .create-courses .checkbox-extra {
+      display: inline-block; }
+    .create-courses label {
+      font-size: 13px; }
+    .create-courses .prerequisites-column .html-css {
+      width: 65%;
+      font-size: 13px; }
+      .create-courses .prerequisites-column .html-css h2 {
+        font-size: 18px; }
+    .create-courses .prerequisites-column .courses-duration button {
+      width: 75%;
+      height: 55px;
+      font-size: 16px; }
+    .create-courses .prerequisites-column ul li {
+      font-size: 13px; }
+
+  .languages {
+    padding: 50px 0 0 0 !important; }
+    .languages .flex-container {
+      margin-bottom: 25px; }
+      .languages .flex-container .lang-express {
+        margin: 0 !important; }
+      .languages .flex-container .image-transform {
+        padding: 10px !important;
+        width: 60%;
+        height: 75px; }
+
+  .recent-events {
+    padding: 30px 0; }
+    .recent-events h3 {
+      margin: 0 0 30px 0; } }
 @media (min-width: 768px) and (max-width: 991px) {
   .home-header {
     height: auto !important;
@@ -7347,18 +7523,19 @@ button.close {
     .create-courses .col-xs-6 {
       text-align: center; }
     .create-courses .checkbox {
-      width: 100%;
+      width: 125%;
       display: inline-block;
       background: #ffffff;
-      margin-bottom: 20px;
-      margin-right: 5px; }
+      margin: 0 0 5px 0 !important; }
     .create-courses .checkbox-hidden {
       width: 100%;
       display: none; }
     .create-courses .checkbox-extra {
       display: inline-block; }
     .create-courses label {
-      font-size: 10px; }
+      font-size: 10px;
+      padding: 0 !important;
+      margin: 0 !important; }
     .create-courses .prerequisites-column {
       float: left;
       background: #ffffff;
