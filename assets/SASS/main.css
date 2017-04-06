@@ -6230,6 +6230,10 @@ button.close {
       padding: 0 9px 22px;
       font-size: 14px !important;
       text-align: center; }
+      .about-background-image .second-div .about-us-paragraph .front-end-development {
+        margin-left: 0; }
+      .about-background-image .second-div .about-us-paragraph .js-dev {
+        margin-left: 0; }
     .about-background-image .second-div .div-two-nested .front-end-development {
       margin-left: 0; }
     .about-background-image .second-div .div-two-nested img {
@@ -6239,10 +6243,6 @@ button.close {
       font-family: 'Raleway Bold', sans-serif;
       font-weight: 600;
       color: #1b3a54; }
-    .about-background-image .second-div .front-end-development {
-      margin-left: 0; }
-    .about-background-image .second-div .js-dev {
-      margin-left: 0; }
 
   .third-div .container {
     padding: 10px; }
@@ -7540,8 +7540,9 @@ button.close {
       float: left;
       background: #ffffff;
       width: 100%;
-      height: 250px;
-      padding: 0 20px; }
+      height: auto;
+      padding: 0 20px;
+      margin: 0 0 30px 0 !important; }
       .create-courses .prerequisites-column .html-css {
         width: 100%;
         font-size: 10px; }
@@ -7662,5 +7663,205 @@ button.close {
     .footer .all-rights-reserved {
       font-size: 12px;
       display: inline-block; } }
+.enroll-button {
+  margin: 30px 0 0 0; }
+  .enroll-button .btn {
+    width: 35%;
+    color: #ffffff !important;
+    background-color: #003f64;
+    border-radius: 0 !important; }
+
+.enroll-background {
+  padding: 40px 0;
+  background-image: url("../images/enroll-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+  .enroll-background h3 {
+    color: #ffffff;
+    font-family: "Raleway", sans-serif;
+    font-size: 35px;
+    margin: 0 !important; }
+  .enroll-background .col-lg-5 img {
+    position: relative;
+    left: 10px;
+    bottom: -40px; }
+  .enroll-background .col-lg-5 input {
+    padding: 15px 200px 15px 40px;
+    color: #ffffff;
+    background-color: transparent;
+    font-family: Raleway, sans-serif;
+    font-size: 16px; }
+  .enroll-background .btn {
+    width: 78%;
+    color: #001b35;
+    background: #ffffff;
+    border-radius: 0 !important;
+    margin: 20px 0;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 15px 200px 15px 145px; }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .home-header {
+    height: auto !important;
+    padding-bottom: 40px; }
+    .home-header .navbar-default {
+      margin-bottom: 0; }
+      .home-header .navbar-default .logo-top {
+        padding: 0 !important; }
+      .home-header .navbar-default .navbar-nav {
+        margin: 25px 25px 0 25px !important; }
+      .home-header .navbar-default .clock {
+        display: none; }
+    .home-header .container-fluid {
+      background-color: black; }
+    .home-header .navbar-brand {
+      margin-left: 0 !important; }
+    .home-header .navbar-header {
+      padding: 0 0 21px; }
+    .home-header .navbar-collapse {
+      position: relative;
+      top: 0;
+      padding: 15px !important; }
+    .home-header .main-heading h1 {
+      font-size: 45px !important;
+      margin: 0 0 40px 0 !important; }
+    .home-header .main-heading .special-development-icons .front-end-development {
+      margin-left: 20% !important; }
+    .home-header .main-heading .special-development-icons .js-dev {
+      margin-left: -40px !important; }
+    .home-header .main-heading .btn {
+      width: 16%; }
+
+  .about-background-image .second-div .front-end-development {
+    margin-left: 0 !important; }
+  .about-background-image .second-div .js-dev {
+    margin-left: 0 !important; }
+
+  .third-div {
+    font-size: 18px !important; } }
+@media (min-width: 768px) and (max-width: 991px) {
+  .home-header {
+    height: auto !important;
+    padding-bottom: 40px; }
+    .home-header .navbar-default {
+      margin-bottom: 0; }
+      .home-header .navbar-default .logo-top {
+        padding: 0 !important; }
+      .home-header .navbar-default .navbar-nav {
+        margin: 25px 25px 0 25px !important; }
+      .home-header .navbar-default .clock {
+        display: none; }
+    .home-header .container-fluid {
+      background-color: black; }
+    .home-header .navbar-header {
+      padding: 0 0 21px; }
+    .home-header .navbar-collapse {
+      position: relative;
+      top: 0; }
+    .home-header .main-heading h1 {
+      font-size: 40px !important;
+      margin: 50px 0; }
+    .home-header .main-heading .special-development-icons {
+      display: none; }
+    .home-header .main-heading .btn {
+      width: 25%; }
+
+  .about-background-image .second-div .front-end-development {
+    margin-left: 0 !important; }
+  .about-background-image .second-div .js-dev {
+    margin-left: 0 !important; }
+
+  .third-div {
+    font-size: 18px !important; } }
+@media (min-width: 320px) and (max-width: 767px) {
+  .about-background-image .second-div .front-end-development {
+    margin-left: 0 !important; }
+  .about-background-image .second-div .js-dev {
+    margin-left: 0 !important; }
+
+  .enroll-button .btn {
+    width: 55%; }
+
+  .enroll-background {
+    display: none; } }
+.home-header {
+  background: url("../images/desktop.jpg") no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%; }
+  .home-header .navbar-default {
+    margin-bottom: 0;
+    background-color: transparent !important;
+    border-color: transparent; }
+  .home-header .navbar-collapse {
+    width: 100%;
+    padding: 35px 0 0 35px;
+    font-size: 15px;
+    position: relative;
+    top: 30px;
+    left: 15px; }
+    .home-header .navbar-collapse ul li a {
+      color: #ffffff; }
+  .home-header .clock {
+    display: inline-block;
+    width: 21%;
+    margin: -28px 0 0; }
+    .home-header .clock img {
+      width: 15%;
+      float: left;
+      margin: 0; }
+    .home-header .clock p {
+      width: 79%;
+      margin: 0 !important;
+      display: inline-block;
+      float: right;
+      font-size: 11px;
+      color: #ffffff; }
+  .home-header .navbar-nav {
+    color: white;
+    margin-left: 35px; }
+  .home-header .navbar-nav > li > a:hover {
+    color: #ffffff;
+    border-bottom: 2px solid #ffffff; }
+  .home-header .main-heading {
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    margin: 100px 0; }
+    .home-header .main-heading h1 {
+      font-size: 60px;
+      color: #ffffff;
+      font-family: "Raleway", sans-serif;
+      font-weight: 600;
+      margin-bottom: 0;
+      letter-spacing: 5px;
+      text-transform: uppercase; }
+    .home-header .main-heading .btn {
+      width: 13%;
+      color: #4c667a;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 600;
+      border-radius: 0 !important;
+      margin-top: 40px;
+      box-shadow: 0 10px 30px #476b91;
+      display: none;
+      padding: 5px; }
+  .home-header .navbar-toggle {
+    margin-top: 50px !important; }
+  .home-header .logo-top {
+    padding: 0 0 0 50px; }
+  .home-header .navbar-collapse {
+    border: 0;
+    padding: 0 !important; }
+
+.about-background-image .second-div img {
+  filter: #0b2c48; }
+.about-background-image .second-div .meteor-text {
+  margin: 10px 0 35px 30px;
+  font-weight: bold;
+  color: #0b2c48;
+  font-size: 13px; }
 
 /*# sourceMappingURL=main.css.map */
