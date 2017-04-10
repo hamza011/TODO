@@ -6370,7 +6370,7 @@ button.close {
       font-size: 12px;
       display: inline-block; } }
 .home-header {
-  background: url("../images/backg.png") no-repeat;
+  background: url("../images/backg.png") no-repeat !important;
   width: 100%;
   height: 620px; }
   .home-header .navbar-default {
@@ -7704,78 +7704,33 @@ button.close {
     padding: 15px 200px 15px 145px; }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-  .home-header {
-    height: auto !important;
-    padding-bottom: 40px; }
-    .home-header .navbar-default {
-      margin-bottom: 0; }
-      .home-header .navbar-default .logo-top {
-        padding: 0 !important; }
-      .home-header .navbar-default .navbar-nav {
-        margin: 25px 25px 0 25px !important; }
-      .home-header .navbar-default .clock {
-        display: none; }
-    .home-header .container-fluid {
-      background-color: black; }
-    .home-header .navbar-brand {
-      margin-left: 0 !important; }
-    .home-header .navbar-header {
-      padding: 0 0 21px; }
-    .home-header .navbar-collapse {
-      position: relative;
-      top: 0;
-      padding: 15px !important; }
-    .home-header .main-heading h1 {
-      font-size: 45px !important;
-      margin: 0 0 40px 0 !important; }
-    .home-header .main-heading .special-development-icons .front-end-development {
-      margin-left: 20% !important; }
-    .home-header .main-heading .special-development-icons .js-dev {
-      margin-left: -40px !important; }
-    .home-header .main-heading .btn {
-      width: 16%; }
-
   .about-background-image .second-div .front-end-development {
     margin-left: 0 !important; }
   .about-background-image .second-div .js-dev {
     margin-left: 0 !important; }
 
   .third-div {
-    font-size: 18px !important; } }
+    font-size: 18px !important; }
+
+  .enroll-background .btn {
+    width: 46%; } }
 @media (min-width: 768px) and (max-width: 991px) {
-  .home-header {
-    height: auto !important;
-    padding-bottom: 40px; }
-    .home-header .navbar-default {
-      margin-bottom: 0; }
-      .home-header .navbar-default .logo-top {
-        padding: 0 !important; }
-      .home-header .navbar-default .navbar-nav {
-        margin: 25px 25px 0 25px !important; }
-      .home-header .navbar-default .clock {
-        display: none; }
-    .home-header .container-fluid {
-      background-color: black; }
-    .home-header .navbar-header {
-      padding: 0 0 21px; }
-    .home-header .navbar-collapse {
-      position: relative;
-      top: 0; }
-    .home-header .main-heading h1 {
-      font-size: 40px !important;
-      margin: 50px 0; }
-    .home-header .main-heading .special-development-icons {
-      display: none; }
-    .home-header .main-heading .btn {
-      width: 25%; }
-
   .about-background-image .second-div .front-end-development {
     margin-left: 0 !important; }
   .about-background-image .second-div .js-dev {
     margin-left: 0 !important; }
 
   .third-div {
-    font-size: 18px !important; } }
+    font-size: 18px !important; }
+
+  .enroll-background .col-lg-5 img {
+    bottom: -35px; }
+  .enroll-background .col-lg-5 input {
+    padding: 15px 100px 15px 50px;
+    font-size: 13px; }
+  .enroll-background .btn {
+    font-size: 16px;
+    padding: 15px 215px 15px 90px; } }
 @media (min-width: 320px) and (max-width: 767px) {
   .about-background-image .second-div .front-end-development {
     margin-left: 0 !important; }
@@ -7787,50 +7742,50 @@ button.close {
 
   .enroll-background {
     display: none; } }
-.home-header {
-  background: url("../images/desktop.jpg") no-repeat;
+.desktop-home-header {
+  background: url("../images/desktop.jpg") no-repeat !important;
   background-size: cover;
   width: 100%;
   height: 100%; }
-  .home-header .navbar-default {
+  .desktop-home-header .navbar-default {
     margin-bottom: 0;
     background-color: transparent !important;
     border-color: transparent; }
-  .home-header .navbar-collapse {
+  .desktop-home-header .navbar-collapse {
     width: 100%;
     padding: 35px 0 0 35px;
     font-size: 15px;
     position: relative;
     top: 30px;
     left: 15px; }
-    .home-header .navbar-collapse ul li a {
+    .desktop-home-header .navbar-collapse ul li a {
       color: #ffffff; }
-  .home-header .clock {
+  .desktop-home-header .clock {
     display: inline-block;
     width: 21%;
     margin: -28px 0 0; }
-    .home-header .clock img {
+    .desktop-home-header .clock img {
       width: 15%;
       float: left;
       margin: 0; }
-    .home-header .clock p {
+    .desktop-home-header .clock p {
       width: 79%;
       margin: 0 !important;
       display: inline-block;
       float: right;
       font-size: 11px;
       color: #ffffff; }
-  .home-header .navbar-nav {
+  .desktop-home-header .navbar-nav {
     color: white;
     margin-left: 35px; }
-  .home-header .navbar-nav > li > a:hover {
+  .desktop-home-header .navbar-nav > li > a:hover {
     color: #ffffff;
     border-bottom: 2px solid #ffffff; }
-  .home-header .main-heading {
+  .desktop-home-header .main-heading {
     text-align: center;
     font-family: "Raleway", sans-serif;
     margin: 100px 0; }
-    .home-header .main-heading h1 {
+    .desktop-home-header .main-heading h1 {
       font-size: 60px;
       color: #ffffff;
       font-family: "Raleway", sans-serif;
@@ -7838,7 +7793,7 @@ button.close {
       margin-bottom: 0;
       letter-spacing: 5px;
       text-transform: uppercase; }
-    .home-header .main-heading .btn {
+    .desktop-home-header .main-heading .btn {
       width: 13%;
       color: #4c667a;
       font-family: 'Raleway', sans-serif;
@@ -7848,20 +7803,658 @@ button.close {
       box-shadow: 0 10px 30px #476b91;
       display: none;
       padding: 5px; }
-  .home-header .navbar-toggle {
+  .desktop-home-header .navbar-toggle {
     margin-top: 50px !important; }
-  .home-header .logo-top {
+  .desktop-home-header .logo-top {
     padding: 0 0 0 50px; }
-  .home-header .navbar-collapse {
+  .desktop-home-header .navbar-collapse {
     border: 0;
     padding: 0 !important; }
 
 .about-background-image .second-div img {
-  filter: #0b2c48; }
+  width: auto;
+  height: 55px; }
 .about-background-image .second-div .meteor-text {
-  margin: 10px 0 35px 30px;
+  margin: 10px 0 30px 10px;
   font-weight: bold;
-  color: #0b2c48;
+  color: #000;
   font-size: 13px; }
+
+.meteor-details {
+  background: url("../images/background5.png") no-repeat;
+  background-attachment: fixed;
+  background-size: cover; }
+  .meteor-details .container-fluid {
+    padding: 0 !important; }
+  .meteor-details .col-lg-12 {
+    padding: 0 !important; }
+  .meteor-details .colorOnBg {
+    background-color: rgba(226, 95, 92, 0.93); }
+  .meteor-details img {
+    margin: 70px 0 40px 0; }
+  .meteor-details p {
+    color: #ffffff;
+    font-family: Raleway, sans-serif;
+    font-size: 16px;
+    padding: 0 90px 70px 125px; }
+  .meteor-details .container {
+    margin-bottom: 0 !important; }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .desktop-home-header {
+    height: auto !important;
+    padding-bottom: 40px; }
+    .desktop-home-header .navbar-default {
+      margin-bottom: 0; }
+      .desktop-home-header .navbar-default .logo-top {
+        padding: 0 !important; }
+      .desktop-home-header .navbar-default .navbar-nav {
+        margin: 25px 25px 0 25px !important; }
+      .desktop-home-header .navbar-default .clock {
+        display: none; }
+    .desktop-home-header .container-fluid {
+      background-color: black; }
+    .desktop-home-header .navbar-brand {
+      margin-left: 0 !important; }
+    .desktop-home-header .navbar-header {
+      padding: 0 0 21px; }
+    .desktop-home-header .navbar-collapse {
+      position: relative;
+      top: 0;
+      padding: 15px !important; }
+    .desktop-home-header .main-heading h1 {
+      font-size: 45px !important;
+      margin: 0 0 40px 0 !important; }
+    .desktop-home-header .main-heading .special-development-icons .front-end-development {
+      margin-left: 20% !important; }
+    .desktop-home-header .main-heading .special-development-icons .js-dev {
+      margin-left: -40px !important; }
+    .desktop-home-header .main-heading .btn {
+      width: 16%; }
+
+  .meteor-details p {
+    padding: 0 15px 70px 5px; } }
+@media (min-width: 768px) and (max-width: 991px) {
+  .desktop-home-header {
+    height: auto !important;
+    padding-bottom: 40px; }
+    .desktop-home-header .navbar-default {
+      margin-bottom: 0; }
+      .desktop-home-header .navbar-default .logo-top {
+        padding: 0 !important; }
+      .desktop-home-header .navbar-default .navbar-nav {
+        margin: 25px 25px 0 25px !important; }
+      .desktop-home-header .navbar-default .clock {
+        display: none; }
+    .desktop-home-header .container-fluid {
+      background-color: black; }
+    .desktop-home-header .navbar-header {
+      padding: 0 0 21px; }
+    .desktop-home-header .navbar-collapse {
+      position: relative;
+      top: 0; }
+    .desktop-home-header .main-heading h1 {
+      font-size: 40px !important;
+      margin: 50px 0; }
+    .desktop-home-header .main-heading .special-development-icons {
+      display: none; }
+    .desktop-home-header .main-heading .btn {
+      width: 25%; }
+
+  .meteor-details p {
+    padding: 0 70px 70px 100px; } }
+@media (min-width: 320px) and (max-width: 767px) {
+  .desktop-home-header {
+    height: auto !important;
+    padding-bottom: 40px; }
+    .desktop-home-header .navbar-default {
+      margin-bottom: 55px !important; }
+      .desktop-home-header .navbar-default .logo-top {
+        padding: 0 !important; }
+      .desktop-home-header .navbar-default .navbar-nav {
+        margin: 0; }
+      .desktop-home-header .navbar-default .clock {
+        display: none; }
+    .desktop-home-header .navbar-header {
+      padding: 0 0 21px;
+      background: #000; }
+    .desktop-home-header .navbar-collapse {
+      position: relative;
+      top: 0; }
+    .desktop-home-header .main-heading {
+      margin: 15px 0 !important; }
+      .desktop-home-header .main-heading h1 {
+        font-size: 30px !important;
+        margin-bottom: 15px !important; }
+      .desktop-home-header .main-heading .special-development-icons {
+        display: none; }
+      .desktop-home-header .main-heading .btn {
+        width: 55%;
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 20px;
+        display: inline-block;
+        border-radius: 0 !important;
+        box-shadow: 0 4px 25px darkslategrey;
+        color: #4c667a !important;
+        background-color: #ffffff !important; } }
+.enroll-header {
+  background: url("../images/enroll-bg.png") no-repeat !important;
+  width: 100%;
+  height: auto; }
+  .enroll-header .navbar-default {
+    margin-bottom: 0;
+    background-color: transparent !important;
+    border-color: transparent; }
+  .enroll-header .navbar-collapse {
+    width: 100%;
+    padding: 35px 0 0 35px;
+    font-size: 15px;
+    position: relative;
+    top: 30px;
+    left: 15px; }
+    .enroll-header .navbar-collapse ul li a {
+      color: #ffffff; }
+  .enroll-header .clock {
+    display: inline-block;
+    width: 21%;
+    margin: -28px 0 0; }
+    .enroll-header .clock img {
+      width: 15%;
+      float: left;
+      margin: 0; }
+    .enroll-header .clock p {
+      width: 79%;
+      margin: 0 !important;
+      display: inline-block;
+      float: right;
+      font-size: 11px;
+      color: #ffffff; }
+  .enroll-header .navbar-nav {
+    color: white;
+    margin-left: 35px; }
+  .enroll-header .navbar-nav > li > a:hover {
+    color: #ffffff;
+    border-bottom: 2px solid #ffffff; }
+  .enroll-header .main-heading {
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    margin: 0 !important; }
+    .enroll-header .main-heading h1 {
+      font-size: 60px;
+      color: #ffffff;
+      font-family: "Raleway", sans-serif;
+      font-weight: 600;
+      letter-spacing: 5px;
+      text-transform: uppercase;
+      padding: 60px 0 90px 0; }
+    .enroll-header .main-heading .container {
+      margin-bottom: 0 !important; }
+    .enroll-header .main-heading .special-development-icons {
+      text-align: center;
+      display: none; }
+      .enroll-header .main-heading .special-development-icons img {
+        height: 40px; }
+      .enroll-header .main-heading .special-development-icons p {
+        font-size: 12px;
+        font-family: 'Raleway Bold', sans-serif;
+        font-weight: 600;
+        margin-top: 15px;
+        color: #ffffff; }
+      .enroll-header .main-heading .special-development-icons .front-end-development {
+        margin-left: 20%; }
+      .enroll-header .main-heading .special-development-icons .js-dev {
+        margin-left: -80px; }
+    .enroll-header .main-heading .btn {
+      width: 13%;
+      color: #4c667a;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 600;
+      border-radius: 0 !important;
+      margin-top: 40px;
+      box-shadow: 0 10px 30px #476b91;
+      padding: 5px;
+      display: none; }
+  .enroll-header .navbar-toggle {
+    margin-top: 50px !important; }
+  .enroll-header .logo-top {
+    padding: 0 0 0 50px; }
+  .enroll-header .navbar-collapse {
+    border: 0;
+    padding: 0 !important; }
+
+.about-us .form-transform-marginControl {
+  width: 50%;
+  margin-top: 50px; }
+  .about-us .form-transform-marginControl .icons {
+    width: 3%;
+    height: auto;
+    position: relative;
+    top: 28px;
+    left: 10px;
+    margin: 0 !important; }
+  .about-us .form-transform-marginControl .form-transform {
+    width: 100%;
+    padding: 5px 0 5px 35px;
+    font-family: "Raleway", sans-serif;
+    font-size: 14px; }
+  .about-us .form-transform-marginControl button {
+    width: 100%;
+    border-radius: 0 !important;
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-top: 25px; }
+.about-us .academy-chef {
+  height: 450px !important;
+  margin-left: 200px; }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .enroll-header {
+    height: auto !important;
+    padding-bottom: 40px; }
+    .enroll-header .navbar-default {
+      margin-bottom: 55px !important; }
+      .enroll-header .navbar-default .container-fluid {
+        background: #000; }
+      .enroll-header .navbar-default .logo-top {
+        padding: 0 !important; }
+      .enroll-header .navbar-default .navbar-nav {
+        margin: 0;
+        padding: 25px 0 10px 150px; }
+      .enroll-header .navbar-default .clock {
+        display: none; }
+    .enroll-header .navbar-header {
+      width: 100%;
+      padding: 0 0 21px;
+      margin-bottom: 0 !important; }
+    .enroll-header .navbar-collapse {
+      position: relative;
+      top: 0; }
+    .enroll-header .main-heading {
+      margin: 15px 0 !important; }
+      .enroll-header .main-heading h1 {
+        font-size: 30px !important;
+        margin-bottom: 15px !important; }
+      .enroll-header .main-heading .special-development-icons {
+        display: none; }
+      .enroll-header .main-heading .btn {
+        width: 25%;
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 20px;
+        display: inline-block;
+        border-radius: 0 !important;
+        box-shadow: 0 4px 25px darkslategrey;
+        color: #4c667a !important;
+        background-color: #ffffff !important; }
+
+  .about-us .container {
+    margin-bottom: 0 !important;
+    margin-top: 0 !important; }
+    .about-us .container .icons {
+      width: 4% !important; }
+    .about-us .container .col-md-6 {
+      margin-left: 0 !important; }
+      .about-us .container .col-md-6 .academy-chef {
+        margin-top: 25px !important;
+        margin-left: 0 !important;
+        height: 400px !important; }
+
+  .third-div {
+    background-size: cover; }
+    .third-div .tagline {
+      margin: -50px 0 0 47px !important; }
+    .third-div .tagline-guide {
+      margin: -50px 0 0 97px !important; } }
+@media (min-width: 768px) and (max-width: 991px) {
+  .enroll-header {
+    height: auto !important;
+    padding-bottom: 40px; }
+    .enroll-header .navbar-default {
+      margin-bottom: 55px !important; }
+      .enroll-header .navbar-default .container-fluid {
+        background: #000; }
+      .enroll-header .navbar-default .logo-top {
+        padding: 0 !important; }
+      .enroll-header .navbar-default .navbar-nav {
+        margin: 0; }
+      .enroll-header .navbar-default .clock {
+        display: none; }
+    .enroll-header .navbar-header {
+      width: 100%;
+      padding: 0 0 21px; }
+    .enroll-header .navbar-collapse {
+      position: relative;
+      top: 0; }
+    .enroll-header .main-heading {
+      margin: 15px 0 !important; }
+      .enroll-header .main-heading h1 {
+        font-size: 30px !important;
+        margin-bottom: 15px !important; }
+      .enroll-header .main-heading .special-development-icons {
+        display: none; }
+      .enroll-header .main-heading .btn {
+        width: 55%;
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 20px;
+        display: inline-block;
+        border-radius: 0 !important;
+        box-shadow: 0 4px 25px darkslategrey;
+        color: #4c667a !important;
+        background-color: #ffffff !important; }
+
+  .about-us .form-transform-marginContol {
+    margin-top: 30px !important;
+    margin-left: 0 !important; }
+    .about-us .form-transform-marginContol .icons {
+      width: 6% !important;
+      top: 28px !important;
+      left: 10px !important;
+      margin: 0 !important; }
+    .about-us .form-transform-marginContol .form-transform {
+      width: 100%; }
+    .about-us .form-transform-marginContol button {
+      width: 100% !important; }
+  .about-us .col-sm-6 {
+    margin-left: 0 !important; }
+    .about-us .col-sm-6 .academy-chef {
+      margin-top: 25px !important;
+      margin-left: 0 !important;
+      height: 400px !important; } }
+@media (min-width: 320px) and (max-width: 767px) {
+  .enroll-header {
+    height: auto !important;
+    padding-bottom: 40px; }
+    .enroll-header .navbar-default {
+      margin-bottom: 55px !important; }
+      .enroll-header .navbar-default .logo-top {
+        padding: 0 !important; }
+      .enroll-header .navbar-default .navbar-nav {
+        margin: 0; }
+      .enroll-header .navbar-default .clock {
+        display: none; }
+    .enroll-header .navbar-header {
+      padding: 0 0 21px;
+      background: #000; }
+    .enroll-header .navbar-collapse {
+      position: relative;
+      top: 0; }
+    .enroll-header .main-heading {
+      margin: 15px 0 !important; }
+      .enroll-header .main-heading h1 {
+        font-size: 30px !important;
+        margin-bottom: 15px !important; }
+      .enroll-header .main-heading .special-development-icons {
+        display: none; }
+      .enroll-header .main-heading .btn {
+        width: 55%;
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 20px;
+        display: inline-block;
+        border-radius: 0 !important;
+        box-shadow: 0 4px 25px darkslategrey;
+        color: #4c667a !important;
+        background-color: #ffffff !important; }
+
+  .about-us .form-transform-marginControl {
+    width: auto !important;
+    margin-top: 0 !important; }
+    .about-us .form-transform-marginControl .icons {
+      width: 8% !important; }
+    .about-us .form-transform-marginControl .form-transform {
+      font-size: 13px !important; }
+    .about-us .form-transform-marginControl button {
+      width: 100% !important;
+      font-size: 13px !important; }
+  .about-us .academy-chef {
+    margin-top: 25px !important;
+    margin-left: 0 !important;
+    height: 200px !important; } }
+.about-us .marginControl {
+  width: 50%;
+  margin-top: 0 !important; }
+  .about-us .marginControl .icons {
+    width: 3%;
+    height: auto;
+    position: relative;
+    top: 28px;
+    left: 10px;
+    margin: 0 !important; }
+  .about-us .marginControl .form-transform {
+    width: 100%;
+    padding: 5px 0 5px 35px;
+    font-family: "Raleway", sans-serif;
+    font-size: 14px; }
+  .about-us .marginControl button {
+    width: 100%;
+    border-radius: 0 !important;
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-top: 25px; }
+.about-us .academy-chef {
+  height: 450px !important;
+  margin-left: 200px; }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .enroll-header {
+    height: auto !important;
+    padding-bottom: 40px; }
+    .enroll-header .navbar-default {
+      margin-bottom: 55px !important; }
+      .enroll-header .navbar-default .container-fluid {
+        background: #000; }
+      .enroll-header .navbar-default .logo-top {
+        padding: 0 !important; }
+      .enroll-header .navbar-default .navbar-nav {
+        margin: 0;
+        padding: 25px 0 10px 150px; }
+      .enroll-header .navbar-default .clock {
+        display: none; }
+    .enroll-header .navbar-header {
+      width: 100%;
+      padding: 0 0 21px;
+      margin-bottom: 0 !important; }
+    .enroll-header .navbar-collapse {
+      position: relative;
+      top: 0; }
+    .enroll-header .main-heading {
+      margin: 15px 0 !important; }
+      .enroll-header .main-heading h1 {
+        font-size: 30px !important;
+        margin-bottom: 15px !important; }
+      .enroll-header .main-heading .special-development-icons {
+        display: none; }
+      .enroll-header .main-heading .btn {
+        width: 25%;
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 20px;
+        display: inline-block;
+        border-radius: 0 !important;
+        box-shadow: 0 4px 25px darkslategrey;
+        color: #4c667a !important;
+        background-color: #ffffff !important; }
+
+  .about-us .marginControl {
+    margin-top: 0 !important;
+    margin-left: 0 !important;
+    margin-bottom: 15px !important; }
+    .about-us .marginControl .icons {
+      width: 4% !important; }
+
+  .third-div {
+    background-size: cover; }
+    .third-div .tagline {
+      margin: -50px 0 0 47px !important; }
+    .third-div .tagline-guide {
+      margin: -50px 0 0 97px !important; } }
+@media (min-width: 768px) and (max-width: 991px) {
+  .enroll-header {
+    height: auto !important;
+    padding-bottom: 40px; }
+    .enroll-header .navbar-default {
+      margin-bottom: 55px !important; }
+      .enroll-header .navbar-default .container-fluid {
+        background: #000; }
+      .enroll-header .navbar-default .logo-top {
+        padding: 0 !important; }
+      .enroll-header .navbar-default .navbar-nav {
+        margin: 0; }
+      .enroll-header .navbar-default .clock {
+        display: none; }
+    .enroll-header .navbar-header {
+      width: 100%;
+      padding: 0 0 21px; }
+    .enroll-header .navbar-collapse {
+      position: relative;
+      top: 0; }
+    .enroll-header .main-heading {
+      margin: 15px 0 !important; }
+      .enroll-header .main-heading h1 {
+        font-size: 30px !important;
+        margin-bottom: 15px !important; }
+      .enroll-header .main-heading .special-development-icons {
+        display: none; }
+      .enroll-header .main-heading .btn {
+        width: 55%;
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 20px;
+        display: inline-block;
+        border-radius: 0 !important;
+        box-shadow: 0 4px 25px darkslategrey;
+        color: #4c667a !important;
+        background-color: #ffffff !important; }
+
+  .about-us .marginControl {
+    margin-top: 0 !important;
+    margin-left: 0 !important;
+    margin-bottom: 15px !important; }
+    .about-us .marginControl .icons {
+      width: 6% !important;
+      top: 28px !important;
+      left: 10px !important;
+      margin: 0 !important; }
+    .about-us .marginControl .form-transform {
+      width: 100%; }
+    .about-us .marginControl button {
+      width: 100% !important; } }
+@media (min-width: 320px) and (max-width: 767px) {
+  .enroll-header {
+    height: auto !important;
+    padding-bottom: 40px; }
+    .enroll-header .navbar-default {
+      margin-bottom: 55px !important; }
+      .enroll-header .navbar-default .logo-top {
+        padding: 0 !important; }
+      .enroll-header .navbar-default .navbar-nav {
+        margin: 0; }
+      .enroll-header .navbar-default .clock {
+        display: none; }
+    .enroll-header .navbar-header {
+      padding: 0 0 21px;
+      background: #000; }
+    .enroll-header .navbar-collapse {
+      position: relative;
+      top: 0; }
+    .enroll-header .main-heading {
+      margin: 15px 0 !important; }
+      .enroll-header .main-heading h1 {
+        font-size: 30px !important;
+        margin-bottom: 15px !important; }
+      .enroll-header .main-heading .special-development-icons {
+        display: none; }
+      .enroll-header .main-heading .btn {
+        width: 55%;
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 20px;
+        display: inline-block;
+        border-radius: 0 !important;
+        box-shadow: 0 4px 25px darkslategrey;
+        color: #4c667a !important;
+        background-color: #ffffff !important; }
+
+  .about-us .marginControl {
+    width: auto !important;
+    margin-top: 0 !important; }
+    .about-us .marginControl .icons {
+      width: 10%;
+      left: 5px !important; }
+    .about-us .marginControl .form-transform {
+      width: auto;
+      font-size: 16px; }
+    .about-us .marginControl button {
+      width: 100% !important;
+      font-size: 16px;
+      margin-bottom: 30px !important; } }
+.wordpressMeetup-header {
+  background: url("../images/wordpress-annual-meetup-event.jpg") no-repeat;
+  width: 100%;
+  height: 450px; }
+  .wordpressMeetup-header .navbar-default {
+    margin-bottom: 0;
+    background-color: transparent !important;
+    border-color: transparent; }
+  .wordpressMeetup-header .navbar-collapse {
+    width: 100%;
+    padding: 0;
+    font-size: 15px;
+    position: relative;
+    top: 30px;
+    left: 15px; }
+    .wordpressMeetup-header .navbar-collapse ul li a {
+      color: #ffffff; }
+  .wordpressMeetup-header .clock {
+    display: inline-block;
+    width: 21%;
+    margin: -28px 0 0; }
+    .wordpressMeetup-header .clock img {
+      width: 15%;
+      float: left;
+      margin: 0; }
+    .wordpressMeetup-header .clock p {
+      width: 79%;
+      margin: 0 !important;
+      display: inline-block;
+      float: right;
+      font-size: 11px;
+      color: #ffffff; }
+  .wordpressMeetup-header .navbar-nav {
+    color: white;
+    margin-left: 35px; }
+  .wordpressMeetup-header .navbar-nav > li > a:hover {
+    color: #ffffff;
+    border-bottom: 2px solid #ffffff; }
+  .wordpressMeetup-header .main-heading {
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    margin: 120px 0 0 0; }
+    .wordpressMeetup-header .main-heading h1 {
+      font-size: 60px;
+      color: #ffffff;
+      font-family: "Raleway", sans-serif;
+      font-weight: 600;
+      margin-bottom: 0;
+      letter-spacing: 5px;
+      text-transform: uppercase; }
+    .wordpressMeetup-header .main-heading .navbar-toggle {
+      margin-top: 50px !important; }
+    .wordpressMeetup-header .main-heading .logo-top {
+      padding: 0 0 0 50px; }
+    .wordpressMeetup-header .main-heading .navbar-collapse {
+      border: 0;
+      padding: 0 !important; }
+
+.about-us h3 {
+  text-align: center;
+  font-size: 35px;
+  font-family: Raleway, sans-serif; }
 
 /*# sourceMappingURL=main.css.map */

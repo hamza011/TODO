@@ -1,0 +1,378 @@
+.enroll-header {
+  background: url("../images/enroll-bg.png") no-repeat !important;
+  width: 100%;
+  height:auto;
+  .navbar-default {
+    margin-bottom:0;
+    background-color: transparent !important;
+    border-color: transparent;
+  }
+  .navbar-collapse {
+    width: 100%;
+    padding: 35px 0 0 35px;
+    font-size:15px;
+    position: relative;
+    top: 30px;
+    left: 15px;
+    ul li a{
+      color: $color-white;
+    }
+  }
+  .clock {
+    display: inline-block;
+    width: 21%;
+    margin: -28px 0 0;
+    img{
+      width: 15%;
+      float: left;
+      margin: 0;
+    }
+    p{
+      width: 79%;
+      margin: 0 !important;
+      display: inline-block;
+      float: right;
+      font-size: 11px;
+      color: $color-white;
+    }
+  }
+  .navbar-nav{
+    color:white;
+    margin-left:35px;
+  }
+  .navbar-nav > li > a {
+    &:hover{
+      color: $color-white;
+      border-bottom: 2px solid $color-white;
+    }
+  }
+  .main-heading{
+    text-align:center;
+    font-family:$font-style;
+    margin: 0 !important;
+
+      h1{
+        font-size: 60px;
+        color: $color-white;
+        font-family: $font-style;
+        font-weight: 600;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        padding: 60px 0 90px 0;
+      }
+    .container{
+      margin-bottom:0 !important;
+    }
+
+
+    .special-development-icons{
+      text-align: center;
+      display: none;
+      img{
+        height: 40px;
+      }
+      p {
+        font-size: 12px;
+        font-family: 'Raleway Bold', sans-serif;
+        font-weight:600;
+        margin-top: 15px;
+        color: $color-white;
+      }
+      .front-end-development{
+        margin-left: 20%;
+      }
+      .js-dev{
+        margin-left: -80px;
+      }
+    }
+    .btn{
+      width: 13%;
+      color: #4c667a;
+      font-family: 'Raleway', sans-serif;
+      font-weight:600;
+      border-radius: 0 !important;
+      margin-top: 40px;
+      box-shadow: 0 10px 30px #476b91;
+      padding: 5px;
+      display: none;
+    }
+  }
+
+  .navbar-toggle{
+    margin-top:50px !important;
+  }
+  .logo-top{
+    padding: 0 0 0 50px;
+  }
+  .navbar-collapse{
+    border:0;
+    padding:0 !important;
+  }
+}
+.about-us{
+
+  .form-transform-marginControl{
+    width: 50%;
+    margin-top:50px;
+    .icons{
+      width:3%;
+      height:auto;
+      position: relative;
+      top:28px;
+      left:10px;
+      margin:0 !important;
+    }
+    .form-transform {
+      width: 100%;
+      padding: 5px 0 5px 35px;
+      font-family: $font-style;
+      font-size:14px;
+    }
+    button{
+      width:100%;
+      border-radius: 0 !important;
+      font-family: $font-style;
+      font-size:14px;
+      font-weight:700;
+      color: $color-white;
+      margin-top:25px;
+    }
+  }
+  .academy-chef{
+    height:450px !important;
+    margin-left: 200px;
+  }
+
+}
+
+@media(min-width: 992px) and (max-width: 1199px){
+  .enroll-header{
+    height: auto !important;
+    padding-bottom: 40px;
+    .navbar-default {
+      margin-bottom: 55px !important;
+      .container-fluid{
+        background: #000;
+
+      }
+      .logo-top {
+        padding: 0 !important;
+      }
+      .navbar-nav {
+        margin: 0;
+        padding: 25px 0 10px 150px;
+      }
+      .clock {
+        display: none;
+      }
+    }
+    .navbar-header {
+      width:100%;
+      padding: 0 0 21px;
+      margin-bottom: 0 !important;
+    }
+    .navbar-collapse {
+      position: relative;
+      top: 0;
+    }
+    .main-heading {
+      margin: 15px 0 !important;
+      h1 {
+        font-size: 30px !important;
+        margin-bottom: 15px !important;
+      }
+      .special-development-icons{
+        display: none;
+      }
+      .btn {
+        width:25%;
+        font-size: 18px;
+        font-weight: 600;
+        margin-top:20px;
+        display: inline-block;
+        border-radius: 0 !important;
+        box-shadow: 0 4px 25px darkslategrey;
+        color: #4c667a !important;
+        background-color: $color-white !important;
+
+      }
+    }
+  }
+  .about-us{
+    .container{
+      margin-bottom: 0 !important;
+      margin-top: 0 !important;
+      .icons{
+        width: 4% !important;
+      }
+      .col-md-6{
+      margin-left:0 !important;
+        .academy-chef {
+          margin-top: 25px !important;
+          margin-left:0 !important;
+          height: 400px !important;
+        }
+    }
+    }
+  }
+  .third-div {
+    background-size: cover;
+    .tagline {
+      margin: -50px 0 0 47px !important;
+    }
+    .tagline-guide {
+      margin: -50px 0 0 97px !important;
+    }
+  }
+}
+
+@media(min-width: 768px)and(max-width: 991px) {
+  .enroll-header{
+    height: auto !important;
+    padding-bottom: 40px;
+    .navbar-default {
+      margin-bottom: 55px !important;
+      .container-fluid{
+        background: #000;
+
+      }
+      .logo-top {
+        padding: 0 !important;
+      }
+      .navbar-nav {
+        margin: 0;
+      }
+      .clock {
+        display: none;
+      }
+    }
+    .navbar-header {
+      width:100%;
+      padding: 0 0 21px;
+    }
+    .navbar-collapse {
+      position: relative;
+      top: 0;
+    }
+    .main-heading {
+      margin: 15px 0 !important;
+      h1 {
+        font-size: 30px !important;
+        margin-bottom: 15px !important;
+      }
+      .special-development-icons{
+        display: none;
+      }
+      .btn {
+        width:55%;
+        font-size: 18px;
+        font-weight: 600;
+        margin-top:20px;
+        display: inline-block;
+        border-radius: 0 !important;
+        box-shadow: 0 4px 25px darkslategrey;
+        color: #4c667a !important;
+        background-color: $color-white !important;
+
+      }
+    }
+  }
+  .about-us{
+    .form-transform-marginContol{
+      margin-top:30px !important;
+      margin-left:0 !important;
+      .icons{
+        width:6% !important;
+        top: 28px !important;
+        left:10px !important;
+        margin:0 !important;
+      }
+      .form-transform {
+        width: 100%;
+      }
+      button{
+        width: 100% !important;
+      }
+    }
+    .col-sm-6{
+      margin-left: 0 !important;
+      .academy-chef {
+      margin-top: 25px !important;
+      margin-left:0 !important;
+      height: 400px !important;
+     }
+    }
+  }
+
+}
+
+@media(min-width: 320px) and (max-width: 767px) {
+  .enroll-header{
+    height: auto !important;
+    padding-bottom: 40px;
+    .navbar-default {
+      margin-bottom: 55px !important;
+      .logo-top {
+        padding: 0 !important;
+      }
+      .navbar-nav {
+        margin: 0;
+      }
+      .clock {
+        display: none;
+      }
+    }
+    .navbar-header {
+      padding: 0 0 21px;
+      background: #000;
+    }
+    .navbar-collapse {
+      position: relative;
+      top: 0;
+    }
+    .main-heading {
+      margin: 15px 0 !important;
+      h1 {
+        font-size: 30px !important;
+        margin-bottom: 15px !important;
+      }
+      .special-development-icons{
+        display: none;
+      }
+      .btn {
+        width:55%;
+        font-size: 18px;
+        font-weight: 600;
+        margin-top:20px;
+        display: inline-block;
+        border-radius: 0 !important;
+        box-shadow: 0 4px 25px darkslategrey;
+        color: #4c667a !important;
+        background-color: $color-white !important;
+
+      }
+    }
+  }
+  .about-us {
+      .form-transform-marginControl {
+        width: auto !important;
+        margin-top: 0 !important;
+        .icons {
+          width: 8% !important;
+        }
+        .form-transform {
+          font-size: 13px !important;
+        }
+        button {
+          width: 100% !important;
+          font-size: 13px !important;
+        }
+      }
+      .academy-chef {
+        margin-top: 25px !important;
+        margin-left: 0 !important;
+        height: 200px !important;
+      }
+
+  }
+}
