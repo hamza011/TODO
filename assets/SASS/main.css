@@ -6886,10 +6886,14 @@ button.close {
       padding: 0 9px 0 35px;
       color: #ffffff;
       border-radius: 0; }
+    .form-transformation .form-div .group ::-webkit-input-placeholder {
+      color: #ffffff; }
     .form-transformation .form-div .textarea-comments {
       margin: 20px 0 0;
       resize: none;
       border-radius: 0 !important; }
+    .form-transformation .form-div ::-webkit-input-placeholder {
+      color: #ffffff; }
     .form-transformation .form-div button {
       width: 100%;
       height: 60px;
@@ -8452,9 +8456,266 @@ button.close {
       border: 0;
       padding: 0 !important; }
 
-.about-us h3 {
-  text-align: center;
-  font-size: 35px;
+.about-us {
   font-family: Raleway, sans-serif; }
+  .about-us h3 {
+    text-align: center;
+    font-size: 35px; }
+  .about-us .event-intro {
+    margin: 20px 0 40px 0; }
+    .about-us .event-intro .simple-paragraph {
+      font-size: 20px;
+      padding-left: 100px;
+      margin-bottom: 0; }
+    .about-us .event-intro span {
+      padding: 0 0 0 30px;
+      text-align: center;
+      display: inline-block; }
+
+.date-venue-time {
+  height: 150px;
+  width: 100%;
+  font-family: Raleway, sans-serif;
+  font-size: 23px;
+  text-align: center;
+  display: table; }
+  .date-venue-time .row {
+    background: url("../images/venue-bg.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: table-cell;
+    padding: 20px 0 0 0;
+    vertical-align: middle; }
+  .date-venue-time .top-bottom {
+    padding-top: 40px;
+    padding-bottom: 40px; }
+    .date-venue-time .top-bottom .text-uppercase, .date-venue-time .top-bottom .initialism {
+      display: inline-block;
+      color: #ffffff;
+      font-size: 16px !important; }
+    .date-venue-time .top-bottom .text-uppercase-bold {
+      display: inline-block;
+      color: #ffffff;
+      margin: 20px 0 50px 0;
+      font-weight: 600;
+      font-family: "Open Sans",sans-serif; }
+    .date-venue-time .top-bottom .tagline {
+      font-size: 15px;
+      margin: -50px 0 0 30px; }
+
+.event-gallery {
+  background-image: url("../images/event-gallery-bg.jpg");
+  background-repeat: no-repeat;
+  padding: 30px 0 60px 0; }
+  .event-gallery h1 {
+    font-family: Raleway, sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    color: #727272;
+    margin: 25px 0 50px 0; }
+  .event-gallery .img-transform {
+    width: 100%;
+    height: 450px; }
+  .event-gallery img {
+    width: 100%;
+    margin-bottom: 15px; }
+
+.register {
+  font-family: "Raleway", sans-serif;
+  background: url("../images/venue-bg.jpg") no-repeat;
+  background-attachment: fixed;
+  background-size: cover; }
+  .register h1 {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 35px;
+    margin-top: 50px; }
+  .register .input-fields {
+    padding: 20px 0 100px 0; }
+    .register .input-fields input {
+      background-color: transparent;
+      color: #ffffff;
+      font-size: 18px;
+      padding: 10px;
+      width: 100%;
+      border-color: #ffffff; }
+    .register .input-fields ::-webkit-input-placeholder {
+      color: #ffffff; }
+  .register button {
+    width: 100%;
+    border-radius: 0;
+    background: #fff;
+    color: #124C71;
+    font-weight: 700;
+    margin-bottom: 50px; }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .wordpressMeetup-header {
+    height: auto !important;
+    padding-bottom: 40px; }
+    .wordpressMeetup-header .navbar-default {
+      margin-bottom: 0; }
+      .wordpressMeetup-header .navbar-default .logo-top {
+        padding: 0 !important; }
+      .wordpressMeetup-header .navbar-default .navbar-nav {
+        margin: 25px 25px 0 25px !important; }
+      .wordpressMeetup-header .navbar-default .clock {
+        display: none; }
+    .wordpressMeetup-header .container-fluid {
+      background-color: black; }
+    .wordpressMeetup-header .navbar-brand {
+      margin-left: 0 !important; }
+    .wordpressMeetup-header .navbar-header {
+      padding: 0 0 21px; }
+    .wordpressMeetup-header .navbar-collapse {
+      position: relative;
+      top: 0;
+      padding: 15px !important; }
+    .wordpressMeetup-header .main-heading h1 {
+      font-size: 45px !important;
+      margin: 0 0 40px 0 !important; }
+    .wordpressMeetup-header .main-heading .special-development-icons .front-end-development {
+      margin-left: 20% !important; }
+    .wordpressMeetup-header .main-heading .special-development-icons .js-dev {
+      margin-left: -40px !important; }
+    .wordpressMeetup-header .main-heading .btn {
+      width: 16%; }
+
+  .about-us {
+    padding: 30px 0 0 0; }
+    .about-us h3 {
+      font-size: 30px; }
+    .about-us .event-intro {
+      margin: 0 0 30px 0;
+      padding: 0 !important; }
+      .about-us .event-intro .simple-paragraph {
+        font-size: 16px;
+        padding: 0 !important;
+        text-align: center; }
+      .about-us .event-intro span {
+        padding: 0;
+        font-size: 16px;
+        text-align: center; }
+
+  .event-gallery h1 {
+    font-size: 30px; }
+  .event-gallery .img-transform {
+    height: 365px !important; } }
+@media (min-width: 768px) and (max-width: 991px) {
+  .wordpressMeetup-header {
+    height: auto !important;
+    padding-bottom: 40px; }
+    .wordpressMeetup-header .navbar-default {
+      margin-bottom: 0; }
+      .wordpressMeetup-header .navbar-default .logo-top {
+        padding: 0 !important; }
+      .wordpressMeetup-header .navbar-default .navbar-nav {
+        margin: 25px 25px 0 25px !important; }
+      .wordpressMeetup-header .navbar-default .clock {
+        display: none; }
+    .wordpressMeetup-header .container-fluid {
+      background-color: black; }
+    .wordpressMeetup-header .navbar-header {
+      padding: 0 0 21px; }
+    .wordpressMeetup-header .navbar-collapse {
+      position: relative;
+      top: 0; }
+    .wordpressMeetup-header .main-heading h1 {
+      font-size: 40px !important;
+      margin: 50px 0; }
+    .wordpressMeetup-header .main-heading .special-development-icons {
+      display: none; }
+    .wordpressMeetup-header .main-heading .btn {
+      width: 25%; }
+
+  .about-us h3 {
+    font-size: 30px; }
+  .about-us .event-intro {
+    margin: 0 0 30px 0;
+    padding: 0 !important; }
+    .about-us .event-intro .simple-paragraph {
+      font-size: 16px;
+      padding: 0 !important; }
+    .about-us .event-intro span {
+      padding: 0;
+      font-size: 16px; }
+
+  .event-gallery {
+    padding: 20px 0 !important; }
+    .event-gallery h1 {
+      font-size: 26px;
+      margin: 15px 0 30px 0; }
+    .event-gallery .img-transform {
+      height: 270px; }
+
+  .register h1 {
+    font-size: 26px; }
+  .register .input-fields input {
+    font-size: 13px; } }
+@media (min-width: 320px) and (max-width: 767px) {
+  .wordpressMeetup-header {
+    height: auto !important;
+    padding-bottom: 40px; }
+    .wordpressMeetup-header .navbar-default {
+      margin-bottom: 55px !important; }
+      .wordpressMeetup-header .navbar-default .logo-top {
+        padding: 0 !important; }
+      .wordpressMeetup-header .navbar-default .navbar-nav {
+        margin: 0; }
+      .wordpressMeetup-header .navbar-default .clock {
+        display: none; }
+    .wordpressMeetup-header .navbar-header {
+      padding: 0 0 45px;
+      background: #000; }
+    .wordpressMeetup-header .navbar-toggle {
+      margin: 35px 15px 0 0; }
+    .wordpressMeetup-header .navbar-collapse {
+      position: relative;
+      top: 0; }
+    .wordpressMeetup-header .main-heading {
+      margin: 15px 0 !important; }
+      .wordpressMeetup-header .main-heading h1 {
+        font-size: 30px !important;
+        margin-bottom: 15px !important; }
+      .wordpressMeetup-header .main-heading .special-development-icons {
+        display: none; }
+      .wordpressMeetup-header .main-heading .btn {
+        width: 55%;
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 20px;
+        display: inline-block;
+        border-radius: 0 !important;
+        box-shadow: 0 4px 25px darkslategrey;
+        color: #4c667a !important;
+        background-color: #ffffff !important; }
+
+  .about-us h3 {
+    font-size: 26px; }
+  .about-us .event-intro {
+    margin: 0 0 30px 0; }
+    .about-us .event-intro .simple-paragraph {
+      font-size: 16px;
+      display: inline;
+      padding: 0 !important; }
+    .about-us .event-intro span {
+      padding: 0;
+      font-size: 16px; }
+
+  .event-gallery {
+    padding: 20px 0 !important; }
+    .event-gallery h1 {
+      font-size: 26px;
+      margin: 15px 0 30px 0; }
+    .event-gallery .img-transform {
+      height: 80px; }
+
+  .register h1 {
+    font-size: 26px; }
+  .register .input-fields input {
+    font-size: 13px;
+    margin-bottom: 10px; }
+  .register button {
+    font-size: 13px; } }
 
 /*# sourceMappingURL=main.css.map */

@@ -659,11 +659,17 @@
         color: $color-white;
         border-radius: 0;
       }
+      ::-webkit-input-placeholder{
+        color: #ffffff;
+      }
     }
     .textarea-comments {
       margin: 20px 0 0;
       resize: none;
       border-radius: 0 !important;
+    }
+    ::-webkit-input-placeholder{
+      color: #ffffff;
     }
     button {
       width: 100%;

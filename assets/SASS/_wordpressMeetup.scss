@@ -1,81 +1,434 @@
 .wordpressMeetup-header{
-    background: url("../images/wordpress-annual-meetup-event.jpg") no-repeat;
+  background: url("../images/wordpress-annual-meetup-event.jpg") no-repeat;
+  width: 100%;
+  height:450px;
+  //padding: 0 0 80px 0;
+  .navbar-default {
+    margin-bottom:0;
+    background-color: transparent !important;
+    border-color: transparent;
+  }
+  .navbar-collapse {
     width: 100%;
-    height:450px;
-    //padding: 0 0 80px 0;
-    .navbar-default {
-      margin-bottom:0;
-      background-color: transparent !important;
-      border-color: transparent;
+    padding: 0;
+    font-size:15px;
+    position: relative;
+    top: 30px;
+    left: 15px;
+    ul li a{
+      color: $color-white;
+    }
+  }
+  .clock {
+    display: inline-block;
+    width: 21%;
+    margin: -28px 0 0;
+    img{
+      width: 15%;
+      float: left;
+      margin: 0;
+    }
+    p{
+      width: 79%;
+      margin: 0 !important;
+      display: inline-block;
+      float: right;
+      font-size: 11px;
+      color: $color-white;
+    }
+  }
+  .navbar-nav{
+    color:white;
+    margin-left:35px;
+  }
+  .navbar-nav > li > a {
+    &:hover{
+      color: $color-white;
+      border-bottom: 2px solid $color-white;
+    }
+  }
+  .main-heading {
+    text-align: center;
+    font-family: $font-style;
+    margin: 120px 0 0 0;
+    h1 {
+      font-size: 60px;
+      color: $color-white;
+      font-family: $font-style;
+      font-weight: 600;
+      margin-bottom: 0;
+      letter-spacing: 5px;
+      text-transform: uppercase;
+    }
+    .navbar-toggle {
+      margin-top: 50px !important;
+    }
+    .logo-top {
+      padding: 0 0 0 50px;
     }
     .navbar-collapse {
-      width: 100%;
-      padding: 0;
-      font-size:15px;
-      position: relative;
-      top: 30px;
-      left: 15px;
-      ul li a{
-        color: $color-white;
-      }
+      border: 0;
+      padding: 0 !important;
     }
-    .clock {
-      display: inline-block;
-      width: 21%;
-      margin: -28px 0 0;
-      img{
-        width: 15%;
-        float: left;
-        margin: 0;
-      }
-      p{
-        width: 79%;
-        margin: 0 !important;
-        display: inline-block;
-        float: right;
-        font-size: 11px;
-        color: $color-white;
-      }
-    }
-    .navbar-nav{
-      color:white;
-      margin-left:35px;
-    }
-    .navbar-nav > li > a {
-      &:hover{
-        color: $color-white;
-        border-bottom: 2px solid $color-white;
-      }
-    }
-    .main-heading {
-      text-align: center;
-      font-family: $font-style;
-      margin: 120px 0 0 0;
-      h1 {
-        font-size: 60px;
-        color: $color-white;
-        font-family: $font-style;
-        font-weight: 600;
-        margin-bottom: 0;
-        letter-spacing: 5px;
-        text-transform: uppercase;
-      }
-      .navbar-toggle {
-        margin-top: 50px !important;
-      }
-      .logo-top {
-        padding: 0 0 0 50px;
-      }
-      .navbar-collapse {
-        border: 0;
-        padding: 0 !important;
-      }
-    }
+  }
 }
 .about-us{
+  font-family: Raleway, sans-serif;
+
   h3{
     text-align: center;
     font-size: 35px;
+  }
+  .event-intro{
+    margin: 20px 0 40px 0;
+    .simple-paragraph {
+      font-size: 20px;
+      padding-left: 100px;
+      margin-bottom: 0;
+    }
+    span {
+      padding: 0 0 0 30px;
+      text-align: center;
+      display: inline-block;
+    }
+  }
+}
+.date-venue-time{
+  height: 150px;
+  width:100%;
+  font-family:Raleway, sans-serif;
+  font-size:23px;
+  text-align: center;
+  display: table;
+  .row{
+    background: url("../images/venue-bg.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: table-cell;
+    padding: 20px 0 0 0;
+    vertical-align:middle;
+  }
+  .top-bottom{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    .text-uppercase{
+      display: inline-block;
+      color: $color-white;
+      font-size:16px !important;
+    }
+    .text-uppercase-bold {
+      display: inline-block;
+      color: $color-white;
+      margin: 20px 0 50px 0;
+      font-weight: 600;
+      font-family:"Open Sans",sans-serif;
+    }
+    .tagline{
+      font-size: 15px;
+      margin: -50px 0 0 30px;
+    }
+  }
+}
+.event-gallery{
+  background-image: url("../images/event-gallery-bg.jpg");
+  background-repeat: no-repeat;
+  padding: 30px 0 60px 0;
+  h1{
     font-family: Raleway, sans-serif;
+    font-size: 35px;
+    font-weight:600;
+    color: #727272;
+    margin: 25px 0 50px 0;
+  }
+  .img-transform{
+    width: 100%;
+    height: 450px;
+  }
+  img{
+    width:100%;
+    margin-bottom: 15px;
+  }
+}
+.register{
+  font-family: $font-style;
+  background: url("../images/venue-bg.jpg") no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  h1{
+    color: $color-white;
+    font-weight: 700;
+    font-size: 35px;
+    margin-top: 50px;
+  }
+  .input-fields {
+    padding: 20px 0 100px 0;
+    input {
+      background-color: transparent;
+      color: $color-white;
+      font-size: 18px;
+      padding: 10px;
+      width: 100%;
+      border-color: $color-white;
+    }
+    ::-webkit-input-placeholder{
+      color: #ffffff;
+    }
+  }
+  button{
+    width: 100%;
+    border-radius: 0;
+    background: #fff;
+    color: #124C71;
+    font-weight: 700;
+    margin-bottom: 50px;
+  }
+}
+
+@media(min-width: 992px) and (max-width: 1199px){
+  .wordpressMeetup-header {
+    height: auto !important;
+    padding-bottom: 40px;
+    .navbar-default {
+      margin-bottom: 0;
+      .logo-top {
+        padding: 0 !important;
+      }
+      .navbar-nav {
+        margin: 25px 25px 0 25px !important;
+      }
+      .clock {
+        display: none;
+      }
+    }
+    .container-fluid {
+      background-color: black;
+    }
+    .navbar-brand{
+      margin-left: 0 !important;
+    }
+    .navbar-header {
+      padding: 0 0 21px;
+    }
+    .navbar-collapse {
+      position: relative;
+      top: 0;
+      padding:15px !important;
+    }
+    .main-heading {
+      h1 {
+        font-size: 45px !important;
+        margin: 0 0 40px 0 !important;
+      }
+      .special-development-icons {
+        .front-end-development{
+          margin-left:20% !important;
+        }
+        .js-dev{
+          margin-left: -40px !important;
+        }
+      }
+      .btn {
+        width: 16%;
+      }
+    }
+  }
+  .about-us{
+    padding: 30px 0 0 0;
+    h3{
+      font-size: 30px;
+    }
+    .event-intro {
+      margin: 0 0 30px 0;
+      padding: 0 !important;
+      .simple-paragraph {
+        font-size: 16px;
+        padding: 0 !important;
+        text-align: center;
+      }
+      span {
+        padding:0;
+        font-size: 16px;
+        text-align: center;
+      }
+    }
+  }
+  .event-gallery{
+    h1{
+      font-size:30px;
+    }
+    .img-transform{
+      height: 365px !important;
+    }
+  }
+}
+
+@media(min-width: 768px)and(max-width: 991px) {
+  .wordpressMeetup-header {
+    height: auto !important;
+    padding-bottom: 40px;
+    .navbar-default {
+      margin-bottom: 0;
+      .logo-top {
+        padding: 0 !important;
+      }
+      .navbar-nav {
+        margin: 25px 25px 0 25px !important;
+      }
+      .clock {
+        display: none;
+      }
+    }
+    .container-fluid {
+      background-color: black;
+    }
+    .navbar-header {
+      padding: 0 0 21px;
+    }
+    .navbar-collapse {
+      position: relative;
+      top: 0;
+    }
+    .main-heading {
+      h1 {
+        font-size: 40px !important;
+        margin: 50px 0;
+      }
+      .special-development-icons {
+        display: none;
+      }
+      .btn {
+        width: 25%;
+      }
+    }
+  }
+  .about-us{
+    h3{
+      font-size: 30px;
+    }
+    .event-intro {
+      margin: 0 0 30px 0;
+      padding: 0 !important;
+      .simple-paragraph {
+        font-size: 16px;
+        padding: 0 !important;
+      }
+      span {
+        padding:0;
+        font-size: 16px;
+      }
+    }
+  }
+  .event-gallery {
+    padding:  20px 0 !important;
+    h1 {
+      font-size: 26px;
+      margin: 15px 0 30px 0;
+    }
+    .img-transform {
+      height: 270px;
+    }
+  }
+  .register{
+    h1{
+      font-size: 26px;
+    }
+    .input-fields {
+      input {
+        font-size: 13px;
+      }
+    }
+  }
+}
+
+@media(min-width: 320px) and (max-width: 767px) {
+  .wordpressMeetup-header{
+    height: auto !important;
+    padding-bottom: 40px;
+    .navbar-default {
+      margin-bottom: 55px !important;
+      .logo-top {
+        padding: 0 !important;
+      }
+      .navbar-nav {
+        margin: 0;
+      }
+      .clock {
+        display: none;
+      }
+    }
+    .navbar-header {
+      padding: 0 0 45px;
+      background: #000;
+    }
+    .navbar-toggle{
+      margin: 35px 15px 0 0;
+    }
+    .navbar-collapse {
+      position: relative;
+      top: 0;
+    }
+    .main-heading {
+      margin: 15px 0 !important;
+      h1 {
+        font-size: 30px !important;
+        margin-bottom: 15px !important;
+      }
+      .special-development-icons{
+        display: none;
+      }
+      .btn {
+        width:55%;
+        font-size: 18px;
+        font-weight: 600;
+        margin-top:20px;
+        display: inline-block;
+        border-radius: 0 !important;
+        box-shadow: 0 4px 25px darkslategrey;
+        color: #4c667a !important;
+        background-color: $color-white !important;
+
+      }
+    }
+  }
+  .about-us{
+    h3{
+      font-size: 26px;
+    }
+    .event-intro {
+      margin: 0 0 30px 0;
+      .simple-paragraph {
+        font-size: 16px;
+        display: inline;
+        padding: 0 !important;
+      }
+      span {
+        padding:0;
+        font-size: 16px;
+      }
+    }
+  }
+  .event-gallery {
+    padding:  20px 0 !important;
+    h1 {
+      font-size: 26px;
+      margin: 15px 0 30px 0;
+    }
+      .img-transform {
+        height: 80px;
+      }
+    }
+  .register{
+    h1{
+      font-size: 26px;
+    }
+    .input-fields {
+      input {
+        font-size: 13px;
+        margin-bottom: 10px;
+      }
+    }
+    button{
+      font-size: 13px;
+    }
   }
 }
