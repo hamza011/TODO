@@ -78,6 +78,8 @@
   h3{
     text-align: center;
     font-size: 35px;
+    margin-top:50px;
+    font-weight:600;
   }
   .event-intro{
     margin: 20px 0 40px 0;
@@ -399,11 +401,21 @@
       .simple-paragraph {
         font-size: 16px;
         display: inline;
+        text-align: center;
         padding: 0 !important;
       }
       span {
         padding:0;
         font-size: 16px;
+      }
+    }
+  }
+  .date-venue-time{
+    .top-bottom{
+      padding-top: 0;
+      .text-uppercase-bold {
+        margin: 20px 0 0 0;
+        font-size: 18px;
       }
     }
   }

@@ -5895,9 +5895,10 @@ button.close {
       height: 60px; }
     .about-background-image .second-div .div-two-nested p {
       font-size: 13px;
-      font-family: 'Raleway Bold', sans-serif;
+      font-family: 'Raleway',sans-serif;
       font-weight: 600;
-      color: #1b3a54; }
+      color: #1b3a54;
+      margin-top: 10px; }
     .about-background-image .second-div .front-end-development {
       margin-left: 15%; }
     .about-background-image .second-div .js-dev {
@@ -5910,7 +5911,7 @@ button.close {
 .third-div {
   height: 150px;
   width: 100%;
-  font-family: "Raleway SemiBold";
+  font-family: "Raleway SemiBold",sans-serif;
   font-size: 18px;
   text-align: center;
   display: table; }
@@ -5950,7 +5951,7 @@ button.close {
     font-family: "Raleway", sans-serif;
     font-size: 33px;
     color: #555555;
-    margin: 0 0 50px 0px; }
+    margin: 0 0 50px 0; }
   .fourth-div .accordian-courses {
     display: inline-block;
     width: 70%; }
@@ -5999,16 +6000,16 @@ button.close {
   .fifth-div .displayes {
     display: table;
     padding: 0 !important; }
-    .fifth-div .displayes .color-orange, .fifth-div .displayes .css-three, .fifth-div .displayes .react-bg, .fifth-div .displayes .react-bg .apis-bg, .fifth-div .react-bg .displayes .apis-bg {
+    .fifth-div .displayes .color-orange, .fifth-div .displayes .css-three, .fifth-div .displayes .react-bg, .fifth-div .displayes .react-bg .apis-bg, .fifth-div .react-bg .displayes .apis-bg, .fifth-div .displayes .sass-block, .fifth-div .displayes .phonegap-block {
       background-color: rgba(255, 114, 0, 0.9);
       height: 335px;
       width: 100%;
       display: table-cell;
       vertical-align: middle; }
-      .fifth-div .displayes .color-orange img, .fifth-div .displayes .css-three img, .fifth-div .displayes .react-bg img, .fifth-div .react-bg .displayes .apis-bg img {
+      .fifth-div .displayes .color-orange img, .fifth-div .displayes .css-three img, .fifth-div .displayes .react-bg img, .fifth-div .react-bg .displayes .apis-bg img, .fifth-div .displayes .sass-block img, .fifth-div .displayes .phonegap-block img {
         position: relative;
         top: -10px; }
-      .fifth-div .displayes .color-orange p, .fifth-div .displayes .css-three p, .fifth-div .displayes .react-bg p, .fifth-div .react-bg .displayes .apis-bg p {
+      .fifth-div .displayes .color-orange p, .fifth-div .displayes .css-three p, .fifth-div .displayes .react-bg p, .fifth-div .react-bg .displayes .apis-bg p, .fifth-div .displayes .sass-block p, .fifth-div .displayes .phonegap-block p {
         display: inline-block;
         width: 293px;
         position: relative;
@@ -6219,7 +6220,9 @@ button.close {
         margin-bottom: 15px !important; }
       .header-bg .main-heading .btn {
         font-size: 18px;
-        display: inline-block; }
+        display: inline-block;
+        font-family: "Raleway", sans-serif;
+        font-weight: bold; }
 
   .about-background-image .second-div {
     padding: 0 !important; }
@@ -6279,9 +6282,9 @@ button.close {
 
   .fifth-div {
     background-size: cover !important; }
-    .fifth-div .displayes .color-orange p, .fifth-div .displayes .css-three p, .fifth-div .displayes .react-bg p, .fifth-div .react-bg .displayes .apis-bg p {
+    .fifth-div .displayes .color-orange p, .fifth-div .displayes .css-three p, .fifth-div .displayes .react-bg p, .fifth-div .react-bg .displayes .apis-bg p, .fifth-div .displayes .sass-block p, .fifth-div .displayes .phonegap-block p {
       top: 0; }
-    .fifth-div .displayes .color-orange img, .fifth-div .displayes .css-three img, .fifth-div .displayes .react-bg img, .fifth-div .react-bg .displayes .apis-bg img {
+    .fifth-div .displayes .color-orange img, .fifth-div .displayes .css-three img, .fifth-div .displayes .react-bg img, .fifth-div .react-bg .displayes .apis-bg img, .fifth-div .displayes .sass-block img, .fifth-div .displayes .phonegap-block img {
       top: 0; }
     .fifth-div .displayes .css-three img {
       top: 5px;
@@ -8460,7 +8463,9 @@ button.close {
   font-family: Raleway, sans-serif; }
   .about-us h3 {
     text-align: center;
-    font-size: 35px; }
+    font-size: 35px;
+    margin-top: 50px;
+    font-weight: 600; }
   .about-us .event-intro {
     margin: 20px 0 40px 0; }
     .about-us .event-intro .simple-paragraph {
@@ -8697,10 +8702,17 @@ button.close {
     .about-us .event-intro .simple-paragraph {
       font-size: 16px;
       display: inline;
+      text-align: center;
       padding: 0 !important; }
     .about-us .event-intro span {
       padding: 0;
       font-size: 16px; }
+
+  .date-venue-time .top-bottom {
+    padding-top: 0; }
+    .date-venue-time .top-bottom .text-uppercase-bold {
+      margin: 20px 0 0 0;
+      font-size: 18px; }
 
   .event-gallery {
     padding: 20px 0 !important; }
@@ -8717,5 +8729,169 @@ button.close {
     margin-bottom: 10px; }
   .register button {
     font-size: 13px; } }
+.hybrid-header-bg {
+  background: url("../images/HADS-background.png") no-repeat;
+  width: 100%;
+  height: 460px; }
+  .hybrid-header-bg .navbar-default {
+    margin-bottom: 0;
+    background-color: transparent !important;
+    border-color: transparent; }
+  .hybrid-header-bg .navbar-collapse {
+    width: 100%;
+    padding: 35px 0 0 35px;
+    font-size: 15px;
+    position: relative;
+    top: 30px;
+    left: 15px; }
+    .hybrid-header-bg .navbar-collapse ul li a {
+      color: #ffffff; }
+  .hybrid-header-bg .clock {
+    display: inline-block;
+    width: 22%;
+    margin: -28px 0 0; }
+    .hybrid-header-bg .clock img {
+      width: 17%;
+      float: left;
+      margin: 0; }
+    .hybrid-header-bg .clock p {
+      width: 79%;
+      margin: 0 !important;
+      display: inline-block;
+      float: right;
+      font-size: 11px;
+      color: #fff; }
+  .hybrid-header-bg .navbar-brand {
+    padding-top: 15px; }
+  .hybrid-header-bg .navbar-nav {
+    color: white;
+    margin-left: 60px; }
+  .hybrid-header-bg .navbar-nav > li > a {
+    padding: 10px !important; }
+    .hybrid-header-bg .navbar-nav > li > a:hover {
+      color: #ffffff;
+      border-bottom: 2px solid #ffffff; }
+  .hybrid-header-bg h1 {
+    font-size: 60px;
+    color: #fff;
+    font-family: Raleway,sans-serif;
+    font-weight: 600;
+    letter-spacing: 5px;
+    text-transform: uppercase; }
+  .hybrid-header-bg .main-heading {
+    text-align: center;
+    font-family: "Raleway" ,sans-serif;
+    margin: 100px 0 0 0;
+    color: #fff; }
+    .hybrid-header-bg .main-heading .btn {
+      width: 60%;
+      color: #4c667a;
+      font-family: 'Raleway Bold', sans-serif;
+      border-radius: 0 !important;
+      padding: 10px 20px;
+      margin-top: 60px;
+      box-shadow: 0 10px 30px #476b91;
+      display: none; }
+  .hybrid-header-bg .navbar-toggle {
+    margin-top: 50px !important; }
+  .hybrid-header-bg .logo-top {
+    padding: 0 0 0 50px; }
+  .hybrid-header-bg .navbar-collapse {
+    border: 0;
+    padding: 0 !important; }
+
+.fifth-div .displayes .sass-block {
+  background-color: rgba(204, 51, 99, 0.9); }
+.fifth-div .displayes .phonegap-block {
+  background-color: rgba(10, 30, 39, 0.9); }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .hybrid-header-bg {
+    height: auto !important;
+    padding-bottom: 40px; }
+    .hybrid-header-bg .navbar-default {
+      margin-bottom: 55px !important; }
+      .hybrid-header-bg .navbar-default .container-fluid {
+        background-color: #000000; }
+        .hybrid-header-bg .navbar-default .container-fluid .logo-top {
+          padding: 0 !important; }
+        .hybrid-header-bg .navbar-default .container-fluid .navbar-nav {
+          margin: 40px 0 10px 40px !important; }
+        .hybrid-header-bg .navbar-default .container-fluid .clock {
+          display: none; }
+      .hybrid-header-bg .navbar-default .navbar-header {
+        padding: 0 0 21px; }
+      .hybrid-header-bg .navbar-default .navbar-collapse {
+        position: relative;
+        top: 0; }
+    .hybrid-header-bg .main-heading {
+      margin: 15px 0 !important; }
+      .hybrid-header-bg .main-heading h1 {
+        font-size: 30px !important;
+        margin-bottom: 15px !important; }
+      .hybrid-header-bg .main-heading .btn {
+        width: 20%;
+        font-size: 18px;
+        display: inline-block;
+        font-family: "Raleway", sans-serif;
+        font-weight: bold; } }
+@media (min-width: 768px) and (max-width: 991px) {
+  .hybrid-header-bg {
+    height: auto !important;
+    padding-bottom: 40px; }
+    .hybrid-header-bg .navbar-default {
+      margin-bottom: 55px !important; }
+      .hybrid-header-bg .navbar-default .container-fluid {
+        background-color: #000000; }
+        .hybrid-header-bg .navbar-default .container-fluid .logo-top {
+          padding: 0 !important; }
+        .hybrid-header-bg .navbar-default .container-fluid .navbar-nav {
+          margin: 18px 0 5px 50px; }
+        .hybrid-header-bg .navbar-default .container-fluid .clock {
+          display: none; }
+      .hybrid-header-bg .navbar-default .navbar-header {
+        padding: 0 0 21px; }
+      .hybrid-header-bg .navbar-default .navbar-collapse {
+        position: relative;
+        top: 0; }
+    .hybrid-header-bg .main-heading {
+      margin: 15px 0 !important; }
+      .hybrid-header-bg .main-heading h1 {
+        font-size: 30px !important;
+        margin-bottom: 15px !important; }
+      .hybrid-header-bg .main-heading .btn {
+        width: 25%;
+        font-size: 18px;
+        display: inline-block;
+        font-family: "Raleway", sans-serif;
+        font-weight: bold; } }
+@media (min-width: 320px) and (max-width: 767px) {
+  .hybrid-header-bg {
+    height: auto !important;
+    padding-bottom: 40px; }
+    .hybrid-header-bg .navbar-default {
+      margin-bottom: 55px !important; }
+      .hybrid-header-bg .navbar-default .logo-top {
+        padding: 0 !important; }
+      .hybrid-header-bg .navbar-default .navbar-nav {
+        margin: 0; }
+      .hybrid-header-bg .navbar-default .clock {
+        display: none; }
+    .hybrid-header-bg .navbar-header {
+      padding: 0 0 21px;
+      background: #000; }
+    .hybrid-header-bg .navbar-collapse {
+      position: relative;
+      top: 0; }
+    .hybrid-header-bg .main-heading {
+      margin: 15px 0 !important; }
+      .hybrid-header-bg .main-heading h1 {
+        font-size: 30px !important;
+        margin-bottom: 15px !important; }
+      .hybrid-header-bg .main-heading .btn {
+        font-size: 18px;
+        display: inline-block;
+        font-family: "Raleway", sans-serif;
+        font-weight: bold; } }
 
 /*# sourceMappingURL=main.css.map */

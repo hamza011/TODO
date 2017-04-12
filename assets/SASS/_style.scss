@@ -14,8 +14,6 @@
     width: 100%;
     padding: 35px 0 0 35px;
     font-size:15px;
-    //margin-top:10px;
-    //margin-left: 10px;
     position: relative;
     top: 30px;
     left: 15px;
@@ -119,7 +117,6 @@
       font-size: 20px;
       line-height: 35px;
       font-family: 'Raleway',sans-serif;
-
     }
     p {
 
@@ -127,16 +124,15 @@
       margin: 0 0 50px;
     }
     .div-two-nested {
-      //padding:10px ;
       img{
         height: 60px;
       }
       p {
-        //padding: 5px 0;
         font-size: 13px;
-        font-family: 'Raleway Bold', sans-serif;
+        font-family: 'Raleway',sans-serif;
         font-weight:600;
         color: #1b3a54;
+        margin-top: 10px;
       }
     }
     .front-end-development{
@@ -157,27 +153,22 @@
 .third-div {
   height: 150px;
   width:100%;
-  font-family: "Raleway SemiBold";
+  font-family: "Raleway SemiBold",sans-serif;
   font-size:18px;
   text-align: center;
   display: table;
-
   .rowWithBg {
     background: url("../images/background.png") no-repeat;
-    //background-position:center;
     background-size: cover;
     background-attachment: fixed;
-    //min-height:300px;
     display: table-cell;
     vertical-align:middle ;
   }
-
   .course-image {
     background: url("../images/selected-course-icon.png") no-repeat;
     background-position: center !important;
     width: 26%;
     height: 60px;
-
     &:hover {
       background: url("../images/course.png") no-repeat;
       background-position: center !important;
@@ -190,7 +181,6 @@
       background: url("../images/strat-learning.png") no-repeat;
     }
   }
-
   .master-image {
     background: url("../images/best-teacher-icon.png") no-repeat;
     @extend .course-image;
@@ -201,10 +191,8 @@
   .text-uppercase {
     display: inline-block;
     color: white;
-    //font-size:16px !important;
     font-family: "Raleway SemiBold",sans-serif;
   }
-
 }
 
 .fourth-div {
@@ -216,7 +204,7 @@
     font-family: $font-style;
     font-size: 33px;
     color: #555555;
-    margin: 0 0 50px 0px;
+    margin: 0 0 50px 0;
   }
   .accordian-courses{
     display: inline-block;
@@ -287,7 +275,6 @@
         top: -10px;
       }
       p {
-        //font-size: 15px;
         display: inline-block;
         width: 293px;
         position: relative;
@@ -602,6 +589,8 @@
       .btn {
         font-size: 18px;
         display: inline-block;
+        font-family: $font-style;
+        font-weight: bold;
       }
     }
   }
@@ -622,8 +611,6 @@
         .js-dev{
           margin-left: 0;
         }
-        //line-height: 25px !important;
-        //margin:0 0 20px 0 !important;
       }
       .div-two-nested {
         .front-end-development{
@@ -646,7 +633,6 @@
   .third-div {
     .container{
       padding:10px;
-      //margin:10px 0;
     }
     .col-xs-12{
       margin:10px 0;
