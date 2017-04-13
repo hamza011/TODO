@@ -181,8 +181,30 @@
       }
     }
   }
-
+  .about-background-image .second-div {
+    padding:10px 0;
+    h3{
+      font-size: 24px;
+    }
+    .about-us-paragraph{
+      font-size: 16px;
+    }
+    .div-two-nested p{
+      font-size: 11px;
+      margin-top: 0 !important;
+    }
+  }
+  .third-div{
+    .rowWithBg{
+      padding: 20px 0;
+      .course-image{
+        width: 12%;
+        height: 75px;
+      }
+    }
+  }
 }
+
 @media (min-width: 320px) and (max-width: 767px) {
   .hybrid-header-bg{
     height: auto !important;
@@ -208,10 +230,10 @@
       top: 0;
     }
     .main-heading {
-      margin: 15px 0 !important;
+      margin: 5px 0 !important;
       h1 {
         font-size: 30px !important;
-        margin-bottom: 15px !important;
+        margin-bottom: 0 !important;
       }
       .btn {
         font-size: 18px;
@@ -221,5 +243,4 @@
       }
     }
   }
-
 }

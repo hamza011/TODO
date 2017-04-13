@@ -1,0 +1,48 @@
+.angular-header-bg{
+  background-image: url("../images/angular-learn-banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  h1{
+    padding-top: 30px;
+  }
+  @extend .header-bg;
+}
+.about-background-image{
+  .second-div{
+    .angular-logo{
+      width:auto;
+      height:100px;
+      margin-bottom: 35px;
+    }
+    h4{
+      font-weight: bold;
+      font-size: 35px;
+      margin-bottom: 30px;
+      color: #000;
+    }
+    .basic-info{
+      font-size: 20px;
+      color: #333333;
+    }
+  }
+}
+.why-angular{
+  background-image: url("../images/why-laguage-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 30px 0;
+  .text-center{
+    padding: 35px 0 20px 0;
+    h4{
+      color: $color-white;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 600;
+    }
+    p{
+      color: #dee2e5;
+      font-family: 'Raleway', sans-serif;
+      padding-top: 25px;
+    }
+  }
+}

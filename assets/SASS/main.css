@@ -5799,61 +5799,61 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
-.header-bg {
+.header-bg, .angular-header-bg {
   background: url("../images/backg.png") no-repeat;
   width: 100%;
   height: 460px; }
-  .header-bg .navbar-default {
+  .header-bg .navbar-default, .angular-header-bg .navbar-default {
     margin-bottom: 0;
     background-color: transparent !important;
     border-color: transparent; }
-  .header-bg .navbar-collapse {
+  .header-bg .navbar-collapse, .angular-header-bg .navbar-collapse {
     width: 100%;
     padding: 35px 0 0 35px;
     font-size: 15px;
     position: relative;
     top: 30px;
     left: 15px; }
-    .header-bg .navbar-collapse ul li a {
+    .header-bg .navbar-collapse ul li a, .angular-header-bg .navbar-collapse ul li a {
       color: #ffffff; }
-  .header-bg .clock {
+  .header-bg .clock, .angular-header-bg .clock {
     display: inline-block;
     width: 22%;
     margin: -28px 0 0; }
-    .header-bg .clock img {
+    .header-bg .clock img, .angular-header-bg .clock img {
       width: 17%;
       float: left;
       margin: 0; }
-    .header-bg .clock p {
+    .header-bg .clock p, .angular-header-bg .clock p {
       width: 79%;
       margin: 0 !important;
       display: inline-block;
       float: right;
       font-size: 11px;
       color: #fff; }
-  .header-bg .navbar-brand {
+  .header-bg .navbar-brand, .angular-header-bg .navbar-brand {
     padding-top: 15px; }
-  .header-bg .navbar-nav {
+  .header-bg .navbar-nav, .angular-header-bg .navbar-nav {
     color: white;
     margin-left: 60px; }
-  .header-bg .navbar-nav > li > a {
+  .header-bg .navbar-nav > li > a, .angular-header-bg .navbar-nav > li > a {
     padding: 10px !important; }
-    .header-bg .navbar-nav > li > a:hover {
+    .header-bg .navbar-nav > li > a:hover, .angular-header-bg .navbar-nav > li > a:hover {
       color: #ffffff;
       border-bottom: 2px solid #ffffff; }
-  .header-bg h1 {
+  .header-bg h1, .angular-header-bg h1 {
     font-size: 60px;
     color: #fff;
     font-family: Raleway,sans-serif;
     font-weight: 600;
     letter-spacing: 5px;
     text-transform: uppercase; }
-  .header-bg .main-heading {
+  .header-bg .main-heading, .angular-header-bg .main-heading {
     text-align: center;
     font-family: "Raleway" ,sans-serif;
     margin: 100px 0 0 0;
     color: #fff; }
-    .header-bg .main-heading .btn {
+    .header-bg .main-heading .btn, .angular-header-bg .main-heading .btn {
       width: 60%;
       color: #4c667a;
       font-family: 'Raleway Bold', sans-serif;
@@ -5862,16 +5862,19 @@ button.close {
       margin-top: 60px;
       box-shadow: 0 10px 30px #476b91;
       display: none; }
-  .header-bg .navbar-toggle {
+  .header-bg .navbar-toggle, .angular-header-bg .navbar-toggle {
     margin-top: 50px !important; }
-  .header-bg .logo-top {
+  .header-bg .logo-top, .angular-header-bg .logo-top {
     padding: 0 0 0 50px; }
-  .header-bg .navbar-collapse {
+  .header-bg .navbar-collapse, .angular-header-bg .navbar-collapse {
     border: 0;
     padding: 0 !important; }
 
 .about-background-image {
-  background-image: url("../images/about-academy-bg.jpg"); }
+  background-image: url("../images/about-academy-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
   .about-background-image .second-div {
     width: 100%;
     padding: 60px;
@@ -5911,7 +5914,7 @@ button.close {
 .third-div {
   height: 150px;
   width: 100%;
-  font-family: "Raleway SemiBold",sans-serif;
+  font-family: 'Raleway',sans-serif;
   font-size: 18px;
   text-align: center;
   display: table; }
@@ -6196,29 +6199,29 @@ button.close {
   .about-background .second-div .paragraph-two {
     font-size: 16px; } }
 @media (min-width: 320px) and (max-width: 767px) {
-  .header-bg {
+  .header-bg, .angular-header-bg {
     height: auto !important;
     padding-bottom: 40px; }
-    .header-bg .navbar-default {
+    .header-bg .navbar-default, .angular-header-bg .navbar-default {
       margin-bottom: 55px !important; }
-      .header-bg .navbar-default .logo-top {
+      .header-bg .navbar-default .logo-top, .angular-header-bg .navbar-default .logo-top {
         padding: 0 !important; }
-      .header-bg .navbar-default .navbar-nav {
+      .header-bg .navbar-default .navbar-nav, .angular-header-bg .navbar-default .navbar-nav {
         margin: 0; }
-      .header-bg .navbar-default .clock {
+      .header-bg .navbar-default .clock, .angular-header-bg .navbar-default .clock {
         display: none; }
-    .header-bg .navbar-header {
+    .header-bg .navbar-header, .angular-header-bg .navbar-header {
       padding: 0 0 21px;
       background: #000; }
-    .header-bg .navbar-collapse {
+    .header-bg .navbar-collapse, .angular-header-bg .navbar-collapse {
       position: relative;
       top: 0; }
-    .header-bg .main-heading {
+    .header-bg .main-heading, .angular-header-bg .main-heading {
       margin: 15px 0 !important; }
-      .header-bg .main-heading h1 {
+      .header-bg .main-heading h1, .angular-header-bg .main-heading h1 {
         font-size: 30px !important;
         margin-bottom: 15px !important; }
-      .header-bg .main-heading .btn {
+      .header-bg .main-heading .btn, .angular-header-bg .main-heading .btn {
         font-size: 18px;
         display: inline-block;
         font-family: "Raleway", sans-serif;
@@ -8864,7 +8867,23 @@ button.close {
         font-size: 18px;
         display: inline-block;
         font-family: "Raleway", sans-serif;
-        font-weight: bold; } }
+        font-weight: bold; }
+
+  .about-background-image .second-div {
+    padding: 10px 0; }
+    .about-background-image .second-div h3 {
+      font-size: 24px; }
+    .about-background-image .second-div .about-us-paragraph {
+      font-size: 16px; }
+    .about-background-image .second-div .div-two-nested p {
+      font-size: 11px;
+      margin-top: 0 !important; }
+
+  .third-div .rowWithBg {
+    padding: 20px 0; }
+    .third-div .rowWithBg .course-image, .third-div .rowWithBg .learing-image, .third-div .rowWithBg .master-image {
+      width: 12%;
+      height: 75px; } }
 @media (min-width: 320px) and (max-width: 767px) {
   .hybrid-header-bg {
     height: auto !important;
@@ -8884,14 +8903,50 @@ button.close {
       position: relative;
       top: 0; }
     .hybrid-header-bg .main-heading {
-      margin: 15px 0 !important; }
+      margin: 5px 0 !important; }
       .hybrid-header-bg .main-heading h1 {
         font-size: 30px !important;
-        margin-bottom: 15px !important; }
+        margin-bottom: 0 !important; }
       .hybrid-header-bg .main-heading .btn {
         font-size: 18px;
         display: inline-block;
         font-family: "Raleway", sans-serif;
         font-weight: bold; } }
+.angular-header-bg {
+  background-image: url("../images/angular-learn-banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .angular-header-bg h1 {
+    padding-top: 30px; }
+
+.about-background-image .second-div .angular-logo {
+  width: auto;
+  height: 100px;
+  margin-bottom: 35px; }
+.about-background-image .second-div h4 {
+  font-weight: bold;
+  font-size: 35px;
+  margin-bottom: 30px;
+  color: #000; }
+.about-background-image .second-div .basic-info {
+  font-size: 20px;
+  color: #333333; }
+
+.why-angular {
+  background-image: url("../images/why-laguage-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 30px 0; }
+  .why-angular .text-center {
+    padding: 35px 0 20px 0; }
+    .why-angular .text-center h4 {
+      color: #ffffff;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 600; }
+    .why-angular .text-center p {
+      color: #dee2e5;
+      font-family: 'Raleway', sans-serif;
+      padding-top: 25px; }
 
 /*# sourceMappingURL=main.css.map */
