@@ -46,3 +46,141 @@
     }
   }
 }
+
+@media (min-width: 992px) and (max-width: 1199px){
+  .angular-header-bg{
+    .container-fluid{
+      background: #000;
+      padding-bottom: 50px;
+      .logo-top{
+        padding: 0 !important;
+      }
+      .navbar-collapse{
+        padding: 0 !important;
+      }
+      .clock{
+        display: none;
+      }
+    }
+    .main-heading{
+      margin: 70px 0 0 0;
+      h1{
+        font-size: 50px !important;
+      }
+      .btn{
+        display: inline-block;
+        font-family: Raleway, sans-serif;
+        font-weight: 600;
+        margin-top: 20px;
+        width: 20%;
+      }
+    }
+  }
+  .about-background-image{
+    .second-div{
+      .angular-logo{
+        height: 85px;
+        margin-top: 0 !important;
+      }
+      h4{
+        font-size: 30px;
+      }
+      p{
+        margin-bottom: 0 !important;
+        font-size: 18px;
+      }
+    }
+  }
+  .why-angular{
+    h4{
+      font-size: 26px;
+    }
+    p {
+      font-size: 14px;
+      padding-top: 0 !important;
+    }
+  }
+
+}
+@media (min-width: 768px) and (max-width: 991px){
+  .angular-header-bg{
+    .container-fluid{
+      background: #000;
+      .logo-top{
+        padding: 0 !important;
+      }
+      .navbar-collapse{
+        padding: 0 0 35px 0 !important;
+      }
+      .clock{
+        display: none;
+      }
+    }
+    .main-heading{
+      margin: 60px 0 0 0;
+      h1{
+        font-size: 45px !important;
+      }
+      .btn{
+        display: inline-block;
+        font-family: Raleway, sans-serif;
+        font-weight: 600;
+        margin-top: 15px;
+        width: 25%;
+      }
+    }
+  }
+  .about-background-image{
+    .second-div{
+      .angular-logo{
+        height: 75px;
+        margin-top: 25px;
+      }
+      h4{
+        font-size: 30px;
+      }
+      .basic-info{
+        margin: 0 0 20px 0 !important;
+        font-size: 16px;
+      }
+    }
+  }
+  .why-angular{
+    h4{
+      font-size: 26px;
+    }
+    p {
+      font-size: 14px;
+      padding-top: 0 !important;
+    }
+  }
+
+
+}
+@media (min-width: 320px) and (max-width: 767px){
+  .about-background-image{
+    .second-div{
+      .angular-logo{
+        height: 65px;
+        margin-top: 20px;
+      }
+      h4{
+        font-size: 24px;
+      }
+      .basic-info{
+        margin: 0 0 20px 0 !important;
+        font-size: 12px;
+      }
+    }
+  }
+  .why-angular{
+    h4{
+      font-size: 24px;
+    }
+    p{
+      font-size: 12px;
+      padding-top: 0 !important;
+    }
+  }
+
+}

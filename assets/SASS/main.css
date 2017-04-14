@@ -5799,61 +5799,61 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
-.header-bg, .angular-header-bg {
+.header-bg, .angular-header-bg, .wds-header-bg {
   background: url("../images/backg.png") no-repeat;
   width: 100%;
   height: 460px; }
-  .header-bg .navbar-default, .angular-header-bg .navbar-default {
+  .header-bg .navbar-default, .angular-header-bg .navbar-default, .wds-header-bg .navbar-default {
     margin-bottom: 0;
     background-color: transparent !important;
     border-color: transparent; }
-  .header-bg .navbar-collapse, .angular-header-bg .navbar-collapse {
+  .header-bg .navbar-collapse, .angular-header-bg .navbar-collapse, .wds-header-bg .navbar-collapse {
     width: 100%;
     padding: 35px 0 0 35px;
     font-size: 15px;
     position: relative;
     top: 30px;
     left: 15px; }
-    .header-bg .navbar-collapse ul li a, .angular-header-bg .navbar-collapse ul li a {
+    .header-bg .navbar-collapse ul li a, .angular-header-bg .navbar-collapse ul li a, .wds-header-bg .navbar-collapse ul li a {
       color: #ffffff; }
-  .header-bg .clock, .angular-header-bg .clock {
+  .header-bg .clock, .angular-header-bg .clock, .wds-header-bg .clock {
     display: inline-block;
     width: 22%;
     margin: -28px 0 0; }
-    .header-bg .clock img, .angular-header-bg .clock img {
+    .header-bg .clock img, .angular-header-bg .clock img, .wds-header-bg .clock img {
       width: 17%;
       float: left;
       margin: 0; }
-    .header-bg .clock p, .angular-header-bg .clock p {
+    .header-bg .clock p, .angular-header-bg .clock p, .wds-header-bg .clock p {
       width: 79%;
       margin: 0 !important;
       display: inline-block;
       float: right;
       font-size: 11px;
       color: #fff; }
-  .header-bg .navbar-brand, .angular-header-bg .navbar-brand {
+  .header-bg .navbar-brand, .angular-header-bg .navbar-brand, .wds-header-bg .navbar-brand {
     padding-top: 15px; }
-  .header-bg .navbar-nav, .angular-header-bg .navbar-nav {
+  .header-bg .navbar-nav, .angular-header-bg .navbar-nav, .wds-header-bg .navbar-nav {
     color: white;
     margin-left: 60px; }
-  .header-bg .navbar-nav > li > a, .angular-header-bg .navbar-nav > li > a {
+  .header-bg .navbar-nav > li > a, .angular-header-bg .navbar-nav > li > a, .wds-header-bg .navbar-nav > li > a {
     padding: 10px !important; }
-    .header-bg .navbar-nav > li > a:hover, .angular-header-bg .navbar-nav > li > a:hover {
+    .header-bg .navbar-nav > li > a:hover, .angular-header-bg .navbar-nav > li > a:hover, .wds-header-bg .navbar-nav > li > a:hover {
       color: #ffffff;
       border-bottom: 2px solid #ffffff; }
-  .header-bg h1, .angular-header-bg h1 {
+  .header-bg h1, .angular-header-bg h1, .wds-header-bg h1 {
     font-size: 60px;
     color: #fff;
     font-family: Raleway,sans-serif;
     font-weight: 600;
     letter-spacing: 5px;
     text-transform: uppercase; }
-  .header-bg .main-heading, .angular-header-bg .main-heading {
+  .header-bg .main-heading, .angular-header-bg .main-heading, .wds-header-bg .main-heading {
     text-align: center;
     font-family: "Raleway" ,sans-serif;
     margin: 100px 0 0 0;
     color: #fff; }
-    .header-bg .main-heading .btn, .angular-header-bg .main-heading .btn {
+    .header-bg .main-heading .btn, .angular-header-bg .main-heading .btn, .wds-header-bg .main-heading .btn {
       width: 60%;
       color: #4c667a;
       font-family: 'Raleway Bold', sans-serif;
@@ -5862,11 +5862,11 @@ button.close {
       margin-top: 60px;
       box-shadow: 0 10px 30px #476b91;
       display: none; }
-  .header-bg .navbar-toggle, .angular-header-bg .navbar-toggle {
+  .header-bg .navbar-toggle, .angular-header-bg .navbar-toggle, .wds-header-bg .navbar-toggle {
     margin-top: 50px !important; }
-  .header-bg .logo-top, .angular-header-bg .logo-top {
+  .header-bg .logo-top, .angular-header-bg .logo-top, .wds-header-bg .logo-top {
     padding: 0 0 0 50px; }
-  .header-bg .navbar-collapse, .angular-header-bg .navbar-collapse {
+  .header-bg .navbar-collapse, .angular-header-bg .navbar-collapse, .wds-header-bg .navbar-collapse {
     border: 0;
     padding: 0 !important; }
 
@@ -6199,29 +6199,29 @@ button.close {
   .about-background .second-div .paragraph-two {
     font-size: 16px; } }
 @media (min-width: 320px) and (max-width: 767px) {
-  .header-bg, .angular-header-bg {
+  .header-bg, .angular-header-bg, .wds-header-bg {
     height: auto !important;
     padding-bottom: 40px; }
-    .header-bg .navbar-default, .angular-header-bg .navbar-default {
+    .header-bg .navbar-default, .angular-header-bg .navbar-default, .wds-header-bg .navbar-default {
       margin-bottom: 55px !important; }
-      .header-bg .navbar-default .logo-top, .angular-header-bg .navbar-default .logo-top {
+      .header-bg .navbar-default .logo-top, .angular-header-bg .navbar-default .logo-top, .wds-header-bg .navbar-default .logo-top {
         padding: 0 !important; }
-      .header-bg .navbar-default .navbar-nav, .angular-header-bg .navbar-default .navbar-nav {
+      .header-bg .navbar-default .navbar-nav, .angular-header-bg .navbar-default .navbar-nav, .wds-header-bg .navbar-default .navbar-nav {
         margin: 0; }
-      .header-bg .navbar-default .clock, .angular-header-bg .navbar-default .clock {
+      .header-bg .navbar-default .clock, .angular-header-bg .navbar-default .clock, .wds-header-bg .navbar-default .clock {
         display: none; }
-    .header-bg .navbar-header, .angular-header-bg .navbar-header {
+    .header-bg .navbar-header, .angular-header-bg .navbar-header, .wds-header-bg .navbar-header {
       padding: 0 0 21px;
       background: #000; }
-    .header-bg .navbar-collapse, .angular-header-bg .navbar-collapse {
+    .header-bg .navbar-collapse, .angular-header-bg .navbar-collapse, .wds-header-bg .navbar-collapse {
       position: relative;
       top: 0; }
-    .header-bg .main-heading, .angular-header-bg .main-heading {
+    .header-bg .main-heading, .angular-header-bg .main-heading, .wds-header-bg .main-heading {
       margin: 15px 0 !important; }
-      .header-bg .main-heading h1, .angular-header-bg .main-heading h1 {
+      .header-bg .main-heading h1, .angular-header-bg .main-heading h1, .wds-header-bg .main-heading h1 {
         font-size: 30px !important;
         margin-bottom: 15px !important; }
-      .header-bg .main-heading .btn, .angular-header-bg .main-heading .btn {
+      .header-bg .main-heading .btn, .angular-header-bg .main-heading .btn, .wds-header-bg .main-heading .btn {
         font-size: 18px;
         display: inline-block;
         font-family: "Raleway", sans-serif;
@@ -8948,5 +8948,177 @@ button.close {
       color: #dee2e5;
       font-family: 'Raleway', sans-serif;
       padding-top: 25px; }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .angular-header-bg .container-fluid {
+    background: #000;
+    padding-bottom: 50px; }
+    .angular-header-bg .container-fluid .logo-top {
+      padding: 0 !important; }
+    .angular-header-bg .container-fluid .navbar-collapse {
+      padding: 0 !important; }
+    .angular-header-bg .container-fluid .clock {
+      display: none; }
+  .angular-header-bg .main-heading {
+    margin: 70px 0 0 0; }
+    .angular-header-bg .main-heading h1 {
+      font-size: 50px !important; }
+    .angular-header-bg .main-heading .btn {
+      display: inline-block;
+      font-family: Raleway, sans-serif;
+      font-weight: 600;
+      margin-top: 20px;
+      width: 20%; }
+
+  .about-background-image .second-div .angular-logo {
+    height: 85px;
+    margin-top: 0 !important; }
+  .about-background-image .second-div h4 {
+    font-size: 30px; }
+  .about-background-image .second-div p {
+    margin-bottom: 0 !important;
+    font-size: 18px; }
+
+  .why-angular h4 {
+    font-size: 26px; }
+  .why-angular p {
+    font-size: 14px;
+    padding-top: 0 !important; } }
+@media (min-width: 768px) and (max-width: 991px) {
+  .angular-header-bg .container-fluid {
+    background: #000; }
+    .angular-header-bg .container-fluid .logo-top {
+      padding: 0 !important; }
+    .angular-header-bg .container-fluid .navbar-collapse {
+      padding: 0 0 35px 0 !important; }
+    .angular-header-bg .container-fluid .clock {
+      display: none; }
+  .angular-header-bg .main-heading {
+    margin: 60px 0 0 0; }
+    .angular-header-bg .main-heading h1 {
+      font-size: 45px !important; }
+    .angular-header-bg .main-heading .btn {
+      display: inline-block;
+      font-family: Raleway, sans-serif;
+      font-weight: 600;
+      margin-top: 15px;
+      width: 25%; }
+
+  .about-background-image .second-div .angular-logo {
+    height: 75px;
+    margin-top: 25px; }
+  .about-background-image .second-div h4 {
+    font-size: 30px; }
+  .about-background-image .second-div .basic-info {
+    margin: 0 0 20px 0 !important;
+    font-size: 16px; }
+
+  .why-angular h4 {
+    font-size: 26px; }
+  .why-angular p {
+    font-size: 14px;
+    padding-top: 0 !important; } }
+@media (min-width: 320px) and (max-width: 767px) {
+  .about-background-image .second-div .angular-logo {
+    height: 65px;
+    margin-top: 20px; }
+  .about-background-image .second-div h4 {
+    font-size: 24px; }
+  .about-background-image .second-div .basic-info {
+    margin: 0 0 20px 0 !important;
+    font-size: 12px; }
+
+  .why-angular h4 {
+    font-size: 24px; }
+  .why-angular p {
+    font-size: 12px;
+    padding-top: 0 !important; } }
+.wds-header-bg {
+  background-image: url("../images/wordpress-banner-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+
+.about-background-image .about-icons {
+  height: 50px !important; }
+
+.fifth-div .php {
+  background-color: rgba(116, 142, 195, 0.9);
+  padding: 87px 0; }
+  .fifth-div .php img {
+    margin: 0 0 15px 0; }
+.fifth-div .wordpress-block {
+  background-color: rgba(21, 55, 66, 0.9);
+  padding: 87px 0; }
+  .fifth-div .wordpress-block img {
+    margin: 0 0 15px 0; }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .wds-header-bg {
+    height: auto !important;
+    padding-bottom: 40px; }
+    .wds-header-bg .navbar-default {
+      margin-bottom: 0; }
+      .wds-header-bg .navbar-default .logo-top {
+        padding: 0 !important; }
+      .wds-header-bg .navbar-default .navbar-nav {
+        margin: 25px 25px 0 25px !important; }
+      .wds-header-bg .navbar-default .clock {
+        display: none; }
+    .wds-header-bg .container-fluid {
+      background-color: black;
+      padding-bottom: 20px; }
+    .wds-header-bg .navbar-header {
+      padding: 0 0 21px; }
+    .wds-header-bg .navbar-collapse {
+      position: relative;
+      top: 0; }
+    .wds-header-bg .main-heading h1 {
+      font-size: 40px !important;
+      margin: 50px 0 0 0; }
+    .wds-header-bg .main-heading .btn {
+      display: inline-block !important;
+      font-family: "Raleway" , sans-serif;
+      font-weight: 600;
+      width: 20%; }
+
+  .about-background-image .second-div {
+    padding: 20px 60px 60px 60px !important; }
+    .about-background-image .second-div h3 {
+      font-size: 24px; }
+    .about-background-image .second-div .about-us-paragraph {
+      font-size: 16px;
+      margin-bottom: 50px !important; }
+    .about-background-image .second-div .div-two-nested {
+      padding: 20px 0; }
+      .about-background-image .second-div .div-two-nested .about-icons {
+        height: 50px !important; } }
+@media (min-width: 768px) and (max-width: 991px) {
+  .wds-header-bg {
+    height: auto !important;
+    padding-bottom: 40px; }
+    .wds-header-bg .navbar-default {
+      margin-bottom: 0; }
+      .wds-header-bg .navbar-default .logo-top {
+        padding: 0 !important; }
+      .wds-header-bg .navbar-default .navbar-nav {
+        margin: 25px 25px 0 25px !important; }
+      .wds-header-bg .navbar-default .clock {
+        display: none; }
+    .wds-header-bg .container-fluid {
+      background-color: black; }
+    .wds-header-bg .navbar-header {
+      padding: 0 0 21px; }
+    .wds-header-bg .navbar-collapse {
+      position: relative;
+      top: 0; }
+    .wds-header-bg .main-heading h1 {
+      font-size: 40px !important;
+      margin: 50px 0 0 0; }
+    .wds-header-bg .main-heading .btn {
+      display: inline-block !important;
+      font-family: "Raleway" , sans-serif;
+      font-weight: 600;
+      width: 25%; } }
 
 /*# sourceMappingURL=main.css.map */
