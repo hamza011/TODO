@@ -5799,61 +5799,61 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
-.header-bg, .angular-header-bg, .wds-header-bg {
+.header-bg, .home-header, .desktop-home-header, .enroll-header, .wordpressMeetup-header, .hybrid-header-bg, .angular-header-bg, .wds-header-bg {
   background: url("../images/backg.png") no-repeat;
   width: 100%;
   height: 460px; }
-  .header-bg .navbar-default, .angular-header-bg .navbar-default, .wds-header-bg .navbar-default {
+  .header-bg .navbar-default, .home-header .navbar-default, .desktop-home-header .navbar-default, .enroll-header .navbar-default, .wordpressMeetup-header .navbar-default, .hybrid-header-bg .navbar-default, .angular-header-bg .navbar-default, .wds-header-bg .navbar-default {
     margin-bottom: 0;
     background-color: transparent !important;
     border-color: transparent; }
-  .header-bg .navbar-collapse, .angular-header-bg .navbar-collapse, .wds-header-bg .navbar-collapse {
+  .header-bg .navbar-collapse, .home-header .navbar-collapse, .desktop-home-header .navbar-collapse, .enroll-header .navbar-collapse, .wordpressMeetup-header .navbar-collapse, .hybrid-header-bg .navbar-collapse, .angular-header-bg .navbar-collapse, .wds-header-bg .navbar-collapse {
     width: 100%;
     padding: 35px 0 0 35px;
     font-size: 15px;
     position: relative;
     top: 30px;
     left: 15px; }
-    .header-bg .navbar-collapse ul li a, .angular-header-bg .navbar-collapse ul li a, .wds-header-bg .navbar-collapse ul li a {
+    .header-bg .navbar-collapse ul li a, .home-header .navbar-collapse ul li a, .desktop-home-header .navbar-collapse ul li a, .enroll-header .navbar-collapse ul li a, .wordpressMeetup-header .navbar-collapse ul li a, .hybrid-header-bg .navbar-collapse ul li a, .angular-header-bg .navbar-collapse ul li a, .wds-header-bg .navbar-collapse ul li a {
       color: #ffffff; }
-  .header-bg .clock, .angular-header-bg .clock, .wds-header-bg .clock {
+  .header-bg .clock, .home-header .clock, .desktop-home-header .clock, .enroll-header .clock, .wordpressMeetup-header .clock, .hybrid-header-bg .clock, .angular-header-bg .clock, .wds-header-bg .clock {
     display: inline-block;
     width: 22%;
     margin: -28px 0 0; }
-    .header-bg .clock img, .angular-header-bg .clock img, .wds-header-bg .clock img {
+    .header-bg .clock img, .home-header .clock img, .desktop-home-header .clock img, .enroll-header .clock img, .wordpressMeetup-header .clock img, .hybrid-header-bg .clock img, .angular-header-bg .clock img, .wds-header-bg .clock img {
       width: 17%;
       float: left;
       margin: 0; }
-    .header-bg .clock p, .angular-header-bg .clock p, .wds-header-bg .clock p {
+    .header-bg .clock p, .home-header .clock p, .desktop-home-header .clock p, .enroll-header .clock p, .wordpressMeetup-header .clock p, .hybrid-header-bg .clock p, .angular-header-bg .clock p, .wds-header-bg .clock p {
       width: 79%;
       margin: 0 !important;
       display: inline-block;
       float: right;
       font-size: 11px;
       color: #fff; }
-  .header-bg .navbar-brand, .angular-header-bg .navbar-brand, .wds-header-bg .navbar-brand {
+  .header-bg .navbar-brand, .home-header .navbar-brand, .desktop-home-header .navbar-brand, .enroll-header .navbar-brand, .wordpressMeetup-header .navbar-brand, .hybrid-header-bg .navbar-brand, .angular-header-bg .navbar-brand, .wds-header-bg .navbar-brand {
     padding-top: 15px; }
-  .header-bg .navbar-nav, .angular-header-bg .navbar-nav, .wds-header-bg .navbar-nav {
+  .header-bg .navbar-nav, .home-header .navbar-nav, .desktop-home-header .navbar-nav, .enroll-header .navbar-nav, .wordpressMeetup-header .navbar-nav, .hybrid-header-bg .navbar-nav, .angular-header-bg .navbar-nav, .wds-header-bg .navbar-nav {
     color: white;
     margin-left: 60px; }
-  .header-bg .navbar-nav > li > a, .angular-header-bg .navbar-nav > li > a, .wds-header-bg .navbar-nav > li > a {
+  .header-bg .navbar-nav > li > a, .home-header .navbar-nav > li > a, .desktop-home-header .navbar-nav > li > a, .enroll-header .navbar-nav > li > a, .wordpressMeetup-header .navbar-nav > li > a, .hybrid-header-bg .navbar-nav > li > a, .angular-header-bg .navbar-nav > li > a, .wds-header-bg .navbar-nav > li > a {
     padding: 10px !important; }
-    .header-bg .navbar-nav > li > a:hover, .angular-header-bg .navbar-nav > li > a:hover, .wds-header-bg .navbar-nav > li > a:hover {
+    .header-bg .navbar-nav > li > a:hover, .home-header .navbar-nav > li > a:hover, .desktop-home-header .navbar-nav > li > a:hover, .enroll-header .navbar-nav > li > a:hover, .wordpressMeetup-header .navbar-nav > li > a:hover, .hybrid-header-bg .navbar-nav > li > a:hover, .angular-header-bg .navbar-nav > li > a:hover, .wds-header-bg .navbar-nav > li > a:hover {
       color: #ffffff;
       border-bottom: 2px solid #ffffff; }
-  .header-bg h1, .angular-header-bg h1, .wds-header-bg h1 {
+  .header-bg h1, .home-header h1, .desktop-home-header h1, .enroll-header h1, .wordpressMeetup-header h1, .hybrid-header-bg h1, .angular-header-bg h1, .wds-header-bg h1 {
     font-size: 60px;
     color: #fff;
     font-family: Raleway,sans-serif;
     font-weight: 600;
     letter-spacing: 5px;
     text-transform: uppercase; }
-  .header-bg .main-heading, .angular-header-bg .main-heading, .wds-header-bg .main-heading {
+  .header-bg .main-heading, .home-header .main-heading, .desktop-home-header .main-heading, .enroll-header .main-heading, .wordpressMeetup-header .main-heading, .hybrid-header-bg .main-heading, .angular-header-bg .main-heading, .wds-header-bg .main-heading {
     text-align: center;
     font-family: "Raleway" ,sans-serif;
     margin: 100px 0 0 0;
     color: #fff; }
-    .header-bg .main-heading .btn, .angular-header-bg .main-heading .btn, .wds-header-bg .main-heading .btn {
+    .header-bg .main-heading .btn, .home-header .main-heading .btn, .desktop-home-header .main-heading .btn, .enroll-header .main-heading .btn, .wordpressMeetup-header .main-heading .btn, .hybrid-header-bg .main-heading .btn, .angular-header-bg .main-heading .btn, .wds-header-bg .main-heading .btn {
       width: 60%;
       color: #4c667a;
       font-family: 'Raleway Bold', sans-serif;
@@ -5862,11 +5862,11 @@ button.close {
       margin-top: 60px;
       box-shadow: 0 10px 30px #476b91;
       display: none; }
-  .header-bg .navbar-toggle, .angular-header-bg .navbar-toggle, .wds-header-bg .navbar-toggle {
+  .header-bg .navbar-toggle, .home-header .navbar-toggle, .desktop-home-header .navbar-toggle, .enroll-header .navbar-toggle, .wordpressMeetup-header .navbar-toggle, .hybrid-header-bg .navbar-toggle, .angular-header-bg .navbar-toggle, .wds-header-bg .navbar-toggle {
     margin-top: 50px !important; }
-  .header-bg .logo-top, .angular-header-bg .logo-top, .wds-header-bg .logo-top {
+  .header-bg .logo-top, .home-header .logo-top, .desktop-home-header .logo-top, .enroll-header .logo-top, .wordpressMeetup-header .logo-top, .hybrid-header-bg .logo-top, .angular-header-bg .logo-top, .wds-header-bg .logo-top {
     padding: 0 0 0 50px; }
-  .header-bg .navbar-collapse, .angular-header-bg .navbar-collapse, .wds-header-bg .navbar-collapse {
+  .header-bg .navbar-collapse, .home-header .navbar-collapse, .desktop-home-header .navbar-collapse, .enroll-header .navbar-collapse, .wordpressMeetup-header .navbar-collapse, .hybrid-header-bg .navbar-collapse, .angular-header-bg .navbar-collapse, .wds-header-bg .navbar-collapse {
     border: 0;
     padding: 0 !important; }
 
@@ -6183,55 +6183,200 @@ button.close {
     font-size: 16px; }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-  .first-bg .app-bakerz-logo {
-    padding: 0 0 0 10px; }
-  .first-bg .navbar-collapse {
-    left: -35px; }
-  .first-bg .clock {
-    display: none; }
-
-  .about-background .second-div .front-end-development {
-    margin-left: 0 !important; }
-  .about-background .second-div .js-dev {
-    margin-left: 0; }
-  .about-background .second-div h3 {
-    font-size: 30px; }
-  .about-background .second-div .paragraph-two {
-    font-size: 16px; } }
-@media (min-width: 320px) and (max-width: 767px) {
-  .header-bg, .angular-header-bg, .wds-header-bg {
-    height: auto !important;
-    padding-bottom: 40px; }
-    .header-bg .navbar-default, .angular-header-bg .navbar-default, .wds-header-bg .navbar-default {
+  .header-bg, .home-header, .desktop-home-header, .enroll-header, .wordpressMeetup-header, .hybrid-header-bg, .angular-header-bg, .wds-header-bg {
+    width: 100%;
+    height: auto;
+    padding-bottom: 50px !important; }
+    .header-bg .navbar-default, .home-header .navbar-default, .desktop-home-header .navbar-default, .enroll-header .navbar-default, .wordpressMeetup-header .navbar-default, .hybrid-header-bg .navbar-default, .angular-header-bg .navbar-default, .wds-header-bg .navbar-default {
       margin-bottom: 55px !important; }
-      .header-bg .navbar-default .logo-top, .angular-header-bg .navbar-default .logo-top, .wds-header-bg .navbar-default .logo-top {
+      .header-bg .navbar-default .logo-top, .home-header .navbar-default .logo-top, .desktop-home-header .navbar-default .logo-top, .enroll-header .navbar-default .logo-top, .wordpressMeetup-header .navbar-default .logo-top, .hybrid-header-bg .navbar-default .logo-top, .angular-header-bg .navbar-default .logo-top, .wds-header-bg .navbar-default .logo-top {
         padding: 0 !important; }
-      .header-bg .navbar-default .navbar-nav, .angular-header-bg .navbar-default .navbar-nav, .wds-header-bg .navbar-default .navbar-nav {
-        margin: 0; }
-      .header-bg .navbar-default .clock, .angular-header-bg .navbar-default .clock, .wds-header-bg .navbar-default .clock {
+      .header-bg .navbar-default .navbar-nav, .home-header .navbar-default .navbar-nav, .desktop-home-header .navbar-default .navbar-nav, .enroll-header .navbar-default .navbar-nav, .wordpressMeetup-header .navbar-default .navbar-nav, .hybrid-header-bg .navbar-default .navbar-nav, .angular-header-bg .navbar-default .navbar-nav, .wds-header-bg .navbar-default .navbar-nav {
+        margin: 20px 0 10px 40px; }
+      .header-bg .navbar-default .clock, .home-header .navbar-default .clock, .desktop-home-header .navbar-default .clock, .enroll-header .navbar-default .clock, .wordpressMeetup-header .navbar-default .clock, .hybrid-header-bg .navbar-default .clock, .angular-header-bg .navbar-default .clock, .wds-header-bg .navbar-default .clock {
         display: none; }
-    .header-bg .navbar-header, .angular-header-bg .navbar-header, .wds-header-bg .navbar-header {
-      padding: 0 0 21px;
-      background: #000; }
-    .header-bg .navbar-collapse, .angular-header-bg .navbar-collapse, .wds-header-bg .navbar-collapse {
+    .header-bg .container-fluid, .home-header .container-fluid, .desktop-home-header .container-fluid, .enroll-header .container-fluid, .wordpressMeetup-header .container-fluid, .hybrid-header-bg .container-fluid, .angular-header-bg .container-fluid, .wds-header-bg .container-fluid {
+      background-color: black; }
+    .header-bg .navbar-header, .home-header .navbar-header, .desktop-home-header .navbar-header, .enroll-header .navbar-header, .wordpressMeetup-header .navbar-header, .hybrid-header-bg .navbar-header, .angular-header-bg .navbar-header, .wds-header-bg .navbar-header {
+      padding: 0 0 21px; }
+    .header-bg .navbar-collapse, .home-header .navbar-collapse, .desktop-home-header .navbar-collapse, .enroll-header .navbar-collapse, .wordpressMeetup-header .navbar-collapse, .hybrid-header-bg .navbar-collapse, .angular-header-bg .navbar-collapse, .wds-header-bg .navbar-collapse {
       position: relative;
-      top: 0; }
-    .header-bg .main-heading, .angular-header-bg .main-heading, .wds-header-bg .main-heading {
+      top: 0;
+      padding: 15px 0 !important; }
+    .header-bg .main-heading, .home-header .main-heading, .desktop-home-header .main-heading, .enroll-header .main-heading, .wordpressMeetup-header .main-heading, .hybrid-header-bg .main-heading, .angular-header-bg .main-heading, .wds-header-bg .main-heading {
       margin: 15px 0 !important; }
-      .header-bg .main-heading h1, .angular-header-bg .main-heading h1, .wds-header-bg .main-heading h1 {
-        font-size: 30px !important;
+      .header-bg .main-heading h1, .home-header .main-heading h1, .desktop-home-header .main-heading h1, .enroll-header .main-heading h1, .wordpressMeetup-header .main-heading h1, .hybrid-header-bg .main-heading h1, .angular-header-bg .main-heading h1, .wds-header-bg .main-heading h1 {
+        font-size: 50px !important;
         margin-bottom: 15px !important; }
-      .header-bg .main-heading .btn, .angular-header-bg .main-heading .btn, .wds-header-bg .main-heading .btn {
+      .header-bg .main-heading .btn, .home-header .main-heading .btn, .desktop-home-header .main-heading .btn, .enroll-header .main-heading .btn, .wordpressMeetup-header .main-heading .btn, .hybrid-header-bg .main-heading .btn, .angular-header-bg .main-heading .btn, .wds-header-bg .main-heading .btn {
+        width: 20%;
         font-size: 18px;
         display: inline-block;
         font-family: "Raleway", sans-serif;
-        font-weight: bold; }
+        font-weight: 600 !important;
+        margin-top: 30px !important; }
+
+  .about-background-image .second-div h3 {
+    font-size: 28px !important;
+    font-weight: 600 !important; }
+  .about-background-image .second-div .paragraph-two {
+    font-size: 16px; }
+  .about-background-image .second-div .front-end-development {
+    margin-left: 0 !important; }
+  .about-background-image .second-div .js-dev {
+    margin-left: 0; }
+
+  .fourth-div h3 {
+    font-size: 28px !important;
+    font-weight: 600; }
+  .fourth-div span:before {
+    left: 0 !important; }
+
+  .form-transformation {
+    font-size: 15px !important; }
+    .form-transformation .form-div {
+      height: auto !important; }
+      .form-transformation .form-div h1 {
+        font-size: 26px !important;
+        margin-top: 0 !important;
+        font-weight: 600; }
+      .form-transformation .form-div button {
+        height: 45px !important; }
+    .form-transformation .textarea-comments .form-control {
+      font-size: 15px !important; }
+
+  .details p {
+    font-size: 16px !important; } }
+@media (min-width: 768px) and (max-width: 991px) {
+  .header-bg, .home-header, .desktop-home-header, .enroll-header, .wordpressMeetup-header, .hybrid-header-bg, .angular-header-bg, .wds-header-bg {
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px; }
+    .header-bg .navbar-default, .home-header .navbar-default, .desktop-home-header .navbar-default, .enroll-header .navbar-default, .wordpressMeetup-header .navbar-default, .hybrid-header-bg .navbar-default, .angular-header-bg .navbar-default, .wds-header-bg .navbar-default {
+      margin-bottom: 55px !important; }
+      .header-bg .navbar-default .logo-top, .home-header .navbar-default .logo-top, .desktop-home-header .navbar-default .logo-top, .enroll-header .navbar-default .logo-top, .wordpressMeetup-header .navbar-default .logo-top, .hybrid-header-bg .navbar-default .logo-top, .angular-header-bg .navbar-default .logo-top, .wds-header-bg .navbar-default .logo-top {
+        padding: 0 !important; }
+      .header-bg .navbar-default .navbar-nav, .home-header .navbar-default .navbar-nav, .desktop-home-header .navbar-default .navbar-nav, .enroll-header .navbar-default .navbar-nav, .wordpressMeetup-header .navbar-default .navbar-nav, .hybrid-header-bg .navbar-default .navbar-nav, .angular-header-bg .navbar-default .navbar-nav, .wds-header-bg .navbar-default .navbar-nav {
+        margin: 20px 0 10px 40px; }
+      .header-bg .navbar-default .clock, .home-header .navbar-default .clock, .desktop-home-header .navbar-default .clock, .enroll-header .navbar-default .clock, .wordpressMeetup-header .navbar-default .clock, .hybrid-header-bg .navbar-default .clock, .angular-header-bg .navbar-default .clock, .wds-header-bg .navbar-default .clock {
+        display: none; }
+    .header-bg .container-fluid, .home-header .container-fluid, .desktop-home-header .container-fluid, .enroll-header .container-fluid, .wordpressMeetup-header .container-fluid, .hybrid-header-bg .container-fluid, .angular-header-bg .container-fluid, .wds-header-bg .container-fluid {
+      background-color: black; }
+    .header-bg .navbar-header, .home-header .navbar-header, .desktop-home-header .navbar-header, .enroll-header .navbar-header, .wordpressMeetup-header .navbar-header, .hybrid-header-bg .navbar-header, .angular-header-bg .navbar-header, .wds-header-bg .navbar-header {
+      padding: 0 0 21px; }
+    .header-bg .navbar-collapse, .home-header .navbar-collapse, .desktop-home-header .navbar-collapse, .enroll-header .navbar-collapse, .wordpressMeetup-header .navbar-collapse, .hybrid-header-bg .navbar-collapse, .angular-header-bg .navbar-collapse, .wds-header-bg .navbar-collapse {
+      position: relative;
+      top: 0; }
+    .header-bg .main-heading, .home-header .main-heading, .desktop-home-header .main-heading, .enroll-header .main-heading, .wordpressMeetup-header .main-heading, .hybrid-header-bg .main-heading, .angular-header-bg .main-heading, .wds-header-bg .main-heading {
+      margin: 15px 0 !important; }
+      .header-bg .main-heading h1, .home-header .main-heading h1, .desktop-home-header .main-heading h1, .enroll-header .main-heading h1, .wordpressMeetup-header .main-heading h1, .hybrid-header-bg .main-heading h1, .angular-header-bg .main-heading h1, .wds-header-bg .main-heading h1 {
+        font-size: 40px !important;
+        margin-bottom: 15px !important; }
+      .header-bg .main-heading .btn, .home-header .main-heading .btn, .desktop-home-header .main-heading .btn, .enroll-header .main-heading .btn, .wordpressMeetup-header .main-heading .btn, .hybrid-header-bg .main-heading .btn, .angular-header-bg .main-heading .btn, .wds-header-bg .main-heading .btn {
+        width: 25%;
+        font-size: 18px;
+        display: inline-block;
+        font-family: "Raleway", sans-serif;
+        font-weight: 600 !important;
+        margin-top: 30px !important; }
+
+  .about-background-image .second-div {
+    padding: 0 !important; }
+    .about-background-image .second-div h3 {
+      font-size: 24px !important;
+      margin: 40px 0 25px 0 !important;
+      font-weight: 600; }
+    .about-background-image .second-div .about-us-paragraph {
+      padding: 0 9px 22px;
+      font-size: 14px !important;
+      text-align: center; }
+      .about-background-image .second-div .about-us-paragraph .front-end-development {
+        margin-left: 0; }
+      .about-background-image .second-div .about-us-paragraph .js-dev {
+        margin-left: 0; }
+    .about-background-image .second-div .div-two-nested .front-end-development {
+      margin-left: 0; }
+    .about-background-image .second-div .div-two-nested img {
+      height: 40px !important; }
+    .about-background-image .second-div .caption {
+      font-size: 11px !important;
+      font-family: 'Raleway Bold', sans-serif;
+      font-weight: 600;
+      color: #1b3a54; }
+
+  .fourth-div {
+    padding: 30px 0 !important; }
+    .fourth-div h3 {
+      font-size: 24px;
+      font-weight: 600;
+      margin: 0 0 15px 0 !important; }
+    .fourth-div .dropdown-transformation {
+      font-size: 14px; }
+    .fourth-div span:before {
+      top: 6px;
+      left: 0; }
+
+  .fifth-div .displayes .css-three img {
+    top: -5px !important; }
+
+  .form-transformation {
+    left: 10px !important;
+    font-size: 15px !important; }
+    .form-transformation .form-div {
+      height: auto !important; }
+      .form-transformation .form-div h1 {
+        font-size: 26px !important;
+        margin-top: 0 !important;
+        font-weight: 600; }
+      .form-transformation .form-div button {
+        height: 45px !important; }
+    .form-transformation .textarea-comments .form-control {
+      font-size: 15px !important; }
+
+  .details p {
+    font-size: 16px !important; }
+
+  .last-div h5 {
+    font-size: 18px !important; }
+  .last-div p {
+    font-size: 13px !important; } }
+@media (min-width: 320px) and (max-width: 767px) {
+  .header-bg, .home-header, .desktop-home-header, .enroll-header, .wordpressMeetup-header, .hybrid-header-bg, .angular-header-bg, .wds-header-bg {
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px; }
+    .header-bg .navbar-default, .home-header .navbar-default, .desktop-home-header .navbar-default, .enroll-header .navbar-default, .wordpressMeetup-header .navbar-default, .hybrid-header-bg .navbar-default, .angular-header-bg .navbar-default, .wds-header-bg .navbar-default {
+      margin-bottom: 55px !important; }
+      .header-bg .navbar-default .logo-top, .home-header .navbar-default .logo-top, .desktop-home-header .navbar-default .logo-top, .enroll-header .navbar-default .logo-top, .wordpressMeetup-header .navbar-default .logo-top, .hybrid-header-bg .navbar-default .logo-top, .angular-header-bg .navbar-default .logo-top, .wds-header-bg .navbar-default .logo-top {
+        padding: 0 !important; }
+      .header-bg .navbar-default .navbar-nav, .home-header .navbar-default .navbar-nav, .desktop-home-header .navbar-default .navbar-nav, .enroll-header .navbar-default .navbar-nav, .wordpressMeetup-header .navbar-default .navbar-nav, .hybrid-header-bg .navbar-default .navbar-nav, .angular-header-bg .navbar-default .navbar-nav, .wds-header-bg .navbar-default .navbar-nav {
+        margin: 0; }
+      .header-bg .navbar-default .clock, .home-header .navbar-default .clock, .desktop-home-header .navbar-default .clock, .enroll-header .navbar-default .clock, .wordpressMeetup-header .navbar-default .clock, .hybrid-header-bg .navbar-default .clock, .angular-header-bg .navbar-default .clock, .wds-header-bg .navbar-default .clock {
+        display: none; }
+    .header-bg .navbar-header, .home-header .navbar-header, .desktop-home-header .navbar-header, .enroll-header .navbar-header, .wordpressMeetup-header .navbar-header, .hybrid-header-bg .navbar-header, .angular-header-bg .navbar-header, .wds-header-bg .navbar-header {
+      padding: 0 0 21px;
+      background: #000; }
+    .header-bg .navbar-collapse, .home-header .navbar-collapse, .desktop-home-header .navbar-collapse, .enroll-header .navbar-collapse, .wordpressMeetup-header .navbar-collapse, .hybrid-header-bg .navbar-collapse, .angular-header-bg .navbar-collapse, .wds-header-bg .navbar-collapse {
+      position: relative;
+      top: 0; }
+    .header-bg .main-heading, .home-header .main-heading, .desktop-home-header .main-heading, .enroll-header .main-heading, .wordpressMeetup-header .main-heading, .hybrid-header-bg .main-heading, .angular-header-bg .main-heading, .wds-header-bg .main-heading {
+      margin: 15px 0 !important; }
+      .header-bg .main-heading h1, .home-header .main-heading h1, .desktop-home-header .main-heading h1, .enroll-header .main-heading h1, .wordpressMeetup-header .main-heading h1, .hybrid-header-bg .main-heading h1, .angular-header-bg .main-heading h1, .wds-header-bg .main-heading h1 {
+        font-size: 30px !important;
+        margin-bottom: 15px !important; }
+      .header-bg .main-heading .btn, .home-header .main-heading .btn, .desktop-home-header .main-heading .btn, .enroll-header .main-heading .btn, .wordpressMeetup-header .main-heading .btn, .hybrid-header-bg .main-heading .btn, .angular-header-bg .main-heading .btn, .wds-header-bg .main-heading .btn {
+        font-size: 18px;
+        display: inline-block;
+        font-family: "Raleway", sans-serif;
+        font-weight: bold;
+        margin-top: 30px !important; }
 
   .about-background-image .second-div {
     padding: 0 !important; }
     .about-background-image .second-div h3 {
       font-size: 20px !important;
-      margin: 40px 0 25px 0 !important; }
+      margin: 40px 0 25px 0 !important;
+      font-weight: 600; }
     .about-background-image .second-div .about-us-paragraph {
       padding: 0 9px 22px;
       font-size: 14px !important;
@@ -6262,9 +6407,10 @@ button.close {
   .fourth-div {
     padding: 30px 0; }
     .fourth-div h3 {
-      margin: -10px 0 20px 0;
-      font-size: 26px !important;
-      padding: 15px 0 !important; }
+      margin: 0;
+      font-size: 22px !important;
+      padding: 5px 0 20px 0 !important;
+      font-weight: 600; }
     .fourth-div .accordian-courses {
       width: 100%;
       font-size: 12px; }
@@ -6379,83 +6525,32 @@ button.close {
   background: url("../images/backg.png") no-repeat !important;
   width: 100%;
   height: 620px; }
-  .home-header .navbar-default {
-    margin-bottom: 0;
-    background-color: transparent !important;
-    border-color: transparent; }
-  .home-header .navbar-collapse {
-    width: 100%;
-    padding: 35px 0 0 35px;
-    font-size: 15px;
-    position: relative;
-    top: 30px;
-    left: 15px; }
-    .home-header .navbar-collapse ul li a {
-      color: #ffffff; }
-  .home-header .clock {
-    display: inline-block;
-    width: 21%;
-    margin: -28px 0 0; }
-    .home-header .clock img {
-      width: 15%;
-      float: left;
-      margin: 0; }
-    .home-header .clock p {
-      width: 79%;
-      margin: 0 !important;
-      display: inline-block;
-      float: right;
-      font-size: 11px;
-      color: #ffffff; }
-  .home-header .navbar-nav {
-    color: white;
-    margin-left: 35px; }
-  .home-header .navbar-nav > li > a:hover {
-    color: #ffffff;
-    border-bottom: 2px solid #ffffff; }
-  .home-header .main-heading {
-    text-align: center;
-    font-family: "Raleway", sans-serif;
-    margin: 80px 0; }
-    .home-header .main-heading h1 {
-      font-size: 60px;
-      color: #ffffff;
-      font-family: "Raleway", sans-serif;
+  .home-header h1 {
+    margin-bottom: 50px; }
+  .home-header .special-development-icons {
+    text-align: center; }
+    .home-header .special-development-icons img {
+      height: 40px; }
+    .home-header .special-development-icons p {
+      font-size: 12px;
+      font-family: 'Raleway Bold', sans-serif;
       font-weight: 600;
-      margin-bottom: 80px;
-      letter-spacing: 5px;
-      text-transform: uppercase; }
-    .home-header .main-heading .special-development-icons {
-      text-align: center; }
-      .home-header .main-heading .special-development-icons img {
-        height: 40px; }
-      .home-header .main-heading .special-development-icons p {
-        font-size: 12px;
-        font-family: 'Raleway Bold', sans-serif;
-        font-weight: 600;
-        margin-top: 15px;
-        color: #ffffff; }
-      .home-header .main-heading .special-development-icons .front-end-development {
-        margin-left: 20%; }
-      .home-header .main-heading .special-development-icons .js-dev {
-        margin-left: -80px; }
-    .home-header .main-heading .btn {
-      width: 13%;
-      color: #4c667a;
-      font-family: 'Raleway', sans-serif;
-      font-weight: 600;
-      border-radius: 0 !important;
-      margin-top: 40px;
-      box-shadow: 0 10px 30px #476b91;
-      display: inline-block;
-      padding: 5px; }
-  .home-header .navbar-toggle {
-    margin-top: 50px !important; }
-  .home-header .logo-top {
-    padding: 0 0 0 50px; }
-  .home-header .navbar-collapse {
-    border: 0;
-    padding: 0 !important; }
+      margin-top: 15px;
+      color: #ffffff; }
+    .home-header .special-development-icons .front-end-development {
+      margin-left: 20%; }
+    .home-header .special-development-icons .js-dev {
+      margin-left: -80px; }
+  .home-header .btn {
+    width: 13% !important;
+    color: #4c667a;
+    font-family: 'Raleway', sans-serif !important;
+    font-weight: 600 !important;
+    border-radius: 0 !important;
+    margin-top: 40px;
+    box-shadow: 0 10px 30px #476b91;
+    display: inline-block !important;
+    padding: 5px 0 !important; }
 
 .about-us {
   background-image: url("../images/about-academy-bg.jpg");
@@ -7045,7 +7140,7 @@ button.close {
     .home-header .main-heading .special-development-icons .js-dev {
       margin-left: -40px !important; }
     .home-header .main-heading .btn {
-      width: 16%; }
+      width: 16% !important; }
 
   .about-us .about-text {
     margin-top: 100px;
@@ -7056,7 +7151,8 @@ button.close {
     margin: 0 0 10px 10px !important; }
   .about-us .about-paragraph {
     text-align: center;
-    font-size: 14px; }
+    font-size: 14px;
+    padding-top: 20px !important; }
   .about-us img {
     margin-top: 20px;
     height: 300px; }
@@ -7069,7 +7165,8 @@ button.close {
       margin: -50px 0 0 55px !important; }
 
   .courses h1 {
-    margin: 30px 0 10px 0; }
+    margin: 30px 0 10px 0;
+    font-weight: 600; }
   .courses .portion-one {
     text-align: center; }
     .courses .portion-one h5 {
@@ -7148,7 +7245,8 @@ button.close {
     padding: 20px 0; }
     .create-courses h1 {
       margin-bottom: 10px !important;
-      font-size: 24px !important; }
+      font-size: 24px !important;
+      font-weight: 600; }
     .create-courses .col-sm-6 {
       text-align: center; }
     .create-courses .checkbox {
@@ -7170,8 +7268,8 @@ button.close {
       .create-courses .prerequisites-column .html-css h2 {
         font-size: 18px; }
     .create-courses .prerequisites-column .courses-duration button {
-      width: 75%;
-      height: 55px;
+      width: 50%;
+      height: 40px;
       font-size: 16px; }
     .create-courses .prerequisites-column ul li {
       font-size: 13px; }
@@ -7190,7 +7288,8 @@ button.close {
   .recent-events {
     padding: 30px 0; }
     .recent-events h3 {
-      margin: 0 0 30px 0; } }
+      margin: 0 0 30px 0;
+      font-weight: 600; } }
 @media (min-width: 768px) and (max-width: 991px) {
   .home-header {
     height: auto !important;
@@ -7216,7 +7315,7 @@ button.close {
     .home-header .main-heading .special-development-icons {
       display: none; }
     .home-header .main-heading .btn {
-      width: 25%; }
+      width: 25% !important; }
 
   .about-us .about-text {
     margin-top: 20px;
@@ -7228,10 +7327,12 @@ button.close {
     font-size: 22px;
     margin-bottom: 20px; }
   .about-us .about-paragraph {
+    width: 117% !important;
     font-family: "Raleway", sans-serif;
     text-align: center;
     color: #979797;
-    font-size: 13px; }
+    font-size: 13px;
+    padding-left: 0 !important; }
   .about-us img {
     margin-top: 20px;
     height: 200px; }
@@ -7242,7 +7343,8 @@ button.close {
       width: 50%; }
     .third-div .text-uppercase-bold {
       font-weight: 500;
-      font-size: 18px; }
+      font-size: 18px;
+      margin-top: 10px; }
     .third-div .tagline {
       font-size: 12px !important;
       margin: -15px 0 0 10px !important; }
@@ -7315,19 +7417,23 @@ button.close {
       color: #000;
       cursor: pointer; }
 
-  .certified-courses .container {
-    padding: 30px 0; }
-    .certified-courses .container img {
-      width: 50px;
-      height: 50px; }
-    .certified-courses .container p {
-      font-size: 24px; }
+  .certified-courses {
+    background-size: cover !important; }
+    .certified-courses .container {
+      padding: 30px 0; }
+      .certified-courses .container img {
+        width: 50px;
+        height: 50px; }
+      .certified-courses .container p {
+        font-size: 24px; }
 
   .create-courses {
     padding: 20px 0; }
     .create-courses h1 {
       margin-bottom: 10px !important;
-      font-size: 24px !important; }
+      font-size: 24px !important;
+      font-weight: 600;
+      margin-top: 15px !important; }
     .create-courses .col-sm-6 {
       text-align: center; }
     .create-courses .checkbox {
@@ -7349,8 +7455,9 @@ button.close {
       .create-courses .prerequisites-column .html-css h2 {
         font-size: 18px; }
     .create-courses .prerequisites-column .courses-duration button {
-      width: 75%;
-      height: 55px;
+      width: 60%;
+      height: 35px;
+      padding: 0 !important;
       font-size: 16px; }
     .create-courses .prerequisites-column ul li {
       font-size: 13px; }
@@ -7364,11 +7471,13 @@ button.close {
       .languages .flex-container .image-transform {
         padding: 7px !important;
         width: 45%;
-        height: 60px; }
+        height: auto; }
 
   .recent-events h3 {
     font-size: 24px;
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+    margin-top: 0 !important;
+    font-weight: 600; }
   .recent-events img {
     width: 100%;
     height: auto; }
@@ -7402,6 +7511,7 @@ button.close {
       padding: 0 0 21px;
       background: #000; }
     .home-header .navbar-collapse {
+      display: none;
       position: relative;
       top: 0; }
     .home-header .main-heading {
@@ -7412,7 +7522,7 @@ button.close {
       .home-header .main-heading .special-development-icons {
         display: none; }
       .home-header .main-heading .btn {
-        width: 55%;
+        width: 55% !important;
         font-size: 18px;
         font-weight: 600;
         margin-top: 20px;
@@ -7544,7 +7654,7 @@ button.close {
       display: inline-block; }
     .create-courses label {
       font-size: 10px;
-      padding: 0 !important;
+      padding: 10px 0 11px 0 !important;
       margin: 0 !important; }
     .create-courses .prerequisites-column {
       float: left;
@@ -7679,7 +7789,13 @@ button.close {
     width: 35%;
     color: #ffffff !important;
     background-color: #003f64;
-    border-radius: 0 !important; }
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    border: 1px solid #003f64;
+    border-radius: 0 !important;
+    box-shadow: 0 8px 15px #cccccc;
+    padding: 14px 0; }
 
 .enroll-background {
   padding: 40px 0;
@@ -7702,6 +7818,12 @@ button.close {
     background-color: transparent;
     font-family: Raleway, sans-serif;
     font-size: 16px; }
+  .enroll-background .col-lg-5 ::-webkit-input-placeholder {
+    color: #ffffff; }
+  .enroll-background .col-lg-5 .select-icon {
+    position: relative;
+    bottom: 0 !important;
+    left: -35px !important; }
   .enroll-background .btn {
     width: 78%;
     color: #001b35;
@@ -7709,9 +7831,9 @@ button.close {
     border-radius: 0 !important;
     margin: 20px 0;
     font-family: "Raleway", sans-serif;
-    font-weight: bold;
+    font-weight: 600;
     font-size: 18px;
-    padding: 15px 200px 15px 145px; }
+    padding: 10px 0; }
 
 @media (min-width: 992px) and (max-width: 1199px) {
   .about-background-image .second-div .front-end-development {
@@ -7748,87 +7870,43 @@ button.close {
     margin-left: 0 !important; }
 
   .enroll-button .btn {
-    width: 55%; }
+    width: 55%;
+    font-size: 13px; }
 
-  .enroll-background {
-    display: none; } }
+  .enroll-background h3 {
+    font-size: 32px;
+    font-weight: 600; }
+  .enroll-background img {
+    position: relative;
+    left: 17px !important;
+    bottom: 0;
+    top: 35px; }
+  .enroll-background input {
+    padding: 10px 5px 10px 35px !important;
+    margin-left: 11px !important; }
+  .enroll-background .select-icon {
+    top: -30px !important;
+    left: -20px !important;
+    float: right; }
+  .enroll-background .btn {
+    width: 92%;
+    margin: 15px 0 10px 11px;
+    font-size: 18px;
+    padding: 9px 0; } }
 .desktop-home-header {
   background: url("../images/desktop.jpg") no-repeat !important;
-  background-size: cover;
-  width: 100%;
-  height: 100%; }
-  .desktop-home-header .navbar-default {
-    margin-bottom: 0;
-    background-color: transparent !important;
-    border-color: transparent; }
-  .desktop-home-header .navbar-collapse {
-    width: 100%;
-    padding: 35px 0 0 35px;
-    font-size: 15px;
-    position: relative;
-    top: 30px;
-    left: 15px; }
-    .desktop-home-header .navbar-collapse ul li a {
-      color: #ffffff; }
-  .desktop-home-header .clock {
-    display: inline-block;
-    width: 21%;
-    margin: -28px 0 0; }
-    .desktop-home-header .clock img {
-      width: 15%;
-      float: left;
-      margin: 0; }
-    .desktop-home-header .clock p {
-      width: 79%;
-      margin: 0 !important;
-      display: inline-block;
-      float: right;
-      font-size: 11px;
-      color: #ffffff; }
-  .desktop-home-header .navbar-nav {
-    color: white;
-    margin-left: 35px; }
-  .desktop-home-header .navbar-nav > li > a:hover {
-    color: #ffffff;
-    border-bottom: 2px solid #ffffff; }
-  .desktop-home-header .main-heading {
-    text-align: center;
-    font-family: "Raleway", sans-serif;
-    margin: 100px 0; }
-    .desktop-home-header .main-heading h1 {
-      font-size: 60px;
-      color: #ffffff;
-      font-family: "Raleway", sans-serif;
-      font-weight: 600;
-      margin-bottom: 0;
-      letter-spacing: 5px;
-      text-transform: uppercase; }
-    .desktop-home-header .main-heading .btn {
-      width: 13%;
-      color: #4c667a;
-      font-family: 'Raleway', sans-serif;
-      font-weight: 600;
-      border-radius: 0 !important;
-      margin-top: 40px;
-      box-shadow: 0 10px 30px #476b91;
-      display: none;
-      padding: 5px; }
-  .desktop-home-header .navbar-toggle {
-    margin-top: 50px !important; }
-  .desktop-home-header .logo-top {
-    padding: 0 0 0 50px; }
-  .desktop-home-header .navbar-collapse {
-    border: 0;
-    padding: 0 !important; }
+  background-size: cover; }
 
-.about-background-image .second-div img {
-  width: auto;
-  height: 55px; }
-.about-background-image .second-div .meteor-text {
-  margin: 10px 0 30px 10px;
-  font-weight: bold;
-  color: #000;
-  font-size: 13px; }
+.about-background-image .second-div .about-meteor {
+  padding: 0 0 30px 0; }
+  .about-background-image .second-div .about-meteor img {
+    width: 55px;
+    height: 55px; }
+  .about-background-image .second-div .about-meteor .meteor-text {
+    margin: 10px 0 30px 10px;
+    font-weight: bold;
+    color: #000;
+    font-size: 13px; }
 
 .meteor-details {
   background: url("../images/background5.png") no-repeat;
@@ -7841,7 +7919,7 @@ button.close {
   .meteor-details .colorOnBg {
     background-color: rgba(226, 95, 92, 0.93); }
   .meteor-details img {
-    margin: 70px 0 40px 0; }
+    margin: 70px 10px 40px 0; }
   .meteor-details p {
     color: #ffffff;
     font-family: Raleway, sans-serif;
@@ -7851,187 +7929,23 @@ button.close {
     margin-bottom: 0 !important; }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-  .desktop-home-header {
-    height: auto !important;
-    padding-bottom: 40px; }
-    .desktop-home-header .navbar-default {
-      margin-bottom: 0; }
-      .desktop-home-header .navbar-default .logo-top {
-        padding: 0 !important; }
-      .desktop-home-header .navbar-default .navbar-nav {
-        margin: 25px 25px 0 25px !important; }
-      .desktop-home-header .navbar-default .clock {
-        display: none; }
-    .desktop-home-header .container-fluid {
-      background-color: black; }
-    .desktop-home-header .navbar-brand {
-      margin-left: 0 !important; }
-    .desktop-home-header .navbar-header {
-      padding: 0 0 21px; }
-    .desktop-home-header .navbar-collapse {
-      position: relative;
-      top: 0;
-      padding: 15px !important; }
-    .desktop-home-header .main-heading h1 {
-      font-size: 45px !important;
-      margin: 0 0 40px 0 !important; }
-    .desktop-home-header .main-heading .special-development-icons .front-end-development {
-      margin-left: 20% !important; }
-    .desktop-home-header .main-heading .special-development-icons .js-dev {
-      margin-left: -40px !important; }
-    .desktop-home-header .main-heading .btn {
-      width: 16%; }
+  .about-background-image .second-div .meteor-text {
+    margin: 10px 0 30px 10px !important; }
 
   .meteor-details p {
     padding: 0 15px 70px 5px; } }
 @media (min-width: 768px) and (max-width: 991px) {
-  .desktop-home-header {
-    height: auto !important;
-    padding-bottom: 40px; }
-    .desktop-home-header .navbar-default {
-      margin-bottom: 0; }
-      .desktop-home-header .navbar-default .logo-top {
-        padding: 0 !important; }
-      .desktop-home-header .navbar-default .navbar-nav {
-        margin: 25px 25px 0 25px !important; }
-      .desktop-home-header .navbar-default .clock {
-        display: none; }
-    .desktop-home-header .container-fluid {
-      background-color: black; }
-    .desktop-home-header .navbar-header {
-      padding: 0 0 21px; }
-    .desktop-home-header .navbar-collapse {
-      position: relative;
-      top: 0; }
-    .desktop-home-header .main-heading h1 {
-      font-size: 40px !important;
-      margin: 50px 0; }
-    .desktop-home-header .main-heading .special-development-icons {
-      display: none; }
-    .desktop-home-header .main-heading .btn {
-      width: 25%; }
+  .meteor-details p {
+    padding: 0 65px 70px 55px; } }
+@media (min-width: 320px) and (max-width: 767px) {
+  .about-background-image .second-div .about-us-paragraph {
+    margin-bottom: 0 !important; }
 
   .meteor-details p {
-    padding: 0 70px 70px 100px; } }
-@media (min-width: 320px) and (max-width: 767px) {
-  .desktop-home-header {
-    height: auto !important;
-    padding-bottom: 40px; }
-    .desktop-home-header .navbar-default {
-      margin-bottom: 55px !important; }
-      .desktop-home-header .navbar-default .logo-top {
-        padding: 0 !important; }
-      .desktop-home-header .navbar-default .navbar-nav {
-        margin: 0; }
-      .desktop-home-header .navbar-default .clock {
-        display: none; }
-    .desktop-home-header .navbar-header {
-      padding: 0 0 21px;
-      background: #000; }
-    .desktop-home-header .navbar-collapse {
-      position: relative;
-      top: 0; }
-    .desktop-home-header .main-heading {
-      margin: 15px 0 !important; }
-      .desktop-home-header .main-heading h1 {
-        font-size: 30px !important;
-        margin-bottom: 15px !important; }
-      .desktop-home-header .main-heading .special-development-icons {
-        display: none; }
-      .desktop-home-header .main-heading .btn {
-        width: 55%;
-        font-size: 18px;
-        font-weight: 600;
-        margin-top: 20px;
-        display: inline-block;
-        border-radius: 0 !important;
-        box-shadow: 0 4px 25px darkslategrey;
-        color: #4c667a !important;
-        background-color: #ffffff !important; } }
+    padding: 0 10px 80px 10px; } }
 .enroll-header {
   background: url("../images/enroll-bg.png") no-repeat !important;
-  width: 100%;
-  height: auto; }
-  .enroll-header .navbar-default {
-    margin-bottom: 0;
-    background-color: transparent !important;
-    border-color: transparent; }
-  .enroll-header .navbar-collapse {
-    width: 100%;
-    padding: 35px 0 0 35px;
-    font-size: 15px;
-    position: relative;
-    top: 30px;
-    left: 15px; }
-    .enroll-header .navbar-collapse ul li a {
-      color: #ffffff; }
-  .enroll-header .clock {
-    display: inline-block;
-    width: 21%;
-    margin: -28px 0 0; }
-    .enroll-header .clock img {
-      width: 15%;
-      float: left;
-      margin: 0; }
-    .enroll-header .clock p {
-      width: 79%;
-      margin: 0 !important;
-      display: inline-block;
-      float: right;
-      font-size: 11px;
-      color: #ffffff; }
-  .enroll-header .navbar-nav {
-    color: white;
-    margin-left: 35px; }
-  .enroll-header .navbar-nav > li > a:hover {
-    color: #ffffff;
-    border-bottom: 2px solid #ffffff; }
-  .enroll-header .main-heading {
-    text-align: center;
-    font-family: "Raleway", sans-serif;
-    margin: 0 !important; }
-    .enroll-header .main-heading h1 {
-      font-size: 60px;
-      color: #ffffff;
-      font-family: "Raleway", sans-serif;
-      font-weight: 600;
-      letter-spacing: 5px;
-      text-transform: uppercase;
-      padding: 60px 0 90px 0; }
-    .enroll-header .main-heading .container {
-      margin-bottom: 0 !important; }
-    .enroll-header .main-heading .special-development-icons {
-      text-align: center;
-      display: none; }
-      .enroll-header .main-heading .special-development-icons img {
-        height: 40px; }
-      .enroll-header .main-heading .special-development-icons p {
-        font-size: 12px;
-        font-family: 'Raleway Bold', sans-serif;
-        font-weight: 600;
-        margin-top: 15px;
-        color: #ffffff; }
-      .enroll-header .main-heading .special-development-icons .front-end-development {
-        margin-left: 20%; }
-      .enroll-header .main-heading .special-development-icons .js-dev {
-        margin-left: -80px; }
-    .enroll-header .main-heading .btn {
-      width: 13%;
-      color: #4c667a;
-      font-family: 'Raleway', sans-serif;
-      font-weight: 600;
-      border-radius: 0 !important;
-      margin-top: 40px;
-      box-shadow: 0 10px 30px #476b91;
-      padding: 5px;
-      display: none; }
-  .enroll-header .navbar-toggle {
-    margin-top: 50px !important; }
-  .enroll-header .logo-top {
-    padding: 0 0 0 50px; }
-  .enroll-header .navbar-collapse {
-    border: 0;
-    padding: 0 !important; }
+  width: 100%; }
 
 .about-us .form-transform-marginControl {
   width: 50%;
@@ -8067,12 +7981,13 @@ button.close {
     .enroll-header .navbar-default {
       margin-bottom: 55px !important; }
       .enroll-header .navbar-default .container-fluid {
-        background: #000; }
+        background: #000;
+        height: 100px; }
       .enroll-header .navbar-default .logo-top {
         padding: 0 !important; }
       .enroll-header .navbar-default .navbar-nav {
         margin: 0;
-        padding: 25px 0 10px 150px; }
+        padding: 10px 0 0 250px !important; }
       .enroll-header .navbar-default .clock {
         display: none; }
     .enroll-header .navbar-header {
@@ -8081,16 +7996,15 @@ button.close {
       margin-bottom: 0 !important; }
     .enroll-header .navbar-collapse {
       position: relative;
-      top: 0; }
+      top: -40px !important;
+      left: 0 !important; }
     .enroll-header .main-heading {
       margin: 15px 0 !important; }
       .enroll-header .main-heading h1 {
-        font-size: 30px !important;
+        font-size: 50px !important;
         margin-bottom: 15px !important; }
-      .enroll-header .main-heading .special-development-icons {
-        display: none; }
       .enroll-header .main-heading .btn {
-        width: 25%;
+        width: 20% !important;
         font-size: 18px;
         font-weight: 600;
         margin-top: 20px;
@@ -8100,16 +8014,25 @@ button.close {
         color: #4c667a !important;
         background-color: #ffffff !important; }
 
-  .about-us .container {
-    margin-bottom: 0 !important;
-    margin-top: 0 !important; }
-    .about-us .container .icons {
-      width: 4% !important; }
-    .about-us .container .col-md-6 {
+  .about-us .md-screen {
+    padding-left: 100px !important; }
+    .about-us .md-screen .form-transform-marginControl {
+      margin-top: 10px !important;
+      margin-left: 25px !important; }
+      .about-us .md-screen .form-transform-marginControl .icons {
+        width: 5% !important;
+        top: 28px !important;
+        left: 8px !important;
+        margin: 0 !important; }
+      .about-us .md-screen .form-transform-marginControl .form-transform {
+        width: 100%; }
+      .about-us .md-screen .form-transform-marginControl button {
+        width: 100% !important; }
+    .about-us .md-screen .col-sm-6 {
       margin-left: 0 !important; }
-      .about-us .container .col-md-6 .academy-chef {
+      .about-us .md-screen .col-sm-6 .academy-chef {
         margin-top: 25px !important;
-        margin-left: 0 !important;
+        margin-left: 50px !important;
         height: 400px !important; }
 
   .third-div {
@@ -8129,7 +8052,8 @@ button.close {
       .enroll-header .navbar-default .logo-top {
         padding: 0 !important; }
       .enroll-header .navbar-default .navbar-nav {
-        margin: 0; }
+        margin: 0;
+        padding: 10px 0 5px 60px !important; }
       .enroll-header .navbar-default .clock {
         display: none; }
     .enroll-header .navbar-header {
@@ -8141,12 +8065,10 @@ button.close {
     .enroll-header .main-heading {
       margin: 15px 0 !important; }
       .enroll-header .main-heading h1 {
-        font-size: 30px !important;
+        font-size: 40px !important;
         margin-bottom: 15px !important; }
-      .enroll-header .main-heading .special-development-icons {
-        display: none; }
       .enroll-header .main-heading .btn {
-        width: 55%;
+        width: 21% !important;
         font-size: 18px;
         font-weight: 600;
         margin-top: 20px;
@@ -8156,24 +8078,26 @@ button.close {
         color: #4c667a !important;
         background-color: #ffffff !important; }
 
-  .about-us .form-transform-marginContol {
-    margin-top: 30px !important;
-    margin-left: 0 !important; }
-    .about-us .form-transform-marginContol .icons {
-      width: 6% !important;
-      top: 28px !important;
-      left: 10px !important;
-      margin: 0 !important; }
-    .about-us .form-transform-marginContol .form-transform {
-      width: 100%; }
-    .about-us .form-transform-marginContol button {
-      width: 100% !important; }
-  .about-us .col-sm-6 {
-    margin-left: 0 !important; }
-    .about-us .col-sm-6 .academy-chef {
-      margin-top: 25px !important;
-      margin-left: 0 !important;
-      height: 400px !important; } }
+  .about-us .md-screen {
+    padding-left: 100px !important; }
+    .about-us .md-screen .form-transform-marginControl {
+      margin-top: 15px !important;
+      margin-left: 25px !important; }
+      .about-us .md-screen .form-transform-marginControl .icons {
+        width: 7% !important;
+        top: 28px !important;
+        left: 8px !important;
+        margin: 0 !important; }
+      .about-us .md-screen .form-transform-marginControl .form-transform {
+        width: 100%; }
+      .about-us .md-screen .form-transform-marginControl button {
+        width: 100% !important; }
+    .about-us .md-screen .col-sm-6 {
+      margin-left: 0 !important; }
+      .about-us .md-screen .col-sm-6 .academy-chef {
+        margin-top: 25px !important;
+        margin-left: 0 !important;
+        height: 400px !important; } }
 @media (min-width: 320px) and (max-width: 767px) {
   .enroll-header {
     height: auto !important;
@@ -8195,10 +8119,8 @@ button.close {
     .enroll-header .main-heading {
       margin: 15px 0 !important; }
       .enroll-header .main-heading h1 {
-        font-size: 30px !important;
+        font-size: 28px !important;
         margin-bottom: 15px !important; }
-      .enroll-header .main-heading .special-development-icons {
-        display: none; }
       .enroll-header .main-heading .btn {
         width: 55%;
         font-size: 18px;
@@ -8222,34 +8144,33 @@ button.close {
       font-size: 13px !important; }
   .about-us .academy-chef {
     margin-top: 25px !important;
-    margin-left: 0 !important;
+    margin-left: 75px !important;
     height: 200px !important; } }
-.about-us .marginControl {
-  width: 50%;
-  margin-top: 0 !important; }
-  .about-us .marginControl .icons {
-    width: 3%;
-    height: auto;
-    position: relative;
-    top: 28px;
-    left: 10px;
-    margin: 0 !important; }
-  .about-us .marginControl .form-transform {
-    width: 100%;
-    padding: 5px 0 5px 35px;
-    font-family: "Raleway", sans-serif;
-    font-size: 14px; }
-  .about-us .marginControl button {
-    width: 100%;
-    border-radius: 0 !important;
-    font-family: "Raleway", sans-serif;
-    font-size: 14px;
-    font-weight: 700;
-    color: #ffffff;
-    margin-top: 25px; }
-.about-us .academy-chef {
-  height: 450px !important;
-  margin-left: 200px; }
+.about-us .about-sec {
+  padding: 20px 0 50px 0 !important; }
+  .about-us .about-sec .marginControl {
+    width: 50%;
+    margin-top: 0 !important; }
+    .about-us .about-sec .marginControl .icons {
+      width: 3%;
+      height: auto;
+      position: relative;
+      top: 28px;
+      left: 10px;
+      margin: 0 !important; }
+    .about-us .about-sec .marginControl .form-transform {
+      width: 100%;
+      padding: 5px 0 5px 35px;
+      font-family: "Raleway", sans-serif;
+      font-size: 14px; }
+    .about-us .about-sec .marginControl button {
+      width: 100%;
+      border-radius: 0 !important;
+      font-family: "Raleway", sans-serif;
+      font-size: 14px;
+      font-weight: 700;
+      color: #ffffff;
+      margin-top: 25px; }
 
 @media (min-width: 992px) and (max-width: 1199px) {
   .enroll-header {
@@ -8276,10 +8197,8 @@ button.close {
     .enroll-header .main-heading {
       margin: 15px 0 !important; }
       .enroll-header .main-heading h1 {
-        font-size: 30px !important;
+        font-size: 50px !important;
         margin-bottom: 15px !important; }
-      .enroll-header .main-heading .special-development-icons {
-        display: none; }
       .enroll-header .main-heading .btn {
         width: 25%;
         font-size: 18px;
@@ -8327,12 +8246,10 @@ button.close {
     .enroll-header .main-heading {
       margin: 15px 0 !important; }
       .enroll-header .main-heading h1 {
-        font-size: 30px !important;
+        font-size: 40px !important;
         margin-bottom: 15px !important; }
-      .enroll-header .main-heading .special-development-icons {
-        display: none; }
       .enroll-header .main-heading .btn {
-        width: 55%;
+        width: 50%;
         font-size: 18px;
         font-weight: 600;
         margin-top: 20px;
@@ -8376,7 +8293,7 @@ button.close {
     .enroll-header .main-heading {
       margin: 15px 0 !important; }
       .enroll-header .main-heading h1 {
-        font-size: 30px !important;
+        font-size: 28px !important;
         margin-bottom: 15px !important; }
       .enroll-header .main-heading .special-development-icons {
         display: none; }
@@ -8392,91 +8309,93 @@ button.close {
         background-color: #ffffff !important; }
 
   .about-us .marginControl {
-    width: auto !important;
-    margin-top: 0 !important; }
+    width: 100% !important;
+    margin-top: 0 !important;
+    margin-left: 0 !important; }
     .about-us .marginControl .icons {
-      width: 10%;
-      left: 5px !important; }
-    .about-us .marginControl .form-transform {
-      width: auto;
-      font-size: 16px; }
-    .about-us .marginControl button {
+      width: 7% !important;
+      left: 10px !important; }
+    .about-us .marginControl .button {
       width: 100% !important;
       font-size: 16px;
-      margin-bottom: 30px !important; } }
+      margin-bottom: 30px !important; }
+
+  .details img {
+    padding: 10px 0 5px 0; }
+  .details p {
+    width: 100%;
+    margin: 15px 0 0 0 !important;
+    font-size: 16px !important; }
+
+  .last-div .bg-on-image {
+    padding: 30px 0; }
+  .last-div .appBakerZ {
+    margin: 10px 0;
+    padding: 0 !important; }
+  .last-div h5 {
+    font-size: 14px !important; }
+  .last-div p {
+    font-size: 10px !important; }
+  .last-div .input-group {
+    display: inline-block;
+    padding: 0 !important; }
+    .last-div .input-group input {
+      width: 100%;
+      text-align: center;
+      color: #333; }
+  .last-div button {
+    margin: 10px 0 0 10px;
+    width: 135px !important; }
+  .last-div i {
+    margin-top: 40px !important; }
+  .last-div .fa-facebook {
+    background-color: #ffffff;
+    font-size: 30px;
+    padding: 5px 0;
+    color: #000; }
+    .last-div .fa-facebook:hover {
+      background-color: #005eb2; }
+  .last-div .fa-google-plus {
+    background-color: #ffffff;
+    font-size: 30px;
+    padding: 5px 0;
+    color: #000; }
+    .last-div .fa-google-plus:hover {
+      background-color: #e62b34; }
+  .last-div .fa-twitter {
+    background-color: #ffffff;
+    font-size: 30px;
+    padding: 5px 0;
+    color: #000; }
+    .last-div .fa-twitter:hover {
+      background-color: #43bdf0; }
+  .last-div .fa-youtube-play {
+    background-color: #ffffff;
+    font-size: 30px;
+    padding: 5px 0;
+    color: #000; }
+    .last-div .fa-youtube-play:hover {
+      background-color: #dd3125; } }
 .wordpressMeetup-header {
   background: url("../images/wordpress-annual-meetup-event.jpg") no-repeat;
   width: 100%;
   height: 450px; }
-  .wordpressMeetup-header .navbar-default {
-    margin-bottom: 0;
-    background-color: transparent !important;
-    border-color: transparent; }
-  .wordpressMeetup-header .navbar-collapse {
-    width: 100%;
-    padding: 0;
-    font-size: 15px;
-    position: relative;
-    top: 30px;
-    left: 15px; }
-    .wordpressMeetup-header .navbar-collapse ul li a {
-      color: #ffffff; }
-  .wordpressMeetup-header .clock {
-    display: inline-block;
-    width: 21%;
-    margin: -28px 0 0; }
-    .wordpressMeetup-header .clock img {
-      width: 15%;
-      float: left;
-      margin: 0; }
-    .wordpressMeetup-header .clock p {
-      width: 79%;
-      margin: 0 !important;
-      display: inline-block;
-      float: right;
-      font-size: 11px;
-      color: #ffffff; }
-  .wordpressMeetup-header .navbar-nav {
-    color: white;
-    margin-left: 35px; }
-  .wordpressMeetup-header .navbar-nav > li > a:hover {
-    color: #ffffff;
-    border-bottom: 2px solid #ffffff; }
-  .wordpressMeetup-header .main-heading {
-    text-align: center;
-    font-family: "Raleway", sans-serif;
-    margin: 120px 0 0 0; }
-    .wordpressMeetup-header .main-heading h1 {
-      font-size: 60px;
-      color: #ffffff;
-      font-family: "Raleway", sans-serif;
-      font-weight: 600;
-      margin-bottom: 0;
-      letter-spacing: 5px;
-      text-transform: uppercase; }
-    .wordpressMeetup-header .main-heading .navbar-toggle {
-      margin-top: 50px !important; }
-    .wordpressMeetup-header .main-heading .logo-top {
-      padding: 0 0 0 50px; }
-    .wordpressMeetup-header .main-heading .navbar-collapse {
-      border: 0;
-      padding: 0 !important; }
 
 .about-us {
   font-family: Raleway, sans-serif; }
   .about-us h3 {
     text-align: center;
     font-size: 35px;
-    margin-top: 50px;
+    margin: 50px 0 10px -35px;
     font-weight: 600; }
   .about-us .event-intro {
-    margin: 20px 0 40px 0; }
+    margin: 20px 0 60px 0; }
     .about-us .event-intro .simple-paragraph {
       font-size: 20px;
       padding-left: 100px;
       margin-bottom: 0; }
     .about-us .event-intro span {
-      padding: 0 0 0 30px;
+      padding-right: 70px;
       text-align: center;
       display: inline-block; }
 
@@ -8489,8 +8408,6 @@ button.close {
   display: table; }
   .date-venue-time .row {
     background: url("../images/venue-bg.jpg") no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
     display: table-cell;
     padding: 20px 0 0 0;
     vertical-align: middle; }
@@ -8520,7 +8437,7 @@ button.close {
     font-size: 35px;
     font-weight: 600;
     color: #727272;
-    margin: 25px 0 50px 0; }
+    margin: 40px 0 25px 0; }
   .event-gallery .img-transform {
     width: 100%;
     height: 450px; }
@@ -8555,42 +8472,17 @@ button.close {
     background: #fff;
     color: #124C71;
     font-weight: 700;
+    font-size: 22px;
     margin-bottom: 50px; }
 
 @media (min-width: 992px) and (max-width: 1199px) {
   .wordpressMeetup-header {
-    height: auto !important;
-    padding-bottom: 40px; }
-    .wordpressMeetup-header .navbar-default {
-      margin-bottom: 0; }
-      .wordpressMeetup-header .navbar-default .logo-top {
-        padding: 0 !important; }
-      .wordpressMeetup-header .navbar-default .navbar-nav {
-        margin: 25px 25px 0 25px !important; }
-      .wordpressMeetup-header .navbar-default .clock {
-        display: none; }
-    .wordpressMeetup-header .container-fluid {
-      background-color: black; }
-    .wordpressMeetup-header .navbar-brand {
-      margin-left: 0 !important; }
-    .wordpressMeetup-header .navbar-header {
-      padding: 0 0 21px; }
-    .wordpressMeetup-header .navbar-collapse {
-      position: relative;
-      top: 0;
-      padding: 15px !important; }
+    background-attachment: fixed; }
     .wordpressMeetup-header .main-heading h1 {
-      font-size: 45px !important;
-      margin: 0 0 40px 0 !important; }
-    .wordpressMeetup-header .main-heading .special-development-icons .front-end-development {
-      margin-left: 20% !important; }
-    .wordpressMeetup-header .main-heading .special-development-icons .js-dev {
-      margin-left: -40px !important; }
-    .wordpressMeetup-header .main-heading .btn {
-      width: 16%; }
+      margin-top: 100px; }
 
   .about-us {
-    padding: 30px 0 0 0; }
+    padding: 30px 0 30px 0; }
     .about-us h3 {
       font-size: 30px; }
     .about-us .event-intro {
@@ -8601,52 +8493,51 @@ button.close {
         padding: 0 !important;
         text-align: center; }
       .about-us .event-intro span {
-        padding: 0;
+        padding: 0 20px 0 50px;
         font-size: 16px;
         text-align: center; }
+
+  .date-venue-time .row {
+    padding: 0; }
+  .date-venue-time .top-bottom .text-uppercase-bold {
+    margin-bottom: 0 !important;
+    font-size: 20px; }
 
   .event-gallery h1 {
     font-size: 30px; }
   .event-gallery .img-transform {
     height: 365px !important; } }
 @media (min-width: 768px) and (max-width: 991px) {
-  .wordpressMeetup-header {
-    height: auto !important;
-    padding-bottom: 40px; }
-    .wordpressMeetup-header .navbar-default {
-      margin-bottom: 0; }
-      .wordpressMeetup-header .navbar-default .logo-top {
-        padding: 0 !important; }
-      .wordpressMeetup-header .navbar-default .navbar-nav {
-        margin: 25px 25px 0 25px !important; }
-      .wordpressMeetup-header .navbar-default .clock {
-        display: none; }
-    .wordpressMeetup-header .container-fluid {
-      background-color: black; }
-    .wordpressMeetup-header .navbar-header {
-      padding: 0 0 21px; }
-    .wordpressMeetup-header .navbar-collapse {
-      position: relative;
-      top: 0; }
-    .wordpressMeetup-header .main-heading h1 {
-      font-size: 40px !important;
-      margin: 50px 0; }
-    .wordpressMeetup-header .main-heading .special-development-icons {
-      display: none; }
-    .wordpressMeetup-header .main-heading .btn {
-      width: 25%; }
+  .wordpressMeetup-header .main-heading h1 {
+    margin: 100px 0 0 0 !important; }
 
   .about-us h3 {
+    margin-top: 30px !important;
     font-size: 30px; }
   .about-us .event-intro {
     margin: 0 0 30px 0;
     padding: 0 !important; }
     .about-us .event-intro .simple-paragraph {
       font-size: 16px;
-      padding: 0 !important; }
+      padding: 0 0 0 25px !important;
+      width: 100%; }
     .about-us .event-intro span {
       padding: 0;
       font-size: 16px; }
+
+  .date-venue-time .row {
+    padding: 0 !important; }
+  .date-venue-time .top-bottom {
+    padding-top: 40px;
+    padding-bottom: 40px; }
+    .date-venue-time .top-bottom .text-uppercase, .date-venue-time .top-bottom .initialism {
+      font-size: 16px !important; }
+    .date-venue-time .top-bottom .text-uppercase-bold {
+      margin: 20px 0 0 0;
+      font-size: 20px !important; }
+    .date-venue-time .top-bottom .tagline {
+      font-size: 15px;
+      margin: -50px 0 0 30px; }
 
   .event-gallery {
     padding: 20px 0 !important; }
@@ -8658,64 +8549,41 @@ button.close {
 
   .register h1 {
     font-size: 26px; }
-  .register .input-fields input {
-    font-size: 13px; } }
+  .register .input-fields {
+    padding: 20px 0 75px 0 !important; }
+    .register .input-fields input {
+      font-size: 13px; }
+  .register button {
+    font-size: 20px !important; } }
 @media (min-width: 320px) and (max-width: 767px) {
   .wordpressMeetup-header {
-    height: auto !important;
-    padding-bottom: 40px; }
-    .wordpressMeetup-header .navbar-default {
-      margin-bottom: 55px !important; }
-      .wordpressMeetup-header .navbar-default .logo-top {
-        padding: 0 !important; }
-      .wordpressMeetup-header .navbar-default .navbar-nav {
-        margin: 0; }
-      .wordpressMeetup-header .navbar-default .clock {
-        display: none; }
-    .wordpressMeetup-header .navbar-header {
-      padding: 0 0 45px;
-      background: #000; }
-    .wordpressMeetup-header .navbar-toggle {
-      margin: 35px 15px 0 0; }
-    .wordpressMeetup-header .navbar-collapse {
-      position: relative;
-      top: 0; }
-    .wordpressMeetup-header .main-heading {
-      margin: 15px 0 !important; }
-      .wordpressMeetup-header .main-heading h1 {
-        font-size: 30px !important;
-        margin-bottom: 15px !important; }
-      .wordpressMeetup-header .main-heading .special-development-icons {
-        display: none; }
-      .wordpressMeetup-header .main-heading .btn {
-        width: 55%;
-        font-size: 18px;
-        font-weight: 600;
-        margin-top: 20px;
-        display: inline-block;
-        border-radius: 0 !important;
-        box-shadow: 0 4px 25px darkslategrey;
-        color: #4c667a !important;
-        background-color: #ffffff !important; }
+    background-attachment: fixed; }
+    .wordpressMeetup-header .main-heading h1 {
+      margin-top: 100px !important; }
 
   .about-us h3 {
-    font-size: 26px; }
+    font-size: 26px;
+    margin: 30px 0 10px 0 !important; }
   .about-us .event-intro {
     margin: 0 0 30px 0; }
     .about-us .event-intro .simple-paragraph {
       font-size: 16px;
-      display: inline;
-      text-align: center;
       padding: 0 !important; }
     .about-us .event-intro span {
       padding: 0;
       font-size: 16px; }
 
-  .date-venue-time .top-bottom {
-    padding-top: 0; }
-    .date-venue-time .top-bottom .text-uppercase-bold {
-      margin: 20px 0 0 0;
-      font-size: 18px; }
+  .date-venue-time .row {
+    padding: 0 !important; }
+    .date-venue-time .row .top-bottom {
+      padding-top: 0; }
+      .date-venue-time .row .top-bottom .text-uppercase, .date-venue-time .row .top-bottom .initialism {
+        margin-bottom: 0 !important;
+        margin-top: 30px; }
+      .date-venue-time .row .top-bottom .text-uppercase-bold {
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+        font-size: 18px; }
 
   .event-gallery {
     padding: 20px 0 !important; }
@@ -8723,7 +8591,7 @@ button.close {
       font-size: 26px;
       margin: 15px 0 30px 0; }
     .event-gallery .img-transform {
-      height: 80px; }
+      height: 150px; }
 
   .register h1 {
     font-size: 26px; }
@@ -8731,77 +8599,11 @@ button.close {
     font-size: 13px;
     margin-bottom: 10px; }
   .register button {
-    font-size: 13px; } }
+    font-size: 16px; } }
 .hybrid-header-bg {
   background: url("../images/HADS-background.png") no-repeat;
   width: 100%;
   height: 460px; }
-  .hybrid-header-bg .navbar-default {
-    margin-bottom: 0;
-    background-color: transparent !important;
-    border-color: transparent; }
-  .hybrid-header-bg .navbar-collapse {
-    width: 100%;
-    padding: 35px 0 0 35px;
-    font-size: 15px;
-    position: relative;
-    top: 30px;
-    left: 15px; }
-    .hybrid-header-bg .navbar-collapse ul li a {
-      color: #ffffff; }
-  .hybrid-header-bg .clock {
-    display: inline-block;
-    width: 22%;
-    margin: -28px 0 0; }
-    .hybrid-header-bg .clock img {
-      width: 17%;
-      float: left;
-      margin: 0; }
-    .hybrid-header-bg .clock p {
-      width: 79%;
-      margin: 0 !important;
-      display: inline-block;
-      float: right;
-      font-size: 11px;
-      color: #fff; }
-  .hybrid-header-bg .navbar-brand {
-    padding-top: 15px; }
-  .hybrid-header-bg .navbar-nav {
-    color: white;
-    margin-left: 60px; }
-  .hybrid-header-bg .navbar-nav > li > a {
-    padding: 10px !important; }
-    .hybrid-header-bg .navbar-nav > li > a:hover {
-      color: #ffffff;
-      border-bottom: 2px solid #ffffff; }
-  .hybrid-header-bg h1 {
-    font-size: 60px;
-    color: #fff;
-    font-family: Raleway,sans-serif;
-    font-weight: 600;
-    letter-spacing: 5px;
-    text-transform: uppercase; }
-  .hybrid-header-bg .main-heading {
-    text-align: center;
-    font-family: "Raleway" ,sans-serif;
-    margin: 100px 0 0 0;
-    color: #fff; }
-    .hybrid-header-bg .main-heading .btn {
-      width: 60%;
-      color: #4c667a;
-      font-family: 'Raleway Bold', sans-serif;
-      border-radius: 0 !important;
-      padding: 10px 20px;
-      margin-top: 60px;
-      box-shadow: 0 10px 30px #476b91;
-      display: none; }
-  .hybrid-header-bg .navbar-toggle {
-    margin-top: 50px !important; }
-  .hybrid-header-bg .logo-top {
-    padding: 0 0 0 50px; }
-  .hybrid-header-bg .navbar-collapse {
-    border: 0;
-    padding: 0 !important; }
 
 .fifth-div .displayes .sass-block {
   background-color: rgba(204, 51, 99, 0.9); }
@@ -8809,72 +8611,16 @@ button.close {
   background-color: rgba(10, 30, 39, 0.9); }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-  .hybrid-header-bg {
-    height: auto !important;
-    padding-bottom: 40px; }
-    .hybrid-header-bg .navbar-default {
-      margin-bottom: 55px !important; }
-      .hybrid-header-bg .navbar-default .container-fluid {
-        background-color: #000000; }
-        .hybrid-header-bg .navbar-default .container-fluid .logo-top {
-          padding: 0 !important; }
-        .hybrid-header-bg .navbar-default .container-fluid .navbar-nav {
-          margin: 40px 0 10px 40px !important; }
-        .hybrid-header-bg .navbar-default .container-fluid .clock {
-          display: none; }
-      .hybrid-header-bg .navbar-default .navbar-header {
-        padding: 0 0 21px; }
-      .hybrid-header-bg .navbar-default .navbar-collapse {
-        position: relative;
-        top: 0; }
-    .hybrid-header-bg .main-heading {
-      margin: 15px 0 !important; }
-      .hybrid-header-bg .main-heading h1 {
-        font-size: 30px !important;
-        margin-bottom: 15px !important; }
-      .hybrid-header-bg .main-heading .btn {
-        width: 20%;
-        font-size: 18px;
-        display: inline-block;
-        font-family: "Raleway", sans-serif;
-        font-weight: bold; } }
+  .about-background-image .second-div .about-us-paragraph {
+    margin-bottom: 0 !important; } }
 @media (min-width: 768px) and (max-width: 991px) {
-  .hybrid-header-bg {
-    height: auto !important;
-    padding-bottom: 40px; }
-    .hybrid-header-bg .navbar-default {
-      margin-bottom: 55px !important; }
-      .hybrid-header-bg .navbar-default .container-fluid {
-        background-color: #000000; }
-        .hybrid-header-bg .navbar-default .container-fluid .logo-top {
-          padding: 0 !important; }
-        .hybrid-header-bg .navbar-default .container-fluid .navbar-nav {
-          margin: 18px 0 5px 50px; }
-        .hybrid-header-bg .navbar-default .container-fluid .clock {
-          display: none; }
-      .hybrid-header-bg .navbar-default .navbar-header {
-        padding: 0 0 21px; }
-      .hybrid-header-bg .navbar-default .navbar-collapse {
-        position: relative;
-        top: 0; }
-    .hybrid-header-bg .main-heading {
-      margin: 15px 0 !important; }
-      .hybrid-header-bg .main-heading h1 {
-        font-size: 30px !important;
-        margin-bottom: 15px !important; }
-      .hybrid-header-bg .main-heading .btn {
-        width: 25%;
-        font-size: 18px;
-        display: inline-block;
-        font-family: "Raleway", sans-serif;
-        font-weight: bold; }
-
   .about-background-image .second-div {
     padding: 10px 0; }
     .about-background-image .second-div h3 {
       font-size: 24px; }
     .about-background-image .second-div .about-us-paragraph {
-      font-size: 16px; }
+      font-size: 16px;
+      margin-bottom: 15px !important; }
     .about-background-image .second-div .div-two-nested p {
       font-size: 11px;
       margin-top: 0 !important; }
@@ -8884,34 +8630,6 @@ button.close {
     .third-div .rowWithBg .course-image, .third-div .rowWithBg .learing-image, .third-div .rowWithBg .master-image {
       width: 12%;
       height: 75px; } }
-@media (min-width: 320px) and (max-width: 767px) {
-  .hybrid-header-bg {
-    height: auto !important;
-    padding-bottom: 40px; }
-    .hybrid-header-bg .navbar-default {
-      margin-bottom: 55px !important; }
-      .hybrid-header-bg .navbar-default .logo-top {
-        padding: 0 !important; }
-      .hybrid-header-bg .navbar-default .navbar-nav {
-        margin: 0; }
-      .hybrid-header-bg .navbar-default .clock {
-        display: none; }
-    .hybrid-header-bg .navbar-header {
-      padding: 0 0 21px;
-      background: #000; }
-    .hybrid-header-bg .navbar-collapse {
-      position: relative;
-      top: 0; }
-    .hybrid-header-bg .main-heading {
-      margin: 5px 0 !important; }
-      .hybrid-header-bg .main-heading h1 {
-        font-size: 30px !important;
-        margin-bottom: 0 !important; }
-      .hybrid-header-bg .main-heading .btn {
-        font-size: 18px;
-        display: inline-block;
-        font-family: "Raleway", sans-serif;
-        font-weight: bold; } }
 .angular-header-bg {
   background-image: url("../images/angular-learn-banner.jpg");
   background-repeat: no-repeat;
@@ -9046,42 +8764,14 @@ button.close {
   background-color: rgba(116, 142, 195, 0.9);
   padding: 87px 0; }
   .fifth-div .php img {
-    margin: 0 0 15px 0; }
+    margin: 0 0 30px 0; }
 .fifth-div .wordpress-block {
   background-color: rgba(21, 55, 66, 0.9);
   padding: 87px 0; }
   .fifth-div .wordpress-block img {
-    margin: 0 0 15px 0; }
+    margin: 0 0 30px 0; }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-  .wds-header-bg {
-    height: auto !important;
-    padding-bottom: 40px; }
-    .wds-header-bg .navbar-default {
-      margin-bottom: 0; }
-      .wds-header-bg .navbar-default .logo-top {
-        padding: 0 !important; }
-      .wds-header-bg .navbar-default .navbar-nav {
-        margin: 25px 25px 0 25px !important; }
-      .wds-header-bg .navbar-default .clock {
-        display: none; }
-    .wds-header-bg .container-fluid {
-      background-color: black;
-      padding-bottom: 20px; }
-    .wds-header-bg .navbar-header {
-      padding: 0 0 21px; }
-    .wds-header-bg .navbar-collapse {
-      position: relative;
-      top: 0; }
-    .wds-header-bg .main-heading h1 {
-      font-size: 40px !important;
-      margin: 50px 0 0 0; }
-    .wds-header-bg .main-heading .btn {
-      display: inline-block !important;
-      font-family: "Raleway" , sans-serif;
-      font-weight: 600;
-      width: 20%; }
-
   .about-background-image .second-div {
     padding: 20px 60px 60px 60px !important; }
     .about-background-image .second-div h3 {
@@ -9093,32 +8783,5 @@ button.close {
       padding: 20px 0; }
       .about-background-image .second-div .div-two-nested .about-icons {
         height: 50px !important; } }
-@media (min-width: 768px) and (max-width: 991px) {
-  .wds-header-bg {
-    height: auto !important;
-    padding-bottom: 40px; }
-    .wds-header-bg .navbar-default {
-      margin-bottom: 0; }
-      .wds-header-bg .navbar-default .logo-top {
-        padding: 0 !important; }
-      .wds-header-bg .navbar-default .navbar-nav {
-        margin: 25px 25px 0 25px !important; }
-      .wds-header-bg .navbar-default .clock {
-        display: none; }
-    .wds-header-bg .container-fluid {
-      background-color: black; }
-    .wds-header-bg .navbar-header {
-      padding: 0 0 21px; }
-    .wds-header-bg .navbar-collapse {
-      position: relative;
-      top: 0; }
-    .wds-header-bg .main-heading h1 {
-      font-size: 40px !important;
-      margin: 50px 0 0 0; }
-    .wds-header-bg .main-heading .btn {
-      display: inline-block !important;
-      font-family: "Raleway" , sans-serif;
-      font-weight: 600;
-      width: 25%; } }
 
 /*# sourceMappingURL=main.css.map */

@@ -4,7 +4,13 @@
     width: 35%;
     color: $color-white !important;
     background-color: #003f64;
+    font-size: 18px;
+    font-family: $font-style;
+    font-weight: 600;
+    border: 1px solid #003f64;
     border-radius: 0 !important;
+    box-shadow: 0 8px 15px #cccccc;
+    padding: 14px 0;
   }
 }
 .enroll-background{
@@ -32,6 +38,14 @@
       font-family: Raleway, sans-serif;
       font-size: 16px;
     }
+    ::-webkit-input-placeholder{
+      color: $color-white;
+    }
+    .select-icon{
+      position: relative;
+      bottom: 0 !important;
+      left: -35px !important;
+    }
   }
   .btn{
     width: 78%;
@@ -40,9 +54,9 @@
     border-radius: 0 !important;
     margin: 20px 0;
     font-family: $font-style;
-    font-weight: bold;
+    font-weight: 600;
     font-size: 18px;
-    padding: 15px 200px 15px 145px;
+    padding: 10px 0;
 
   }
 }
@@ -66,7 +80,6 @@
       width:46%;
     }
   }
-
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .about-background-image {
@@ -111,11 +124,36 @@
   }
   .enroll-button{
     .btn{
-      width:55%;
+      width: 55%;
+      font-size: 13px;
     }
   }
   .enroll-background {
-    display: none;
+    h3{
+      font-size: 32px;
+      font-weight: 600;
+    }
+    img{
+      position: relative;
+      left: 17px !important;
+      bottom: 0;
+      top: 35px;
+    }
+    input{
+      padding: 10px 5px 10px 35px !important;
+      margin-left: 11px !important;
+    }
+    .select-icon{
+      top: -30px !important;
+      left: -20px !important;
+      float: right;
+    }
+    .btn{
+      width: 92%;
+      margin: 15px 0 10px 11px;
+      font-size: 18px;
+      padding: 9px 0;
+    }
   }
-
 }
+

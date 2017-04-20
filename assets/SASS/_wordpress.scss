@@ -1,101 +1,22 @@
 .desktop-home-header{
   background: url("../images/desktop.jpg") no-repeat !important;
   background-size:cover;
-  width: 100%;
-  height:100%;
-  .navbar-default {
-    margin-bottom:0;
-    background-color: transparent !important;
-    border-color: transparent;
-  }
-  .navbar-collapse {
-    width: 100%;
-    padding: 35px 0 0 35px;
-    font-size:15px;
-    position: relative;
-    top: 30px;
-    left: 15px;
-    ul li a{
-      color: $color-white;
-    }
-  }
-  .clock {
-    display: inline-block;
-    width: 21%;
-    margin: -28px 0 0;
-    img{
-      width: 15%;
-      float: left;
-      margin: 0;
-    }
-    p{
-      width: 79%;
-      margin: 0 !important;
-      display: inline-block;
-      float: right;
-      font-size: 11px;
-      color: $color-white;
-    }
-  }
-  .navbar-nav{
-    color:white;
-    margin-left:35px;
-  }
-  .navbar-nav > li > a {
-    &:hover{
-      color: $color-white;
-      border-bottom: 2px solid $color-white;
-    }
-  }
-  .main-heading{
-    text-align:center;
-    font-family:$font-style;
-    margin: 100px 0;
-    h1{
-      font-size: 60px;
-      color: $color-white;
-      font-family: $font-style;
-      font-weight: 600;
-      margin-bottom: 0;
-      letter-spacing: 5px;
-      text-transform: uppercase;
-    }
-
-    .btn{
-      width: 13%;
-      color: #4c667a;
-      font-family: 'Raleway', sans-serif;
-      font-weight:600;
-      border-radius: 0 !important;
-      margin-top: 40px;
-      box-shadow: 0 10px 30px #476b91;
-      display: none;
-      padding: 5px;
-    }
-  }
-
-  .navbar-toggle{
-    margin-top:50px !important;
-  }
-  .logo-top{
-    padding: 0 0 0 50px;
-  }
-  .navbar-collapse{
-    border:0;
-    padding:0 !important;
-  }
+  @extend .header-bg;
 }
 .about-background-image{
-  .second-div{
-    img{
-      width: auto;
-      height:55px;
-    }
-    .meteor-text{
-      margin: 10px 0 30px 10px;
-      font-weight:bold;
-      color: #000;
-      font-size:13px;
+  .second-div {
+    .about-meteor {
+      padding:0 0 30px 0;
+      img {
+        width: 55px;
+        height: 55px;
+      }
+      .meteor-text {
+        margin: 10px 0 30px 10px;
+        font-weight: bold;
+        color: #000;
+        font-size: 13px;
+      }
     }
   }
 }
@@ -113,7 +34,7 @@
     background-color: rgba(226, 95, 92, 0.93);
   }
   img{
-    margin:70px 0 40px 0;
+    margin:70px 10px 40px 0;
   }
   p{
     color: $color-white;
@@ -128,52 +49,8 @@
 }
 
 @media(min-width: 992px) and (max-width: 1199px){
-  .desktop-home-header{
-    height: auto !important;
-    padding-bottom: 40px;
-    .navbar-default {
-      margin-bottom: 0;
-      .logo-top {
-        padding: 0 !important;
-      }
-      .navbar-nav {
-        margin: 25px 25px 0 25px !important;
-      }
-      .clock {
-        display: none;
-      }
-    }
-    .container-fluid {
-      background-color: black;
-    }
-    .navbar-brand{
-      margin-left: 0 !important;
-    }
-    .navbar-header {
-      padding: 0 0 21px;
-    }
-    .navbar-collapse {
-      position: relative;
-      top: 0;
-      padding:15px !important;
-    }
-    .main-heading {
-      h1 {
-        font-size: 45px !important;
-        margin: 0 0 40px 0 !important;
-      }
-      .special-development-icons {
-        .front-end-development{
-          margin-left:20% !important;
-        }
-        .js-dev{
-          margin-left: -40px !important;
-        }
-      }
-      .btn {
-        width: 16%;
-      }
-    }
+  .about-background-image .second-div .meteor-text{
+    margin: 10px 0 30px 10px !important;
   }
   .meteor-details{
     p{
@@ -182,96 +59,19 @@
   }
 }
 @media(min-width: 768px)and(max-width: 991px) {
-  .desktop-home-header{
-    height: auto !important;
-    padding-bottom: 40px;
-    .navbar-default {
-      margin-bottom: 0;
-      .logo-top {
-        padding: 0 !important;
-      }
-      .navbar-nav {
-        margin: 25px 25px 0 25px !important;
-      }
-      .clock {
-        display: none;
-      }
-    }
-    .container-fluid {
-      background-color: black;
-    }
-    .navbar-header {
-      padding: 0 0 21px;
-    }
-    .navbar-collapse {
-      position: relative;
-      top: 0;
-    }
-    .main-heading {
-      h1 {
-        font-size: 40px !important;
-        margin: 50px 0;
-      }
-      .special-development-icons {
-        display: none;
-      }
-      .btn {
-        width: 25%;
-      }
-    }
-  }
   .meteor-details{
     p{
-      padding: 0 70px 70px 100px;
+      padding: 0 65px 70px 55px;
     }
   }
 }
 @media(min-width: 320px) and (max-width: 767px) {
-  .desktop-home-header{
-    height: auto !important;
-    padding-bottom: 40px;
-    .navbar-default {
-      margin-bottom: 55px !important;
-      .logo-top {
-        padding: 0 !important;
-      }
-      .navbar-nav {
-        margin: 0;
-      }
-      .clock {
-        display: none;
-      }
-    }
-    .navbar-header {
-      padding: 0 0 21px;
-      background: #000;
-    }
-    .navbar-collapse {
-      position: relative;
-      top: 0;
-    }
-    .main-heading {
-      margin: 15px 0 !important;
-      h1 {
-        font-size: 30px !important;
-        margin-bottom: 15px !important;
-      }
-      .special-development-icons{
-        display: none;
-      }
-      .btn {
-        width:55%;
-        font-size: 18px;
-        font-weight: 600;
-        margin-top:20px;
-        display: inline-block;
-        border-radius: 0 !important;
-        box-shadow: 0 4px 25px darkslategrey;
-        color: #4c667a !important;
-        background-color: $color-white !important;
-
-      }
+  .about-background-image .second-div .about-us-paragraph {
+    margin-bottom: 0 !important;
+  }
+  .meteor-details{
+    p{
+      padding: 0 10px 80px 10px;
     }
   }
 }
-

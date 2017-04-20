@@ -1,5 +1,5 @@
 ////////////////
-.header-bg {
+.header-bg{
   background: url("../images/backg.png") no-repeat;
   width: 100%;
   height: 460px;
@@ -511,46 +511,245 @@
 
 /////////// md
 @media (min-width: 992px) and (max-width: 1199px) {
-  .first-bg {
-    .app-bakerz-logo{
-      padding: 0 0 0 10px;
+  .header-bg{
+    width: 100%;
+    height: auto;
+    padding-bottom: 50px !important;
+    .navbar-default {
+      margin-bottom: 55px !important;
+      .logo-top {
+        padding: 0 !important;
+      }
+      .navbar-nav {
+        margin: 20px 0 10px 40px;
+      }
+      .clock {
+        display: none;
+      }
     }
-    .navbar-collapse{
-      left:-35px;
+    .container-fluid {
+      background-color: black;
     }
-    .clock {
-      //margin: -23px -55px 0 0 !important;
-      display: none;
+    .navbar-header {
+      padding: 0 0 21px;
+    }
+    .navbar-collapse {
+      position: relative;
+      top: 0;
+      padding:15px 0 !important;
+    }
+    .main-heading {
+      margin: 15px 0 !important;
+      h1 {
+        font-size: 50px !important;
+        margin-bottom: 15px !important;
+      }
+      .btn {
+        width: 20%;
+        font-size: 18px;
+        display: inline-block;
+        font-family: $font-style;
+        font-weight: 600 !important;
+        margin-top:30px !important;
+      }
     }
   }
-  .about-background{
+  .about-background-image{
     .second-div{
+      h3{
+        font-size: 28px !important;
+        font-weight: 600 !important;
+      }
+      .paragraph-two{
+        font-size: 16px;
+      }
       .front-end-development{
         margin-left: 0 !important;
       }
       .js-dev{
         margin-left: 0;
       }
-      h3{
-        font-size: 30px;
+    }
+  }
+  .fourth-div{
+    h3{
+      font-size: 28px !important;
+      font-weight: 600;
+    }
+    span{
+      &:before{
+        left:0 !important;
       }
-      .paragraph-two{
-        font-size: 16px;
+    }
+  }
+  .form-transformation {
+    .form-div{
+      height:auto !important;
+      h1{
+        font-size: 26px !important;
+        margin-top: 0 !important;
+        font-weight:600;
       }
+      button{
+        height: 45px !important;
+      }
+    }
+    font-size: 15px !important;
+    .textarea-comments {
+      .form-control {
+        font-size: 15px !important;
+      }
+    }
+  }
+  .details{
+    p{
+      font-size: 16px !important;
     }
   }
 }
 
 /////////// sm
 @media (min-width: 768px) and (max-width: 991px) {
+  .header-bg{
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+    .navbar-default {
+      margin-bottom: 55px !important;
+      .logo-top {
+        padding: 0 !important;
+      }
+      .navbar-nav {
+        margin: 20px 0 10px 40px;
+      }
+      .clock {
+        display: none;
+      }
+    }
+    .container-fluid {
+      background-color: black;
+    }
+    .navbar-header {
+      padding: 0 0 21px;
+    }
+    .navbar-collapse {
+      position: relative;
+      top: 0;
+    }
+    .main-heading {
+      margin: 15px 0 !important;
+      h1 {
+        font-size: 40px !important;
+        margin-bottom: 15px !important;
+      }
+      .btn {
+        width: 25%;
+        font-size: 18px;
+        display: inline-block;
+        font-family: $font-style;
+        font-weight: 600 !important;
+        margin-top:30px !important;
+      }
+    }
+  }
+  .about-background-image {
+    .second-div {
+      padding: 0 !important;
+      h3 {
+        font-size: 24px !important;
+        margin: 40px 0 25px 0 !important;
+        font-weight: 600;
+      }
+      .about-us-paragraph {
+        padding: 0 9px 22px;
+        font-size: 14px !important;
+        text-align: center;
+        .front-end-development{
+          margin-left: 0;
+        }
+        .js-dev{
+          margin-left: 0;
+        }
+      }
+      .div-two-nested {
+        .front-end-development{
+          margin-left: 0;
+        }
+        img {
+          height: 40px !important;
+        }
+      }
 
+      .caption {
+        font-size: 11px !important;
+        font-family: 'Raleway Bold', sans-serif;
+        font-weight: 600;
+        color: #1b3a54;
+      }
+
+    }
+  }
+  .fourth-div{
+    padding:30px 0 !important;
+    h3{
+      font-size:24px;
+      font-weight:600;
+      margin: 0 0 15px 0 !important;
+    }
+    .dropdown-transformation{
+      font-size: 14px;
+    }
+    span{
+      &:before {
+        top: 6px;
+        left: 0;
+      }
+    }
+  }
+  .fifth-div .displayes .css-three img{
+    top: -5px !important;
+  }
+  .form-transformation {
+    .form-div{
+      height:auto !important;
+      h1{
+        font-size: 26px !important;
+        margin-top: 0 !important;
+        font-weight:600;
+      }
+      button{
+        height: 45px !important;
+      }
+    }
+    left: 10px !important;
+    font-size: 15px !important;
+    .textarea-comments {
+      .form-control {
+        font-size: 15px !important;
+      }
+    }
+  }
+  .details{
+    p{
+      font-size: 16px !important;
+    }
+  }
+  .last-div {
+    h5{
+      font-size: 18px !important;
+    }
+    p{
+      font-size:13px !important;
+    }
+  }
 }
 
 ////////// xs
 @media (min-width: 320px) and (max-width: 767px){
   .header-bg{
-    height: auto !important;
-    padding-bottom: 40px;
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
     .navbar-default {
       margin-bottom: 55px !important;
       .logo-top {
@@ -582,6 +781,7 @@
         display: inline-block;
         font-family: $font-style;
         font-weight: bold;
+        margin-top:30px !important;
       }
     }
   }
@@ -591,6 +791,7 @@
       h3 {
         font-size: 20px !important;
         margin: 40px 0 25px 0 !important;
+        font-weight: 600;
       }
       .about-us-paragraph {
         padding: 0 9px 22px;
@@ -638,9 +839,10 @@
   .fourth-div {
     padding: 30px 0;
     h3 {
-      margin: -10px 0 20px 0;
-      font-size: 26px !important;
-      padding: 15px 0 !important;
+      margin: 0;
+      font-size: 22px !important;
+      padding: 5px 0 20px 0!important;
+      font-weight: 600;
     }
     .accordian-courses{
       width:100%;
@@ -651,7 +853,6 @@
       button {
         font-size: 12px !important;
       }
-
     }
     .dropdown-transformation{
       font-size: 12px;
@@ -667,7 +868,6 @@
       }
     }
   }
-
   .fifth-div {
     background-size: cover !important;
     .displayes {
@@ -695,7 +895,6 @@
       font-size: 14px;
 
     }
-
   }
   .form-transformation {
     .form-div{
@@ -709,7 +908,6 @@
         height: 40px;
       }
     }
-
     left: 10px !important;
     font-size: 15px !important;
     .textarea-comments {
@@ -719,17 +917,16 @@
     }
   }
   .details{
+      img{
+        padding: 10px 0 5px 0;
+      }
+      p{
+        width: 100%;
+        margin: 15px 0 0 0 !important;
+        font-size:  16px !important;
 
-    img{
-      padding: 10px 0 5px 0;
+      }
     }
-    p{
-      width: 100%;
-      margin: 15px 0 0 0 !important;
-      font-size:  16px !important;
-
-    }
-  }
   .last-div {
     .bg-on-image{
       padding:30px 0;

@@ -15,58 +15,19 @@
     background-color:rgba(116, 142, 195, 0.9);
     padding: 87px 0;
     img{
-      margin: 0 0 15px 0;
+      margin: 0 0 30px 0;
     }
   }
   .wordpress-block{
     background-color: rgba(21, 55, 66, 0.9);
     padding: 87px 0;
     img{
-      margin: 0 0 15px 0;
+      margin: 0 0 30px 0;
     }
   }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-  .wds-header-bg {
-    height: auto !important;
-    padding-bottom: 40px;
-    .navbar-default {
-      margin-bottom: 0;
-      .logo-top {
-        padding: 0 !important;
-      }
-      .navbar-nav {
-        margin: 25px 25px 0 25px !important;
-      }
-      .clock {
-        display: none;
-      }
-    }
-    .container-fluid {
-      background-color: black;
-      padding-bottom: 20px;
-    }
-    .navbar-header {
-      padding: 0 0 21px;
-    }
-    .navbar-collapse {
-      position: relative;
-      top: 0;
-    }
-    .main-heading {
-      h1 {
-        font-size: 40px !important;
-        margin: 50px 0 0 0;
-      }
-      .btn {
-        display: inline-block !important;
-        font-family: "Raleway" , sans-serif;
-        font-weight: 600;
-        width: 20%;
-      }
-    }
-  }
   .about-background-image{
     .second-div{
       padding: 20px 60px 60px 60px !important;
@@ -86,46 +47,5 @@
     }
   }
 }
-
-@media (min-width: 768px) and (max-width: 991px){
-  .wds-header-bg {
-    height: auto !important;
-    padding-bottom: 40px;
-    .navbar-default {
-      margin-bottom: 0;
-      .logo-top {
-        padding: 0 !important;
-      }
-      .navbar-nav {
-        margin: 25px 25px 0 25px !important;
-      }
-      .clock {
-        display: none;
-      }
-    }
-    .container-fluid {
-      background-color: black;
-    }
-    .navbar-header {
-      padding: 0 0 21px;
-    }
-    .navbar-collapse {
-      position: relative;
-      top: 0;
-    }
-    .main-heading {
-      h1 {
-        font-size: 40px !important;
-        margin: 50px 0 0 0;
-      }
-      .btn {
-        display: inline-block !important;
-        font-family: "Raleway" , sans-serif;
-        font-weight: 600;
-        width: 25%;
-      }
-    }
-  }
-}
-
+@media (min-width: 768px) and (max-width: 991px){}
 @media (min-width: 320px) and (max-width: 767px){}

@@ -2,107 +2,41 @@
   background: url("../images/backg.png") no-repeat !important;
   width: 100%;
   height:620px;
-  .navbar-default {
-    margin-bottom:0;
-    background-color: transparent !important;
-    border-color: transparent;
+  h1{
+    margin-bottom: 50px;
   }
-  .navbar-collapse {
-    width: 100%;
-    padding: 35px 0 0 35px;
-    font-size:15px;
-    position: relative;
-    top: 30px;
-    left: 15px;
-    ul li a{
-      color: $color-white;
-    }
-  }
-  .clock {
-    display: inline-block;
-    width: 21%;
-    margin: -28px 0 0;
+  @extend .header-bg;
+  .special-development-icons{
+    text-align: center;
     img{
-      width: 15%;
-      float: left;
-      margin: 0;
+      height: 40px;
     }
-    p{
-      width: 79%;
-      margin: 0 !important;
-      display: inline-block;
-      float: right;
-      font-size: 11px;
-      color: $color-white;
-    }
-  }
-  .navbar-nav{
-    color:white;
-    margin-left:35px;
-  }
-  .navbar-nav > li > a {
-    &:hover{
-      color: $color-white;
-      border-bottom: 2px solid $color-white;
-    }
-  }
-  .main-heading{
-    text-align:center;
-    font-family:$font-style;
-    margin: 80px 0;
-    h1{
-      font-size: 60px;
-      color: $color-white;
-      font-family: $font-style;
-      font-weight: 600;
-      margin-bottom:80px;
-      letter-spacing: 5px;
-      text-transform: uppercase;
-    }
-    .special-development-icons{
-      text-align: center;
-      img{
-        height: 40px;
-      }
-      p {
-        font-size: 12px;
-        font-family: 'Raleway Bold', sans-serif;
-        font-weight:600;
-        margin-top: 15px;
-        color: $color-white;
-      }
-      .front-end-development{
-        margin-left: 20%;
-      }
-      .js-dev{
-        margin-left: -80px;
-      }
-    }
-    .btn{
-      width: 13%;
-      color: #4c667a;
-      font-family: 'Raleway', sans-serif;
+    p {
+      font-size: 12px;
+      font-family: 'Raleway Bold', sans-serif;
       font-weight:600;
-      border-radius: 0 !important;
-      margin-top: 40px;
-      box-shadow: 0 10px 30px #476b91;
-      display: inline-block;
-      padding: 5px;
+      margin-top: 15px;
+      color: $color-white;
+    }
+    .front-end-development{
+      margin-left: 20%;
+    }
+    .js-dev{
+      margin-left: -80px;
     }
   }
-
-  .navbar-toggle{
-    margin-top:50px !important;
-  }
-  .logo-top{
-    padding: 0 0 0 50px;
-  }
-  .navbar-collapse{
-    border:0;
-    padding:0 !important;
+  .btn{
+    width: 13% !important;
+    color: #4c667a;
+    font-family: 'Raleway', sans-serif !important;
+    font-weight:600 !important;
+    border-radius: 0 !important;
+    margin-top: 40px;
+    box-shadow: 0 10px 30px #476b91;
+    display: inline-block !important;
+    padding: 5px 0 !important;
   }
 }
-
 .about-us{
   background-image: url("../images/about-academy-bg.jpg");
   background-attachment: fixed;
@@ -131,7 +65,6 @@
     height: 535px;
   }
 }
-
 .inline-block-elem {
   display: inline-block;
   vertical-align: middle;
@@ -198,7 +131,6 @@
   }
 
 }
-
 .courses{
   background-image: url("../images/courses-background.png");
   background-size: cover;
@@ -408,7 +340,6 @@
     }
   }
 }
-
 .certified-courses{
   background-image: url("../images/certifiedCoursesBanner.png");
   background-repeat: no-repeat;
@@ -434,7 +365,6 @@
     }
   }
 }
-
 .create-courses {
   background: url("../images/create-course-bg.jpg")no-repeat;
   background-size: cover;
@@ -561,7 +491,6 @@
     }
   }
 }
-
 .languages {
   background-image: url("../images/icons-banner.png");
   background-repeat: no-repeat;
@@ -584,7 +513,6 @@
 
   }
 }
-
 .recent-events {
   background-image: url("../images/event-banner.png");
   background-repeat: no-repeat;
@@ -624,11 +552,9 @@
     }
   }
 }
-
 .map {
   position: relative;
 }
-
 .form-transformation {
   padding: 20px;
   position: absolute;
@@ -684,7 +610,6 @@
   }
 
 }
-
 .details {
   width: 100%;
   //height: 170px;
@@ -708,7 +633,6 @@
     margin: 15px 0 0 0;
   }
 }
-
 .last-div {
   font-family: $font-style;
   width: 100%;
@@ -812,7 +736,6 @@
     }
   }
 }
-
 .footer {
   background-color: #043450;
   //padding: 15px 0;
@@ -869,7 +792,7 @@
         }
       }
       .btn {
-        width: 16%;
+        width: 16% !important;
       }
     }
   }
@@ -886,6 +809,7 @@
     .about-paragraph {
       text-align: center;
       font-size: 14px;
+      padding-top: 20px !important;
     }
     img {
       margin-top: 20px;
@@ -904,6 +828,7 @@
   .courses {
     h1 {
       margin: 30px 0 10px 0;
+      font-weight: 600;
     }
     .portion-one {
       text-align: center;
@@ -1015,6 +940,7 @@
     h1 {
       margin-bottom: 10px !important;
       font-size: 24px !important;
+      font-weight: 600;
     }
     .col-sm-6 {
       text-align: center;
@@ -1047,8 +973,8 @@
 
       .courses-duration {
         button {
-          width: 75%;
-          height: 55px;
+          width: 50%;
+          height: 40px;
           font-size: 16px;
         }
       }
@@ -1073,14 +999,12 @@
       }
 
     }
-
-
-
   }
   .recent-events{
     padding: 30px 0;
     h3{
       margin: 0 0 30px 0;
+      font-weight: 600;
     }
   }
 
@@ -1122,7 +1046,7 @@
         display: none;
       }
       .btn {
-        width: 25%;
+        width: 25% !important;
       }
     }
   }
@@ -1139,10 +1063,12 @@
       margin-bottom: 20px;
     }
     .about-paragraph {
+      width: 117% !important;
       font-family: $font-style;
       text-align: center;
       color: #979797;
       font-size: 13px;
+      padding-left: 0 !important;
     }
     img {
       margin-top: 20px;
@@ -1157,6 +1083,7 @@
     .text-uppercase-bold {
       font-weight: 500;
       font-size: 18px;
+      margin-top: 10px;
     }
     .tagline {
       font-size: 12px !important;
@@ -1263,6 +1190,7 @@
     }
   }
   .certified-courses {
+    background-size: cover !important;
     .container {
       padding: 30px 0;
       img {
@@ -1280,6 +1208,8 @@
     h1 {
       margin-bottom: 10px !important;
       font-size: 24px !important;
+      font-weight: 600;
+      margin-top: 15px !important;
     }
     .col-sm-6 {
       text-align: center;
@@ -1309,20 +1239,20 @@
           font-size: 18px;
         }
       }
-
-      .courses-duration {
-        button {
-          width: 75%;
-          height: 55px;
-          font-size: 16px;
-        }
-      }
-      ul {
-        li {
-          font-size: 13px;
-        }
+    .courses-duration {
+      button {
+        width: 60%;
+        height: 35px;
+        padding: 0 !important;
+        font-size: 16px;
       }
     }
+    ul {
+      li {
+        font-size: 13px;
+      }
+    }
+  }
   }
   .languages {
     padding: 20px 0 0 0 !important;
@@ -1334,9 +1264,8 @@
       .image-transform{
         padding: 7px !important;
         width: 45%;
-        height: 60px;
+        height: auto;
       }
-
     }
 
 
@@ -1346,6 +1275,8 @@
     h3 {
       font-size: 24px;
       margin-bottom: 30px;
+      margin-top: 0 !important;
+      font-weight: 600;
     }
     img {
       width: 100%;
@@ -1378,8 +1309,7 @@
 ///////
 ////////xs
 @media(min-width: 320px) and (max-width: 767px) {
-
-  .home-header{
+  .home-header {
     height: auto !important;
     padding-bottom: 40px;
     .navbar-default {
@@ -1399,6 +1329,7 @@
       background: #000;
     }
     .navbar-collapse {
+      display: none;
       position: relative;
       top: 0;
     }
@@ -1408,20 +1339,19 @@
         font-size: 30px !important;
         margin-bottom: 15px !important;
       }
-      .special-development-icons{
+      .special-development-icons {
         display: none;
       }
       .btn {
-        width:55%;
+        width: 55% !important;
         font-size: 18px;
         font-weight: 600;
-        margin-top:20px;
+        margin-top: 20px;
         display: inline-block;
         border-radius: 0 !important;
         box-shadow: 0 4px 25px darkslategrey;
         color: #4c667a !important;
         background-color: $color-white !important;
-
       }
     }
   }
@@ -1579,7 +1509,6 @@
   .create-courses{
     padding: 0 !important;
     h1{
-      //margin-bottom: 0 !important;
       line-height: 20px;
       margin: 20px 49px 20px 60px;
       font-size: 18px;
@@ -1602,7 +1531,7 @@
     }
     label{
       font-size: 10px;
-      padding:0 !important;
+      padding: 10px 0 11px 0 !important;
       margin: 0 !important;
     }
     .prerequisites-column {
@@ -1612,19 +1541,15 @@
       height: auto;
       padding: 0 20px;
       margin:0 0 30px 0 !important;
-
       .html-css {
         width: 100%;
         font-size: 10px;
-
         h2 {
           font-family: 'Raleway SemiBold', sans-serif;
           font-size: 16px;
           text-align: center;
         }
         ul{
-
-
           li {
             padding: 5px 5px 5px 5px;
             margin: 0 10px 0 -2px;
@@ -1633,7 +1558,7 @@
               width: 100%;
               padding: 0 60px;
             }
-        }
+          }
         }
       }
 
@@ -1663,8 +1588,8 @@
         }
       }
 
+    }
   }
-}
   .languages {
     padding: 20px 0 0 0 !important;
     .flex-container {
@@ -1686,7 +1611,6 @@
   }
   .recent-events {
     padding: 0 15px 30px 15px !important;
-    //float: left;
     h3 {
       font-size: 20px !important;
       font-weight: bold;
@@ -1785,11 +1709,11 @@
     //}
   }
   .footer{
-  margin:0;
-  .all-rights-reserved{
-    font-size: 12px;
-    display: inline-block;
+    margin:0;
+    .all-rights-reserved{
+      font-size: 12px;
+      display: inline-block;
+    }
   }
 }
-}
-/////
+////////////////////////////////////////////////////

@@ -1,38 +1,35 @@
-.about-us{
-    .marginControl{
-      width: 50%;
-      margin-top: 0 !important;
-      .icons{
-        width:3%;
-        height:auto;
-        position: relative;
-        top:28px;
-        left:10px;
-        margin:0 !important;
-      }
-      .form-transform {
-        width: 100%;
-        padding: 5px 0 5px 35px;
-        font-family: $font-style;
-        font-size:14px;
-      }
-      button{
-        width:100%;
-        border-radius: 0 !important;
-        font-family: $font-style;
-        font-size:14px;
-        font-weight:700;
-        color: $color-white;
-        margin-top:25px;
-      }
+.about-us {
+  .about-sec {
+    padding: 20px 0 50px 0 !important;
+  .marginControl {
+    width: 50%;
+    margin-top: 0 !important;
+    .icons {
+      width: 3%;
+      height: auto;
+      position: relative;
+      top: 28px;
+      left: 10px;
+      margin: 0 !important;
     }
-    .academy-chef{
-      height:450px !important;
-      margin-left: 200px;
+    .form-transform {
+      width: 100%;
+      padding: 5px 0 5px 35px;
+      font-family: $font-style;
+      font-size: 14px;
     }
+    button {
+      width: 100%;
+      border-radius: 0 !important;
+      font-family: $font-style;
+      font-size: 14px;
+      font-weight: 700;
+      color: $color-white;
+      margin-top: 25px;
+    }
+  }
+  }
 }
-
-
 
 @media(min-width: 992px) and (max-width: 1199px){
   .enroll-header{
@@ -42,7 +39,6 @@
       margin-bottom: 55px !important;
       .container-fluid{
         background: #000;
-
       }
       .logo-top {
         padding: 0 !important;
@@ -67,11 +63,8 @@
     .main-heading {
       margin: 15px 0 !important;
       h1 {
-        font-size: 30px !important;
+        font-size: 50px !important;
         margin-bottom: 15px !important;
-      }
-      .special-development-icons{
-        display: none;
       }
       .btn {
         width:25%;
@@ -88,7 +81,6 @@
     }
   }
   .about-us{
-
       .marginControl{
         margin-top: 0 !important;
         margin-left: 0 !important;
@@ -140,14 +132,11 @@
     .main-heading {
       margin: 15px 0 !important;
       h1 {
-        font-size: 30px !important;
+        font-size: 40px !important;
         margin-bottom: 15px !important;
       }
-      .special-development-icons{
-        display: none;
-      }
       .btn {
-        width:55%;
+        width:50%;
         font-size: 18px;
         font-weight: 600;
         margin-top:20px;
@@ -179,7 +168,6 @@
       }
     }
   }
-
 }
 
 @media(min-width: 320px) and (max-width: 767px) {
@@ -209,7 +197,7 @@
     .main-heading {
       margin: 15px 0 !important;
       h1 {
-        font-size: 30px !important;
+        font-size: 28px !important;
         margin-bottom: 15px !important;
       }
       .special-development-icons{
@@ -231,20 +219,95 @@
   }
   .about-us{
     .marginControl{
-      width: auto !important;
-      margin-top:0 !important;
+      width: 100% !important;
+      margin-top: 0 !important;
+      margin-left: 0 !important;
       .icons{
-        width:10%;
-        left: 5px !important;
+        width:7% !important;
+        left: 10px !important;
       }
-      .form-transform {
-        width: auto;
-        font-size:16px;
-      }
-      button{
+      .button{
         width: 100% !important;
         font-size:16px;
         margin-bottom:30px !important;
+      }
+    }
+  }
+  .details{
+    img{
+      padding: 10px 0 5px 0;
+    }
+    p{
+      width: 100%;
+      margin: 15px 0 0 0 !important;
+      font-size:  16px !important;
+
+    }
+  }
+  .last-div {
+    .bg-on-image{
+      padding:30px 0;
+    }
+    .appBakerZ{
+      margin: 10px 0;
+      padding: 0 !important;
+    }
+    h5{
+      font-size: 14px !important;
+    }
+    p{
+      font-size:10px !important;
+    }
+    .input-group {
+      display: inline-block;
+      padding: 0 !important;
+      input{
+        width: 100%;
+        text-align: center;
+        color: #333;
+      }
+    }
+    button{
+      margin: 10px 0 0 10px;
+      width:135px !important;
+    }
+    i{
+      margin-top: 40px !important;
+    }
+    .fa-facebook {
+      background-color: #ffffff;
+      font-size: 30px;
+      padding: 5px 0;
+      color: #000;
+      &:hover {
+        background-color: #005eb2;
+      }
+    }
+    .fa-google-plus{
+      background-color: #ffffff;
+      font-size: 30px;
+      padding: 5px 0;
+      color: #000;
+      &:hover {
+        background-color: #e62b34;
+      }
+    }
+    .fa-twitter{
+      background-color: #ffffff;
+      font-size: 30px;
+      padding: 5px 0;
+      color: #000;
+      &:hover {
+        background-color: #43bdf0;
+      }
+    }
+    .fa-youtube-play {
+      background-color: #ffffff;
+      font-size: 30px;
+      padding: 5px 0;
+      color: #000;
+      &:hover {
+        background-color: #dd3125;
       }
     }
   }
