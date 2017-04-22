@@ -23,6 +23,9 @@
     .basic-info{
       font-size: 20px;
       color: #333333;
+      p{
+        margin-bottom: 0 !important;
+      }
     }
   }
 }
@@ -42,37 +45,17 @@
     p{
       color: #dee2e5;
       font-family: 'Raleway', sans-serif;
-      padding-top: 25px;
+      padding-top: 10px;
     }
   }
 }
 
 @media (min-width: 992px) and (max-width: 1199px){
   .angular-header-bg{
-    .container-fluid{
-      background: #000;
-      padding-bottom: 50px;
-      .logo-top{
-        padding: 0 !important;
-      }
-      .navbar-collapse{
-        padding: 0 !important;
-      }
-      .clock{
-        display: none;
-      }
-    }
     .main-heading{
       margin: 70px 0 0 0;
       h1{
         font-size: 50px !important;
-      }
-      .btn{
-        display: inline-block;
-        font-family: Raleway, sans-serif;
-        font-weight: 600;
-        margin-top: 20px;
-        width: 20%;
       }
     }
   }
@@ -80,7 +63,7 @@
     .second-div{
       .angular-logo{
         height: 85px;
-        margin-top: 0 !important;
+        margin-top: 30px;
       }
       h4{
         font-size: 30px;
@@ -104,29 +87,10 @@
 }
 @media (min-width: 768px) and (max-width: 991px){
   .angular-header-bg{
-    .container-fluid{
-      background: #000;
-      .logo-top{
-        padding: 0 !important;
-      }
-      .navbar-collapse{
-        padding: 0 0 35px 0 !important;
-      }
-      .clock{
-        display: none;
-      }
-    }
-    .main-heading{
+    .main-heading {
       margin: 60px 0 0 0;
-      h1{
+      h1 {
         font-size: 45px !important;
-      }
-      .btn{
-        display: inline-block;
-        font-family: Raleway, sans-serif;
-        font-weight: 600;
-        margin-top: 15px;
-        width: 25%;
       }
     }
   }
@@ -134,10 +98,12 @@
     .second-div{
       .angular-logo{
         height: 75px;
-        margin-top: 25px;
+        margin-top: 12px;
+        margin-bottom: 20px !important;
       }
       h4{
         font-size: 30px;
+        margin-bottom: 15px !important;
       }
       .basic-info{
         margin: 0 0 20px 0 !important;
@@ -154,8 +120,6 @@
       padding-top: 0 !important;
     }
   }
-
-
 }
 @media (min-width: 320px) and (max-width: 767px){
   .about-background-image{
@@ -182,5 +146,4 @@
       padding-top: 0 !important;
     }
   }
-
 }
